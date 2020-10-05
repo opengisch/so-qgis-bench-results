@@ -1,0 +1,267 @@
+2020-10-05 12:26:27,763 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-10-05 12:26:27,793 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.3/bin/user.properties
+2020-10-05 12:26:27,794 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.3/bin/system.properties
+2020-10-05 12:26:27,794 INFO o.a.j.JMeter: Setting JMeter property: baseurl=qgis-server
+2020-10-05 12:26:27,794 INFO o.a.j.JMeter: Setting JMeter property: projectpath=ogc/somap310_lk
+2020-10-05 12:26:27,794 INFO o.a.j.JMeter: Setting JMeter property: port=80
+2020-10-05 12:26:27,794 INFO o.a.j.JMeter: Setting JMeter property: threads=40
+2020-10-05 12:26:27,794 INFO o.a.j.JMeter: Setting JMeter property: filename=/urls.txt
+2020-10-05 12:26:27,796 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: Version 5.3
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: java.version=1.8.0_252
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: os.name=Linux
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: os.arch=amd64
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: os.version=5.4.0-48-generic
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: java.awt.headless=true
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: Max memory     =90831847424
+2020-10-05 12:26:27,797 INFO o.a.j.JMeter: Available Processors =40
+2020-10-05 12:26:27,807 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-10-05 12:26:27,807 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-10-05 12:26:27,807 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.3
+2020-10-05 12:26:27,807 INFO o.a.j.JMeter: user.dir  =/opt/apache-jmeter-5.3
+2020-10-05 12:26:27,808 INFO o.a.j.JMeter: PWD       =/opt/apache-jmeter-5.3
+2020-10-05 12:26:27,808 INFO o.a.j.JMeter: IP: 10.0.1.112 Name: 69a5799ae5a7 FullName: 69a5799ae5a7
+2020-10-05 12:26:27,814 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/result/dashboard'
+2020-10-05 12:26:27,818 INFO o.a.j.s.FileServer: Default base='/opt/apache-jmeter-5.3'
+2020-10-05 12:26:27,825 INFO o.a.j.s.FileServer: Set new base='/io'
+2020-10-05 12:26:28,056 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-10-05 12:26:28,093 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-10-05 12:26:28,103 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-10-05 12:26:28,114 INFO o.a.j.s.SaveService: Loading file: /io/test_plan_qgis3.jmx
+2020-10-05 12:26:28,229 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-05 12:26:28,229 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-05 12:26:28,229 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-05 12:26:28,229 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-05 12:26:28,229 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-10-05 12:26:28,229 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-10-05 12:26:28,245 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-10-05 12:26:28,262 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2020-10-05 12:26:28,262 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /result/result.jtl
+2020-10-05 12:26:28,262 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.3/bin/reportgenerator.properties
+2020-10-05 12:26:28,263 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2020-10-05 12:26:28,271 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2020-10-05 12:26:28,276 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2020-10-05 12:26:28,276 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2020-10-05 12:26:28,276 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2020-10-05 12:26:28,276 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2020-10-05 12:26:28,276 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2020-10-05 12:26:28,276 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2020-10-05 12:26:28,276 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2020-10-05 12:26:28,277 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2020-10-05 12:26:28,284 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,284 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,285 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,285 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,285 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,285 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,285 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,286 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,286 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,286 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-05 12:26:28,287 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2020-10-05 12:26:28,288 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2020-10-05 12:26:28,288 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2020-10-05 12:26:28,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2020-10-05 12:26:28,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2020-10-05 12:26:28,289 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2020-10-05 12:26:28,297 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-05 12:26:28,299 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-05 12:26:28,299 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-05 12:26:28,313 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-10-05 12:26:28,313 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-10-05 12:26:28,856 INFO o.a.j.JMeter: Running test (1601900788856)
+2020-10-05 12:26:30,342 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter Users
+2020-10-05 12:26:30,343 INFO o.a.j.e.StandardJMeterEngine: Starting 40 threads for group JMeter Users.
+2020-10-05 12:26:30,343 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-05 12:26:30,344 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=40 ramp-up=1 delayedStart=false
+2020-10-05 12:26:30,379 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-05 12:26:30,379 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-05 12:26:30,552 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-1
+2020-10-05 12:26:30,557 INFO o.a.j.s.FileServer: Stored: /urls.txt
+2020-10-05 12:26:30,567 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-2
+2020-10-05 12:26:30,592 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 69a5799ae5a7
+2020-10-05 12:26:30,595 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-3
+2020-10-05 12:26:30,602 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-10-05 12:26:30,605 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-10-05 12:26:30,605 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-10-05 12:26:30,605 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-10-05 12:26:30,605 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-10-05 12:26:30,618 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-4
+2020-10-05 12:26:30,639 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-5
+2020-10-05 12:26:30,666 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-6
+2020-10-05 12:26:30,692 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-7
+2020-10-05 12:26:30,713 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-8
+2020-10-05 12:26:30,739 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-9
+2020-10-05 12:26:30,760 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-10
+2020-10-05 12:26:30,789 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-11
+2020-10-05 12:26:30,813 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-12
+2020-10-05 12:26:30,833 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-13
+2020-10-05 12:26:30,857 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-14
+2020-10-05 12:26:30,881 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-15
+2020-10-05 12:26:30,909 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-16
+2020-10-05 12:26:30,933 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-17
+2020-10-05 12:26:30,958 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-18
+2020-10-05 12:26:30,978 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-19
+2020-10-05 12:26:31,003 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-20
+2020-10-05 12:26:31,031 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-21
+2020-10-05 12:26:31,052 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-22
+2020-10-05 12:26:31,062 INFO o.a.j.r.Summariser: summary +      1 in 00:00:02 =    0.5/s Avg:   313 Min:   313 Max:   313 Err:     0 (0.00%) Active: 22 Started: 22 Finished: 0
+2020-10-05 12:26:31,081 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-23
+2020-10-05 12:26:31,105 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-24
+2020-10-05 12:26:31,126 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-25
+2020-10-05 12:26:31,153 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-26
+2020-10-05 12:26:31,177 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-27
+2020-10-05 12:26:31,201 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-28
+2020-10-05 12:26:31,223 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-29
+2020-10-05 12:26:31,246 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-30
+2020-10-05 12:26:31,275 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-31
+2020-10-05 12:26:31,297 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-32
+2020-10-05 12:26:31,324 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-33
+2020-10-05 12:26:31,345 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-34
+2020-10-05 12:26:31,373 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-35
+2020-10-05 12:26:31,398 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-36
+2020-10-05 12:26:31,419 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-37
+2020-10-05 12:26:31,447 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-38
+2020-10-05 12:26:31,472 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-39
+2020-10-05 12:26:31,496 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-40
+2020-10-05 12:27:00,126 INFO o.a.j.r.Summariser: summary +    751 in 00:00:29 =   25.8/s Avg:  1474 Min:   197 Max:  5343 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2020-10-05 12:27:00,127 INFO o.a.j.r.Summariser: summary =    752 in 00:00:31 =   24.0/s Avg:  1472 Min:   197 Max:  5343 Err:     0 (0.00%)
+2020-10-05 12:27:30,037 INFO o.a.j.r.Summariser: summary +    693 in 00:00:30 =   23.2/s Avg:  1732 Min:   155 Max:  5948 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2020-10-05 12:27:30,037 INFO o.a.j.r.Summariser: summary =   1445 in 00:01:01 =   23.6/s Avg:  1597 Min:   155 Max:  5948 Err:     0 (0.00%)
+2020-10-05 12:28:00,004 INFO o.a.j.r.Summariser: summary +   1232 in 00:00:30 =   41.1/s Avg:  1002 Min:   122 Max:  7194 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2020-10-05 12:28:00,005 INFO o.a.j.r.Summariser: summary =   2677 in 00:01:31 =   29.4/s Avg:  1323 Min:   122 Max:  7194 Err:     0 (0.00%)
+2020-10-05 12:28:30,003 INFO o.a.j.r.Summariser: summary +   1044 in 00:00:30 =   34.8/s Avg:  1132 Min:   179 Max:  3916 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2020-10-05 12:28:30,004 INFO o.a.j.r.Summariser: summary =   3721 in 00:02:01 =   30.7/s Avg:  1269 Min:   122 Max:  7194 Err:     0 (0.00%)
+2020-10-05 12:29:00,032 INFO o.a.j.r.Summariser: summary +    865 in 00:00:30 =   28.8/s Avg:  1388 Min:   162 Max:  5157 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2020-10-05 12:29:00,033 INFO o.a.j.r.Summariser: summary =   4586 in 00:02:31 =   30.3/s Avg:  1292 Min:   122 Max:  7194 Err:     0 (0.00%)
+2020-10-05 12:29:22,394 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,395 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-9
+2020-10-05 12:29:22,601 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-36, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,602 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-36
+2020-10-05 12:29:22,691 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,692 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-10
+2020-10-05 12:29:22,725 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-28, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,726 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-28
+2020-10-05 12:29:22,856 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-23, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,856 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-23
+2020-10-05 12:29:22,886 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,886 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-6
+2020-10-05 12:29:22,893 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-38, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,894 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-38
+2020-10-05 12:29:22,926 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-18, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,926 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-18
+2020-10-05 12:29:22,944 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-24, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:22,945 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-24
+2020-10-05 12:29:23,087 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-27, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:23,087 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-27
+2020-10-05 12:29:23,132 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-40, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:23,133 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-40
+2020-10-05 12:29:23,271 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:23,271 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-2
+2020-10-05 12:29:23,278 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-14, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:23,278 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-14
+2020-10-05 12:29:23,489 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-39, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:23,490 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-39
+2020-10-05 12:29:23,631 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:23,631 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-8
+2020-10-05 12:29:23,664 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-33, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:23,664 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-33
+2020-10-05 12:29:23,682 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-25, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:23,682 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-25
+2020-10-05 12:29:24,099 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-15, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:24,099 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-15
+2020-10-05 12:29:24,366 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-16, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:24,367 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-16
+2020-10-05 12:29:24,466 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-20, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:24,466 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-20
+2020-10-05 12:29:24,630 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:24,631 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-7
+2020-10-05 12:29:24,778 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-22, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:24,778 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-22
+2020-10-05 12:29:24,845 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-35, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:24,845 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-35
+2020-10-05 12:29:25,230 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-29, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:25,231 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-29
+2020-10-05 12:29:25,542 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-31, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:25,542 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-31
+2020-10-05 12:29:25,583 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-21, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:25,584 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-21
+2020-10-05 12:29:25,995 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:25,995 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-5
+2020-10-05 12:29:26,283 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-19, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:26,283 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-19
+2020-10-05 12:29:26,379 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-32, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:26,379 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-32
+2020-10-05 12:29:26,539 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:26,539 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-1
+2020-10-05 12:29:26,701 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-37, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:26,701 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-37
+2020-10-05 12:29:26,786 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-17, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:26,786 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-17
+2020-10-05 12:29:27,176 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:27,177 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-3
+2020-10-05 12:29:27,461 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-30, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:27,461 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-30
+2020-10-05 12:29:27,488 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-13, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:27,488 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-13
+2020-10-05 12:29:27,720 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:27,720 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-4
+2020-10-05 12:29:28,032 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-26, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:28,032 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-26
+2020-10-05 12:29:28,416 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-12, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:28,416 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-12
+2020-10-05 12:29:28,960 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-11, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:28,961 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-11
+2020-10-05 12:29:30,546 INFO o.a.j.r.Summariser: summary +    686 in 00:00:31 =   22.5/s Avg:  1501 Min:   160 Max:  8520 Err:     0 (0.00%) Active: 1 Started: 40 Finished: 39
+2020-10-05 12:29:30,547 INFO o.a.j.r.Summariser: summary =   5272 in 00:03:02 =   29.0/s Avg:  1319 Min:   122 Max:  8520 Err:     0 (0.00%)
+2020-10-05 12:29:30,547 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-34, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-05 12:29:30,548 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-34
+2020-10-05 12:29:30,548 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-05 12:29:30,549 INFO o.a.j.s.FileServer: Close: /urls.txt
+2020-10-05 12:29:30,550 INFO o.a.j.r.Summariser: summary =   5272 in 00:03:02 =   29.0/s Avg:  1319 Min:   122 Max:  8520 Err:     0 (0.00%)
+2020-10-05 12:29:30,550 INFO o.a.j.JMeter: Generating Dashboard
+2020-10-05 12:29:30,550 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2020-10-05 12:29:30,572 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2020-10-05 12:29:31,124 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2020-10-05 12:29:31,124 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2020-10-05 12:29:31,127 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2020-10-05 12:29:31,127 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2020-10-05 12:29:31,140 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2020-10-05 12:29:31,147 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2020-10-05 12:29:31,147 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2020-10-05 12:29:31,148 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2020-10-05 12:29:31,306 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2020-10-05 12:29:31,310 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2020-10-05 12:29:31,311 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2020-10-05 12:29:31,311 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2020-10-05 12:29:31,400 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2020-10-05 12:29:31,404 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 36904 samples
+2020-10-05 12:29:31,404 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2020-10-05 12:29:31,404 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2020-10-05 12:29:31,404 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2020-10-05 12:29:31,405 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2020-10-05 12:29:31,405 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2020-10-05 12:29:31,405 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2020-10-05 12:29:31,413 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2020-10-05 12:29:31,414 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2020-10-05 12:29:31,414 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2020-10-05 12:29:31,414 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2020-10-05 12:29:31,415 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 79080 samples
+2020-10-05 12:29:31,415 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 15816 samples
+2020-10-05 12:29:31,415 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 5272 samples
+2020-10-05 12:29:31,416 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 5272 samples produced in 809ms on channel 0
+2020-10-05 12:29:31,416 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2020-10-05 12:29:31,419 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2020-10-05 12:29:31,419 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2020-10-05 12:29:31,420 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2020-10-05 12:29:31,421 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2020-10-05 12:29:31,421 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /result/dashboard/statistics.json
+2020-10-05 12:29:31,700 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2020-10-05 12:29:31,704 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /result/dashboard
+2020-10-05 12:29:31,829 ERROR f.configuration: DefaultObjectWrapper.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2020-10-05 12:29:31,832 ERROR f.configuration: Configuration.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2020-10-05 12:29:31,846 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /result/dashboard, creating folder structure
+2020-10-05 12:29:31,851 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/apache-jmeter-5.3/bin/report-template' to '/result/dashboard', got message: /result/dashboard, found non empty folder with following content [/result/dashboard/statistics.json], will be ignored
+2020-10-05 12:29:32,141 INFO o.a.j.JMeter: Dashboard generated
