@@ -1,0 +1,179 @@
+{
+  "qgis218-stock": {
+    "somap218_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 404.6,
+        "medianResTime": 88.5,
+        "minResTime": 64.0,
+        "maxResTime": 1584.0,
+        "pct1ResTime": 1094.4,
+        "pct2ResTime": 1570.8,
+        "pct3ResTime": 1584.0,
+        "throughput": 16.15508885298869,
+        "receivedKBytesPerSec": 438.4550013462574,
+        "sentKBytesPerSec": 6.59035070005385,
+        "dashboard": "./results/example/20201005-133036/qgis218-stock/somap218_lk/lk.txt/dashboard/index.html"
+      }
+    },
+    "somap218_grundplanav_farbig": {
+      "av_f.txt": {
+        "transaction": "Total",
+        "sampleCount": 22,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 1281.1363636363635,
+        "medianResTime": 919.5,
+        "minResTime": 245.0,
+        "maxResTime": 2739.0,
+        "pct1ResTime": 2683.4,
+        "pct2ResTime": 2737.5,
+        "pct3ResTime": 2739.0,
+        "throughput": 6.260671599317018,
+        "receivedKBytesPerSec": 990.2277052504269,
+        "sentKBytesPerSec": 2.667899829254411,
+        "dashboard": "./results/example/20201005-133036/qgis218-stock/somap218_grundplanav_farbig/av_f.txt/dashboard/index.html"
+      }
+    },
+    "somap218_grundplanav_sw": {
+      "av_sw.txt": {
+        "transaction": "Total",
+        "sampleCount": 20,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 1227.1499999999999,
+        "medianResTime": 1182.5,
+        "minResTime": 279.0,
+        "maxResTime": 2410.0,
+        "pct1ResTime": 2316.2000000000003,
+        "pct2ResTime": 2406.15,
+        "pct3ResTime": 2410.0,
+        "throughput": 5.403944879762227,
+        "receivedKBytesPerSec": 1937.3543467981626,
+        "sentKBytesPerSec": 2.2629019184004324,
+        "dashboard": "./results/example/20201005-133036/qgis218-stock/somap218_grundplanav_sw/av_sw.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-stock": {
+    "somap310_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 184.06666666666666,
+        "medianResTime": 172.5,
+        "minResTime": 96.0,
+        "maxResTime": 513.0,
+        "pct1ResTime": 239.90000000000003,
+        "pct2ResTime": 435.44999999999993,
+        "pct3ResTime": 513.0,
+        "throughput": 29.239766081871345,
+        "receivedKBytesPerSec": 792.5689875730994,
+        "sentKBytesPerSec": 11.928149366471734,
+        "dashboard": "./results/example/20201005-133036/qgis310-stock/somap310_lk/lk.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_farbig": {
+      "av_f.txt": {
+        "transaction": "Total",
+        "sampleCount": 22,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 1993.090909090909,
+        "medianResTime": 1919.5,
+        "minResTime": 1685.0,
+        "maxResTime": 2521.0,
+        "pct1ResTime": 2423.0,
+        "pct2ResTime": 2509.45,
+        "pct3ResTime": 2521.0,
+        "throughput": 4.0300421322586555,
+        "receivedKBytesPerSec": 525.4825746473714,
+        "sentKBytesPerSec": 1.7173474995420408,
+        "dashboard": "./results/example/20201005-133036/qgis310-stock/somap310_grundplanav_farbig/av_f.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_sw": {
+      "av_sw.txt": {
+        "transaction": "Total",
+        "sampleCount": 20,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 2881.15,
+        "medianResTime": 2834.0,
+        "minResTime": 1310.0,
+        "maxResTime": 4276.0,
+        "pct1ResTime": 4001.2000000000003,
+        "pct2ResTime": 4263.099999999999,
+        "pct3ResTime": 4276.0,
+        "throughput": 2.7476301689792555,
+        "receivedKBytesPerSec": 854.9174798650226,
+        "sentKBytesPerSec": 1.1505701332600633,
+        "dashboard": "./results/example/20201005-133036/qgis310-stock/somap310_grundplanav_sw/av_sw.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis314-stock": {
+    "somap314_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 199.90000000000003,
+        "medianResTime": 185.5,
+        "minResTime": 107.0,
+        "maxResTime": 441.0,
+        "pct1ResTime": 274.90000000000003,
+        "pct2ResTime": 387.6499999999999,
+        "pct3ResTime": 441.0,
+        "throughput": 28.957528957528957,
+        "receivedKBytesPerSec": 784.7490347490348,
+        "sentKBytesPerSec": 11.81301278957529,
+        "dashboard": "./results/example/20201005-133036/qgis314-stock/somap314_lk/lk.txt/dashboard/index.html"
+      }
+    },
+    "somap314_grundplanav_farbig": {
+      "av_f.txt": {
+        "transaction": "Total",
+        "sampleCount": 22,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 3052.818181818182,
+        "medianResTime": 2833.0,
+        "minResTime": 2401.0,
+        "maxResTime": 4190.0,
+        "pct1ResTime": 4092.2,
+        "pct2ResTime": 4186.4,
+        "pct3ResTime": 4190.0,
+        "throughput": 2.735637901019647,
+        "receivedKBytesPerSec": 356.6874494839592,
+        "sentKBytesPerSec": 1.1657547873663268,
+        "dashboard": "./results/example/20201005-133036/qgis314-stock/somap314_grundplanav_farbig/av_f.txt/dashboard/index.html"
+      }
+    },
+    "somap314_grundplanav_sw": {
+      "av_sw.txt": {
+        "transaction": "Total",
+        "sampleCount": 20,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 2708.05,
+        "medianResTime": 2811.5,
+        "minResTime": 1338.0,
+        "maxResTime": 3796.0,
+        "pct1ResTime": 3534.9000000000005,
+        "pct2ResTime": 3783.75,
+        "pct3ResTime": 3796.0,
+        "throughput": 2.8145229383619474,
+        "receivedKBytesPerSec": 875.7157243878413,
+        "sentKBytesPerSec": 1.1785814804390655,
+        "dashboard": "./results/example/20201005-133036/qgis314-stock/somap314_grundplanav_sw/av_sw.txt/dashboard/index.html"
+      }
+    }
+  }
+}
