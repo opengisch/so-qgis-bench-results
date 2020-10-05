@@ -1,44 +1,51 @@
-# QGIS Benchmark summary 20201004-202310
+# QGIS Benchmark summary compare-deployment (20201005-122514)
 
-_run completed in 125.21s_
+_run completed in 7264.139999999999s_
 
 ## Summary
 | name                               |   duration s |   penalty % |   sampleCount |   errorCount |   errorPct |
 |------------------------------------|--------------|-------------|---------------|--------------|------------|
-| qgis310-singlethread-multiinstance |        97.36 |        0    |            72 |           44 |      61.11 |
-| qgis310-balanced                   |       205    |      110.56 |            72 |            0 |       0    |
-| qgis310-multithread-singleinstance |       350.71 |      260.22 |            72 |            0 |       0    |
+| qgis310-singlethread-multiinstance |      30988.2 |        0    |         11198 |            1 |       0.01 |
+| qgis310-unlimited-threads          |      51021   |       64.65 |         11198 |           51 |       0.46 |
+| qgis310-balanced                   |      53401   |       72.33 |         11198 |            1 |       0.01 |
+| qgis310-multithread-singleinstance |     148017   |      377.66 |         11198 |           14 |       0.13 |
 
 ## Aggregated
 | name                                                             |   duration s |   penalty % |   sampleCount |   errorCount |   errorPct |
 |------------------------------------------------------------------|--------------|-------------|---------------|--------------|------------|
-| qgis310-singlethread-multiinstance > somap310_lk                 |         4.76 |        0    |            30 |           26 |      86.67 |
-| qgis310-singlethread-multiinstance > somap310_grundplanav_farbig |        14.3  |      200.42 |            22 |           18 |      81.82 |
-| qgis310-balanced > somap310_lk                                   |        24.04 |      405.04 |            30 |            0 |       0    |
-| qgis310-multithread-singleinstance > somap310_lk                 |        41.4  |      769.75 |            30 |            0 |       0    |
-| qgis310-singlethread-multiinstance > somap310_grundplanav_sw     |        78.3  |     1544.96 |            20 |            0 |       0    |
-| qgis310-balanced > somap310_grundplanav_sw                       |        79.72 |     1574.79 |            20 |            0 |       0    |
-| qgis310-balanced > somap310_grundplanav_farbig                   |       101.24 |     2026.89 |            22 |            0 |       0    |
-| qgis310-multithread-singleinstance > somap310_grundplanav_sw     |       140.9  |     2860.08 |            20 |            0 |       0    |
-| qgis310-multithread-singleinstance > somap310_grundplanav_farbig |       168.41 |     3438.03 |            22 |            0 |       0    |
+| qgis310-singlethread-multiinstance > somap310_grundplanav_farbig |      3163.33 |        0    |           735 |            0 |       0    |
+| qgis310-unlimited-threads > somap310_grundplanav_farbig          |      4412.98 |       39.5  |           735 |            0 |       0    |
+| qgis310-balanced > somap310_grundplanav_farbig                   |      4934.21 |       55.98 |           735 |            0 |       0    |
+| qgis310-singlethread-multiinstance > somap310_lk                 |      6956.07 |      119.9  |          5272 |            0 |       0    |
+| qgis310-unlimited-threads > somap310_lk                          |     12650    |      299.9  |          5272 |           50 |       0.95 |
+| qgis310-multithread-singleinstance > somap310_grundplanav_farbig |     12967    |      309.92 |           735 |            0 |       0    |
+| qgis310-balanced > somap310_lk                                   |     13288    |      320.06 |          5272 |            0 |       0    |
+| qgis310-singlethread-multiinstance > somap310_grundplanav_sw     |     20868.8  |      559.71 |          5191 |            1 |       0.02 |
+| qgis310-unlimited-threads > somap310_grundplanav_sw              |     33958    |      973.49 |          5191 |            1 |       0.02 |
+| qgis310-balanced > somap310_grundplanav_sw                       |     35178.8  |     1012.08 |          5191 |            1 |       0.02 |
+| qgis310-multithread-singleinstance > somap310_lk                 |     35280.2  |     1015.29 |          5272 |           13 |       0.25 |
+| qgis310-multithread-singleinstance > somap310_grundplanav_sw     |     99769.6  |     3053.94 |          5191 |            1 |       0.02 |
 
 ## Detail
-| name                                                                        |   duration s |   penalty % |   sampleCount |   errorCount |   errorPct |   meanResTime |   medianResTime |   minResTime |   maxResTime |   pct1ResTime |   pct2ResTime |   pct3ResTime |   throughput |   receivedKBytesPerSec |   sentKBytesPerSec | dashboard                                                                                                                                                     |
-|-----------------------------------------------------------------------------|--------------|-------------|---------------|--------------|------------|---------------|-----------------|--------------|--------------|---------------|---------------|---------------|--------------|------------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| qgis310-singlethread-multiinstance > somap310_lk > lk.txt                   |         4.76 |        0    |            30 |           26 |    86.6667 |       158.6   |             6   |            4 |         1124 |        1050.6 |       1107.5  |          1124 |     25.2738  |                 87.94  |          10.3103   | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-singlethread-multiinstance/somap310_lk/lk.txt/dashboard/index.html)                   |
-| qgis310-singlethread-multiinstance > somap310_grundplanav_farbig > av_f.txt |        14.3  |      200.42 |            22 |           18 |    81.8182 |       649.864 |             6   |            3 |         3720 |        3599.2 |       3710.25 |          3720 |      5.91398 |                120.529 |           2.52016  | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-singlethread-multiinstance/somap310_grundplanav_farbig/av_f.txt/dashboard/index.html) |
-| qgis310-balanced > somap310_lk > lk.txt                                     |        24.04 |      405.04 |            30 |            0 |     0      |       801.267 |           825.5 |          550 |         1054 |         996.8 |       1047.95 |          1054 |     16.3755  |                443.873 |           6.68028  | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-balanced/somap310_lk/lk.txt/dashboard/index.html)                                     |
-| qgis310-multithread-singleinstance > somap310_lk > lk.txt                   |        41.4  |      769.75 |            30 |            0 |     0      |      1379.9   |          1447   |          919 |         1561 |        1550.8 |       1558.8  |          1561 |      9.72447 |                263.59  |           3.96703  | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-multithread-singleinstance/somap310_lk/lk.txt/dashboard/index.html)                   |
-| qgis310-singlethread-multiinstance > somap310_grundplanav_sw > av_sw.txt    |        78.3  |     1544.96 |            20 |            0 |     0      |      3915.2   |          3922.5 |         2672 |         6015 |        5387.4 |       5987.7  |          6015 |      2.96428 |                922.328 |           1.24129  | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-singlethread-multiinstance/somap310_grundplanav_sw/av_sw.txt/dashboard/index.html)    |
-| qgis310-balanced > somap310_grundplanav_sw > av_sw.txt                      |        79.72 |     1574.79 |            20 |            0 |     0      |      3985.8   |          4221   |         2375 |         5466 |        5381.1 |       5461.85 |          5466 |      3.26584 |               1016.16  |           1.36757  | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-balanced/somap310_grundplanav_sw/av_sw.txt/dashboard/index.html)                      |
-| qgis310-balanced > somap310_grundplanav_farbig > av_f.txt                   |       101.24 |     2026.89 |            22 |            0 |     0      |      4601.64  |          4745   |         2660 |         6094 |        6042.5 |       6087.85 |          6094 |      2.8527  |                371.967 |           1.21564  | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-balanced/somap310_grundplanav_farbig/av_f.txt/dashboard/index.html)                   |
-| qgis310-multithread-singleinstance > somap310_grundplanav_sw > av_sw.txt    |       140.9  |     2860.08 |            20 |            0 |     0      |      7044.8   |          6233.5 |         3527 |        11922 |       11282.7 |      11890.6  |         11922 |      1.57916 |                491.349 |           0.661271 | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-multithread-singleinstance/somap310_grundplanav_sw/av_sw.txt/dashboard/index.html)    |
-| qgis310-multithread-singleinstance > somap310_grundplanav_farbig > av_f.txt |       168.41 |     3438.03 |            22 |            0 |     0      |      7654.77  |          8010   |         2715 |        11530 |       11327.9 |      11506.3  |         11530 |      1.62063 |                211.316 |           0.690608 | [JMeter dashboard](./results/compare-deployment/20201004-202310/qgis310-multithread-singleinstance/somap310_grundplanav_farbig/av_f.txt/dashboard/index.html) |
+| name                                                                            |   duration s |   penalty % |   sampleCount |   errorCount |   errorPct |   meanResTime |   medianResTime |   minResTime |   maxResTime |   pct1ResTime |   pct2ResTime |   pct3ResTime |   throughput |   receivedKBytesPerSec |   sentKBytesPerSec | dashboard                                                                                                                                     |
+|---------------------------------------------------------------------------------|--------------|-------------|---------------|--------------|------------|---------------|-----------------|--------------|--------------|---------------|---------------|---------------|--------------|------------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| qgis310-singlethread-multiinstance > somap310_grundplanav_farbig > av_f_big.txt |      3163.33 |        0    |           735 |            0 |  0         |       4303.85 |          4317   |         1542 |         8493 |        6083.8 |       6460.2  |       7544    |      8.91395 |               1304.53  |           3.92475  | ./results/compare-deployment/20201005-122514/qgis310-singlethread-multiinstance/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html |
+| qgis310-unlimited-threads > somap310_grundplanav_farbig > av_f_big.txt          |      4412.98 |       39.5  |           735 |            0 |  0         |       6004.06 |          6016   |         2356 |         9701 |        7584   |       7970.2  |       8921.64 |      6.49219 |                950.092 |           2.85846  | ./results/compare-deployment/20201005-122514/qgis310-unlimited-threads/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html          |
+| qgis310-balanced > somap310_grundplanav_farbig > av_f_big.txt                   |      4934.21 |       55.98 |           735 |            0 |  0         |       6713.21 |          7056   |         2551 |         9595 |        8418.6 |       8659    |       9170.16 |      5.78736 |                846.964 |           2.54813  | ./results/compare-deployment/20201005-122514/qgis310-balanced/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html                   |
+| qgis310-singlethread-multiinstance > somap310_lk > lk_big.txt                   |      6956.07 |      119.9  |          5272 |            0 |  0         |       1319.44 |          1046.5 |          122 |         8520 |        2698.1 |       3225.7  |       4517.54 |     29.3213  |               1398.58  |          14.8535   | ./results/compare-deployment/20201005-122514/qgis310-singlethread-multiinstance/somap310_lk/lk_big.txt/dashboard/index.html                   |
+| qgis310-unlimited-threads > somap310_lk > lk_big.txt                            |     12650    |      299.9  |          5272 |           50 |  0.948407  |       2399.47 |          1897   |          123 |        15075 |        4774.4 |       5944.1  |       8201.62 |     16.3071  |                771.545 |           8.18562  | ./results/compare-deployment/20201005-122514/qgis310-unlimited-threads/somap310_lk/lk_big.txt/dashboard/index.html                            |
+| qgis310-multithread-singleinstance > somap310_grundplanav_farbig > av_f_big.txt |     12967    |      309.92 |           735 |            0 |  0         |      17642.1  |         18274   |         2619 |        24084 |       20690.6 |      21736.4  |      23360.4  |      2.21997 |                324.884 |           0.977436 | ./results/compare-deployment/20201005-122514/qgis310-multithread-singleinstance/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html |
+| qgis310-balanced > somap310_lk > lk_big.txt                                     |     13288    |      320.06 |          5272 |            0 |  0         |       2520.48 |          2044.5 |           41 |        12418 |        4956.7 |       6016.05 |       7951.13 |     15.5134  |                739.928 |           7.85872  | ./results/compare-deployment/20201005-122514/qgis310-balanced/somap310_lk/lk_big.txt/dashboard/index.html                                     |
+| qgis310-singlethread-multiinstance > somap310_grundplanav_sw > av_sw_big.txt    |     20868.8  |      559.71 |          5191 |            1 |  0.0192641 |       4020.18 |          3833   |         1106 |        12228 |        6170.4 |       6873.6  |       8689.52 |      9.88928 |               2675.93  |           4.30698  | ./results/compare-deployment/20201005-122514/qgis310-singlethread-multiinstance/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html    |
+| qgis310-unlimited-threads > somap310_grundplanav_sw > av_sw_big.txt             |     33958    |      973.49 |          5191 |            1 |  0.0192641 |       6541.7  |          6392   |         2289 |        17955 |        9255.2 |      10332    |      13261.1  |      6.08017 |               1645.24  |           2.64804  | ./results/compare-deployment/20201005-122514/qgis310-unlimited-threads/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html             |
+| qgis310-balanced > somap310_grundplanav_sw > av_sw_big.txt                      |     35178.8  |     1012.08 |          5191 |            1 |  0.0192641 |       6776.89 |          6612   |         2322 |        16999 |        9751.4 |      10818.8  |      13188    |      5.86107 |               1586.02  |           2.55261  | ./results/compare-deployment/20201005-122514/qgis310-balanced/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html                      |
+| qgis310-multithread-singleinstance > somap310_lk > lk_big.txt                   |     35280.2  |     1015.29 |          5272 |           13 |  0.246586  |       6692    |          5568   |           48 |       130519 |       12527.7 |      15469.7  |      20051.8  |      5.85939 |                279.038 |           2.96116  | ./results/compare-deployment/20201005-122514/qgis310-multithread-singleinstance/somap310_lk/lk_big.txt/dashboard/index.html                   |
+| qgis310-multithread-singleinstance > somap310_grundplanav_sw > av_sw_big.txt    |     99769.6  |     3053.94 |          5191 |            1 |  0.0192641 |      19219.7  |         19258   |         2533 |        40891 |       25965.8 |      29097.2  |      35507.5  |      2.0725  |                560.805 |           0.902616 | ./results/compare-deployment/20201005-122514/qgis310-multithread-singleinstance/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html    |
 
 ### used global configuration
 
 ```
-cpu-cores: 20
+cpu-cores: 4
 deploy-method: docker-swarm
 logs-dir: /home/marco/so.ch/so-qgis-bench/./logs/prepared/
 reports-dir: ./reports/
@@ -54,6 +61,7 @@ test-cases:
 
   qgis310-singlethread-multiinstance:
     active: yes
+    parallel_requests: 40
     template: docker-compose-qgis-3-nginx
     path-prefix: 'ogc'
     compose-variables:
@@ -66,11 +74,11 @@ test-cases:
       PG_SERVICE: 'pg_service.conf'
     projects:
       somap310_lk:
-        - lk.txt #lk_big.txt
+        - lk_big.txt
       somap310_grundplanav_farbig:
-        - av_f.txt #av_f_big.txt
+        - av_f_big.txt
       somap310_grundplanav_sw:
-        - av_sw.txt #av_sw_big.txt
+        - av_sw_big.txt
 
   qgis310-multithread-singleinstance:
     inherit: qgis310-singlethread-multiinstance
@@ -85,6 +93,11 @@ test-cases:
       QGIS_REPLICAS: '3'
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_SERVER_MAX_THREADS: '2'
+
+  qgis310-unlimited-threads:
+    inherit: qgis310-balanced
+    compose-variables:
+      QGIS_SERVER_MAX_THREADS: '-1'
 
 ```
 ### parsed test configurations
@@ -102,14 +115,15 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: qgis310-singlethread-multiinstance
+    parallel_requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
-      - av_f.txt
+      - av_f_big.txt
       somap310_grundplanav_sw:
-      - av_sw.txt
+      - av_sw_big.txt
       somap310_lk:
-      - lk.txt
+      - lk_big.txt
     template: docker-compose-qgis-3-nginx
   qgis310-multithread-singleinstance:
     active: true
@@ -122,14 +136,15 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: qgis310-singlethread-multiinstance
+    parallel_requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
-      - av_f.txt
+      - av_f_big.txt
       somap310_grundplanav_sw:
-      - av_sw.txt
+      - av_sw_big.txt
       somap310_lk:
-      - lk.txt
+      - lk_big.txt
     template: docker-compose-qgis-3-nginx
   qgis310-singlethread-multiinstance:
     active: true
@@ -141,14 +156,36 @@ test-cases:
       QGIS_SERVER_MAX_THREADS: '1'
       QGIS_SERVER_PARALLEL_RENDERING: '"false"'
       QGIS_VERSION: '3.10'
+    parallel_requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
-      - av_f.txt
+      - av_f_big.txt
       somap310_grundplanav_sw:
-      - av_sw.txt
+      - av_sw_big.txt
       somap310_lk:
-      - lk.txt
+      - lk_big.txt
+    template: docker-compose-qgis-3-nginx
+  qgis310-unlimited-threads:
+    active: true
+    compose-variables:
+      PG_SERVICE: pg_service.conf
+      QGIS_MAX_CACHE_LAYERS: '100'
+      QGIS_REPLICAS: '3'
+      QGIS_SERVER_CACHE_SIZE: '50'
+      QGIS_SERVER_MAX_THREADS: '-1'
+      QGIS_SERVER_PARALLEL_RENDERING: '"true"'
+      QGIS_VERSION: '3.10'
+    inherit: qgis310-balanced
+    parallel_requests: 40
+    path-prefix: ogc
+    projects:
+      somap310_grundplanav_farbig:
+      - av_f_big.txt
+      somap310_grundplanav_sw:
+      - av_sw_big.txt
+      somap310_lk:
+      - lk_big.txt
     template: docker-compose-qgis-3-nginx
 
 ```
