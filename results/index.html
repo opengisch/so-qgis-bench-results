@@ -13,7 +13,8 @@
         let htmlString = '<ul>';
         for (let file of data) {
             if (file.type == 'dir' || file.name == 'index.html') {continue;}
-            htmlString += `<li><a href="${file.name}">${file.name.slice(0, -3)}</a></li>`;
+            let file_name = file.name.slice(0, -3)
+            htmlString += `<li><a href="${file_name}">${file_name}</a></li>`;
         }
         htmlString += '</ul>';
         document.getElementsByTagName('body')[0].innerHTML = htmlString;
