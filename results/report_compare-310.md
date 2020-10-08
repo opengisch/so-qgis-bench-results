@@ -75,7 +75,7 @@ test-cases:
 
   qgis310-stock:
     active: yes
-    parallel_requests: 40
+    parallel-requests: 40
     template: docker-compose-qgis-3-nginx
     path-prefix: 'ogc'
     compose-variables:
@@ -135,7 +135,7 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: qgis310-stock
-    parallel_requests: 40
+    parallel-requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
@@ -156,7 +156,7 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: qgis310-stock
-    parallel_requests: 40
+    parallel-requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
@@ -177,7 +177,7 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: qgis310-stock
-    parallel_requests: 40
+    parallel-requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
@@ -198,7 +198,7 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: qgis310-stock
-    parallel_requests: 40
+    parallel-requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
@@ -219,7 +219,7 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: qgis310-stock
-    parallel_requests: 40
+    parallel-requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
@@ -239,7 +239,7 @@ test-cases:
       QGIS_SERVER_MAX_THREADS: '4'
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
-    parallel_requests: 40
+    parallel-requests: 40
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:

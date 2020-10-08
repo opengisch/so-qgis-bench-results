@@ -45,7 +45,7 @@ test-cases:
 
   qgis310-bigfile:
     active: yes
-    parallel_requests: 4
+    parallel-requests: 4
     template: docker-compose-qgis-3-nginx
     path-prefix: 'ogc'
     compose-variables:
@@ -85,7 +85,7 @@ test-cases:
       QGIS_SERVER_MAX_THREADS: '4'
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
-    parallel_requests: 4
+    parallel-requests: 4
     path-prefix: ogc
     projects:
       somap310_fix:
@@ -103,7 +103,7 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: qgis310-bigfile
-    parallel_requests: 4
+    parallel-requests: 4
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:

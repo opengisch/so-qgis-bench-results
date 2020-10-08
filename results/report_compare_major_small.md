@@ -55,7 +55,7 @@ test-cases:
   base:
     # this test case is not executed. It is used only to have some common settings
     active: no
-    parallel_requests: 10
+    parallel-requests: 10
     compose-variables:
       QGIS_REPLICAS: '2'
       QGIS_MAX_CACHE_LAYERS: '100'
@@ -136,7 +136,7 @@ test-cases:
       PG_SERVICE: pg_service.conf
       QGIS_MAX_CACHE_LAYERS: '100'
       QGIS_REPLICAS: '2'
-    parallel_requests: 10
+    parallel-requests: 10
   qgis218-stock:
     active: true
     compose-variables:
@@ -145,7 +145,7 @@ test-cases:
       QGIS_MAX_CACHE_LAYERS: '100'
       QGIS_REPLICAS: '2'
     inherit: base
-    parallel_requests: 10
+    parallel-requests: 10
     path-prefix: ows
     projects:
       somap218_grundplanav_farbig:
@@ -166,7 +166,7 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.10'
     inherit: base
-    parallel_requests: 10
+    parallel-requests: 10
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
@@ -188,7 +188,7 @@ test-cases:
       QGIS_VERSION: '3.14'
     inherit: qgis310-stock
     inherit_projects: true
-    parallel_requests: 10
+    parallel-requests: 10
     path-prefix: ogc
     projects:
       somap310_grundplanav_farbig:
@@ -215,7 +215,7 @@ test-cases:
       QGIS_SERVER_PARALLEL_RENDERING: '"true"'
       QGIS_VERSION: '3.14'
     inherit: qgis310-stock
-    parallel_requests: 10
+    parallel-requests: 10
     path-prefix: ogc
     projects:
       somap314_grundplanav_farbig:
