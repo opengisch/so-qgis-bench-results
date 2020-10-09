@@ -1,0 +1,29 @@
+10:18:38 INFO: Starting new run 20201009-101838, using configuration "compare-categorized"
+10:18:38 INFO: using configuration file "conf/tests/compare-categorized.yml"
+10:18:38 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+10:18:38 INFO: Starting test-case: qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+10:18:38 INFO: Deploying qgis218-stock
+10:18:38 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+10:18:55 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+10:18:55 INFO: Starting tests for compare-categorized qgis218-stock bodenbedeckung_big.txt
+10:18:55 INFO: Executing: jmeter -n -t /io/test_plan_qgis2.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ows/somap218_avbobe_farbig_categorized
+10:22:54 INFO: test-case run completed in 239.21s
+10:22:54 INFO: Executing: docker service rm bench_qgis-server
+10:22:54 INFO: Starting test-case: qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+10:22:54 INFO: Deploying qgis310-stock
+10:22:54 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+10:23:11 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+10:23:12 INFO: Starting tests for compare-categorized qgis310-stock bodenbedeckung_big.txt
+10:23:12 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_avbobe_farbig_categorized
+10:28:43 INFO: test-case run completed in 331.67s
+10:28:43 INFO: Executing: docker service rm bench_qgis-server
+10:28:44 INFO: Starting test-case: qgis314-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+10:28:44 INFO: Deploying qgis314-stock
+10:28:44 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+10:29:00 INFO: Probing http://localhost:8080/ogc/somap314_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+10:29:01 INFO: Starting tests for compare-categorized qgis314-stock bodenbedeckung_big.txt
+10:29:01 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap314_avbobe_farbig_categorized
+10:34:36 INFO: test-case run completed in 335.56s
+10:34:36 INFO: Executing: docker service rm bench_qgis-server
+10:34:37 INFO: Finished run: 20201009-101838
+10:34:37 INFO: Generating stats

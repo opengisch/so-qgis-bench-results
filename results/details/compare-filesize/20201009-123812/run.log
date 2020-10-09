@@ -1,0 +1,29 @@
+12:38:12 INFO: Starting new run 20201009-123812, using configuration "compare-filesize"
+12:38:12 INFO: using configuration file "conf/tests/compare-filesize.yml"
+12:38:12 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+12:38:12 INFO: Starting test-case: qgis310-bigfile ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '4', 'QGIS_MAX_CACHE_LAYERS': '100', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}})
+12:38:12 INFO: Deploying qgis310-bigfile
+12:38:12 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+12:38:29 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+12:39:38 INFO: Starting tests for compare-filesize qgis310-bigfile lk.txt
+12:39:38 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_fix
+12:40:34 INFO: Starting tests for compare-filesize qgis310-bigfile av_f.txt
+12:40:34 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_fix
+12:41:40 INFO: Starting tests for compare-filesize qgis310-bigfile av_sw.txt
+12:41:40 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_fix
+12:42:36 INFO: test-case run completed in 178.04s
+12:42:36 INFO: Executing: docker service rm bench_qgis-server
+12:42:36 INFO: Starting test-case: qgis310-smallfile ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '4', 'QGIS_MAX_CACHE_LAYERS': '100', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-bigfile'})
+12:42:36 INFO: Deploying qgis310-smallfile
+12:42:36 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+12:42:52 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+12:42:53 INFO: Starting tests for compare-filesize qgis310-smallfile lk.txt
+12:42:53 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_lk
+12:43:01 INFO: Starting tests for compare-filesize qgis310-smallfile av_f.txt
+12:43:01 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+12:43:20 INFO: Starting tests for compare-filesize qgis310-smallfile av_sw.txt
+12:43:20 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+12:43:38 INFO: test-case run completed in 44.11s
+12:43:38 INFO: Executing: docker service rm bench_qgis-server
+12:43:38 INFO: Finished run: 20201009-123812
+12:43:38 INFO: Generating stats

@@ -1,0 +1,59 @@
+12:43:38 INFO: Starting new run 20201009-124338, using configuration "compare-major"
+12:43:38 INFO: using configuration file "conf/tests/compare-major.yml"
+12:43:38 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+12:43:38 INFO: Starting test-case: qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_lk': ['lk_big.txt'], 'somap218_grundplanav_farbig': ['av_f_big.txt'], 'somap218_grundplanav_sw': ['av_sw_big.txt']}})
+12:43:38 INFO: Deploying qgis218-stock
+12:43:38 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+12:43:55 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+12:43:56 INFO: Starting tests for compare-major qgis218-stock lk_big.txt
+12:43:56 INFO: Executing: jmeter -n -t /io/test_plan_qgis2.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ows/somap218_lk
+12:49:00 INFO: Starting tests for compare-major qgis218-stock av_f_big.txt
+12:49:00 INFO: Executing: jmeter -n -t /io/test_plan_qgis2.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ows/somap218_grundplanav_farbig
+12:50:11 INFO: Starting tests for compare-major qgis218-stock av_sw_big.txt
+12:50:11 INFO: Executing: jmeter -n -t /io/test_plan_qgis2.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ows/somap218_grundplanav_sw
+12:58:52 INFO: test-case run completed in 896.14s
+12:58:52 INFO: Executing: docker service rm bench_qgis-server
+12:58:52 INFO: Starting test-case: qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}})
+12:58:52 INFO: Deploying qgis310-stock
+12:58:52 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+12:59:09 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+12:59:10 INFO: Starting tests for compare-major qgis310-stock lk_big.txt
+12:59:10 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_lk
+13:02:28 INFO: Starting tests for compare-major qgis310-stock av_f_big.txt
+13:02:28 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+13:03:53 INFO: Starting tests for compare-major qgis310-stock av_sw_big.txt
+13:03:53 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+13:13:06 INFO: test-case run completed in 835.7s
+13:13:06 INFO: Executing: docker service rm bench_qgis-server
+13:13:06 INFO: Starting test-case: qgis314-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_lk': ['lk_big.txt'], 'somap314_grundplanav_farbig': ['av_f_big.txt'], 'somap314_grundplanav_sw': ['av_sw_big.txt']}})
+13:13:06 INFO: Deploying qgis314-stock
+13:13:06 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+13:13:22 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+13:13:23 INFO: Starting tests for compare-major qgis314-stock lk_big.txt
+13:13:23 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap314_lk
+13:16:40 INFO: Starting tests for compare-major qgis314-stock av_f_big.txt
+13:16:40 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap314_grundplanav_farbig
+13:18:02 INFO: Starting tests for compare-major qgis314-stock av_sw_big.txt
+13:18:02 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap314_grundplanav_sw
+13:27:02 INFO: test-case run completed in 818.97s
+13:27:02 INFO: Executing: docker service rm bench_qgis-server
+13:27:02 INFO: Starting test-case: qgis314-standalone ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis314-stock', 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': 'ogc', 'projects': {'somap314_lk': ['lk_big.txt'], 'somap314_grundplanav_farbig': ['av_f_big.txt'], 'somap314_grundplanav_sw': ['av_sw_big.txt']}})
+13:27:02 INFO: Deploying qgis314-standalone
+13:27:02 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-standalone.yml bench
+13:27:19 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+13:27:19 WARNING: Retrying (Retry(total=5, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f86358b4280>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+13:27:21 WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f86358b4f70>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+13:27:25 WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f863589cd00>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+13:27:33 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f863589cfa0>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+13:27:49 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f863589ce20>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+13:28:21 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f863589c8e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+13:28:21 INFO: Starting tests for compare-major qgis314-standalone lk_big.txt
+13:28:21 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap314_lk
+13:28:34 INFO: Starting tests for compare-major qgis314-standalone av_f_big.txt
+13:28:34 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap314_grundplanav_farbig
+13:28:41 INFO: Starting tests for compare-major qgis314-standalone av_sw_big.txt
+13:28:41 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -j /result/log.log -Jprojectpath=ogc/somap314_grundplanav_sw
+13:28:54 INFO: test-case run completed in 33.49s
+13:28:54 INFO: Executing: docker service rm bench_qgis-server
+13:28:54 INFO: Finished run: 20201009-124338
+13:28:54 INFO: Generating stats

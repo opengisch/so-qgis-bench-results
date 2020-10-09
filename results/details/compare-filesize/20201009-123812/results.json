@@ -1,0 +1,116 @@
+{
+  "qgis310-bigfile": {
+    "somap310_fix": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 14314.533333333333,
+        "medianResTime": 16748.5,
+        "minResTime": 1925.0,
+        "maxResTime": 16939.0,
+        "pct1ResTime": 16912.5,
+        "pct2ResTime": 16933.5,
+        "pct3ResTime": 16939.0,
+        "throughput": 0.5906558248508594,
+        "receivedKBytesPerSec": 16.010233727432027,
+        "sentKBytesPerSec": 0.2415305492114745,
+        "dashboard": "results/details/compare-filesize/20201009-123812/qgis310-bigfile/somap310_fix/lk.txt/dashboard/index.html"
+      },
+      "av_f.txt": {
+        "transaction": "Total",
+        "sampleCount": 22,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 22957.136363636364,
+        "medianResTime": 26330.5,
+        "minResTime": 3294.0,
+        "maxResTime": 30483.0,
+        "pct1ResTime": 30051.8,
+        "pct2ResTime": 30419.399999999998,
+        "pct3ResTime": 30483.0,
+        "throughput": 0.3577003121748179,
+        "receivedKBytesPerSec": 46.89281515226652,
+        "sentKBytesPerSec": 0.14718935963514568,
+        "dashboard": "results/details/compare-filesize/20201009-123812/qgis310-bigfile/somap310_fix/av_f.txt/dashboard/index.html"
+      },
+      "av_sw.txt": {
+        "transaction": "Total",
+        "sampleCount": 20,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 19422.2,
+        "medianResTime": 20789.5,
+        "minResTime": 2010.0,
+        "maxResTime": 27955.0,
+        "pct1ResTime": 27646.9,
+        "pct2ResTime": 27939.8,
+        "pct3ResTime": 27955.0,
+        "throughput": 0.3947186642720401,
+        "receivedKBytesPerSec": 192.22806659397267,
+        "sentKBytesPerSec": 0.161048298762557,
+        "dashboard": "results/details/compare-filesize/20201009-123812/qgis310-bigfile/somap310_fix/av_sw.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-smallfile": {
+    "somap310_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 596.0666666666665,
+        "medianResTime": 697.0,
+        "minResTime": 259.0,
+        "maxResTime": 791.0,
+        "pct1ResTime": 766.5,
+        "pct2ResTime": 781.1,
+        "pct3ResTime": 791.0,
+        "throughput": 12.219959266802444,
+        "receivedKBytesPerSec": 331.23249745417513,
+        "sentKBytesPerSec": 4.9850432790224035,
+        "dashboard": "results/details/compare-filesize/20201009-123812/qgis310-smallfile/somap310_lk/lk.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_farbig": {
+      "av_f.txt": {
+        "transaction": "Total",
+        "sampleCount": 22,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 5059.318181818183,
+        "medianResTime": 5284.5,
+        "minResTime": 2813.0,
+        "maxResTime": 6608.0,
+        "pct1ResTime": 6110.7,
+        "pct2ResTime": 6550.999999999999,
+        "pct3ResTime": 6608.0,
+        "throughput": 1.6278209396966332,
+        "receivedKBytesPerSec": 212.2537458379578,
+        "sentKBytesPerSec": 0.6936736958934517,
+        "dashboard": "results/details/compare-filesize/20201009-123812/qgis310-smallfile/somap310_grundplanav_farbig/av_f.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_sw": {
+      "av_sw.txt": {
+        "transaction": "Total",
+        "sampleCount": 20,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 4579.9,
+        "medianResTime": 4575.5,
+        "minResTime": 2267.0,
+        "maxResTime": 6033.0,
+        "pct1ResTime": 5978.1,
+        "pct2ResTime": 6030.3,
+        "pct3ResTime": 6033.0,
+        "throughput": 1.6485328058028355,
+        "receivedKBytesPerSec": 512.9363943238955,
+        "sentKBytesPerSec": 0.6903231124299374,
+        "dashboard": "results/details/compare-filesize/20201009-123812/qgis310-smallfile/somap310_grundplanav_sw/av_sw.txt/dashboard/index.html"
+      }
+    }
+  }
+}

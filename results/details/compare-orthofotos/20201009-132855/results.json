@@ -1,0 +1,65 @@
+{
+  "qgis218-stock": {
+    "somap218_orthofoto": {
+      "orthofotos_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 1982.1949528029295,
+        "medianResTime": 842.0,
+        "minResTime": 3.0,
+        "maxResTime": 90091.0,
+        "pct1ResTime": 5928.8,
+        "pct2ResTime": 6507.0,
+        "pct3ResTime": 9363.999999999995,
+        "throughput": 5.029609878227438,
+        "receivedKBytesPerSec": 1993.247897784031,
+        "sentKBytesPerSec": 1.9955261506286286,
+        "dashboard": "results/details/compare-orthofotos/20201009-132855/qgis218-stock/somap218_orthofoto/orthofotos_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-stock": {
+    "somap310_orthofoto": {
+      "orthofotos_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 1509.4579079175458,
+        "medianResTime": 1030.0,
+        "minResTime": 5.0,
+        "maxResTime": 12890.0,
+        "pct1ResTime": 3578.0,
+        "pct2ResTime": 4221.799999999999,
+        "pct3ResTime": 6430.119999999997,
+        "throughput": 6.606090685806641,
+        "receivedKBytesPerSec": 2602.2158495053545,
+        "sentKBytesPerSec": 2.621003822586187,
+        "dashboard": "results/details/compare-orthofotos/20201009-132855/qgis310-stock/somap310_orthofoto/orthofotos_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis314-stock": {
+    "somap314_orthofoto": {
+      "orthofotos_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 1528.0450780196497,
+        "medianResTime": 1007.0,
+        "minResTime": 3.0,
+        "maxResTime": 12320.0,
+        "pct1ResTime": 3648.8,
+        "pct2ResTime": 4403.4,
+        "pct3ResTime": 6683.559999999996,
+        "throughput": 6.5241270790863455,
+        "receivedKBytesPerSec": 2569.891199384129,
+        "sentKBytesPerSec": 2.5884842982950045,
+        "dashboard": "results/details/compare-orthofotos/20201009-132855/qgis314-stock/somap314_orthofoto/orthofotos_big.txt/dashboard/index.html"
+      }
+    }
+  }
+}
