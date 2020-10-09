@@ -1,0 +1,65 @@
+{
+  "qgis218-stock": {
+    "somap218_grundplanav_farbig_ohne_labels.qgs": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 735,
+        "errorPct": 100.0,
+        "meanResTime": 13.174149659863934,
+        "medianResTime": 2.0,
+        "minResTime": 1.0,
+        "maxResTime": 1008.0,
+        "pct1ResTime": 4.0,
+        "pct2ResTime": 5.0,
+        "pct3ResTime": 397.5599999999996,
+        "throughput": 424.1200230813618,
+        "receivedKBytesPerSec": 206.14315854010385,
+        "sentKBytesPerSec": 193.36388307847662,
+        "dashboard": "results/details/compare-av-ohnelabel/20201008-204610/qgis218-stock/somap218_grundplanav_farbig_ohne_labels.qgs/av_f_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-stock": {
+    "somap310_grundplanav_farbig_ohne_labels.qgs": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 735,
+        "errorPct": 100.0,
+        "meanResTime": 10.771428571428567,
+        "medianResTime": 10.0,
+        "minResTime": 5.0,
+        "maxResTime": 77.0,
+        "pct1ResTime": 15.0,
+        "pct2ResTime": 17.0,
+        "pct3ResTime": 21.639999999999986,
+        "throughput": 640.8020924149956,
+        "receivedKBytesPerSec": 155.18999972755012,
+        "sentKBytesPerSec": 292.15310320401045,
+        "dashboard": "results/details/compare-av-ohnelabel/20201008-204610/qgis310-stock/somap310_grundplanav_farbig_ohne_labels.qgs/av_f_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis314-stock": {
+    "somap314_grundplanav_farbig_ohne_labels.qgs": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 735,
+        "errorPct": 100.0,
+        "meanResTime": 10.823129251700678,
+        "medianResTime": 11.0,
+        "minResTime": 5.0,
+        "maxResTime": 74.0,
+        "pct1ResTime": 14.0,
+        "pct2ResTime": 17.0,
+        "pct3ResTime": 25.279999999999973,
+        "throughput": 634.1673856773081,
+        "receivedKBytesPerSec": 213.65148430759274,
+        "sentKBytesPerSec": 289.1282220664366,
+        "dashboard": "results/details/compare-av-ohnelabel/20201008-204610/qgis314-stock/somap314_grundplanav_farbig_ohne_labels.qgs/av_f_big.txt/dashboard/index.html"
+      }
+    }
+  }
+}

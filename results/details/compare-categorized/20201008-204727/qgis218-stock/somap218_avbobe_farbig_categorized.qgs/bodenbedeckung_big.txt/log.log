@@ -1,0 +1,298 @@
+2020-10-08 20:47:48,008 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-10-08 20:47:48,032 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.3/bin/user.properties
+2020-10-08 20:47:48,032 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.3/bin/system.properties
+2020-10-08 20:47:48,033 INFO o.a.j.JMeter: Setting JMeter property: baseurl=qgis-server
+2020-10-08 20:47:48,033 INFO o.a.j.JMeter: Setting JMeter property: port=80
+2020-10-08 20:47:48,033 INFO o.a.j.JMeter: Setting JMeter property: threads=10
+2020-10-08 20:47:48,033 INFO o.a.j.JMeter: Setting JMeter property: filename=/urls.txt
+2020-10-08 20:47:48,033 INFO o.a.j.JMeter: Setting JMeter property: projectpath=ows/somap218_avbobe_farbig_categorized.qgs
+2020-10-08 20:47:48,034 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: Version 5.3
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: java.version=1.8.0_252
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: os.name=Linux
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: os.arch=amd64
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: os.version=5.4.0-42-generic
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: java.awt.headless=true
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: Max memory     =10544480256
+2020-10-08 20:47:48,035 INFO o.a.j.JMeter: Available Processors =8
+2020-10-08 20:47:48,043 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-10-08 20:47:48,043 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-10-08 20:47:48,043 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.3
+2020-10-08 20:47:48,043 INFO o.a.j.JMeter: user.dir  =/opt/apache-jmeter-5.3
+2020-10-08 20:47:48,044 INFO o.a.j.JMeter: PWD       =/opt/apache-jmeter-5.3
+2020-10-08 20:47:48,044 INFO o.a.j.JMeter: IP: 10.0.1.100 Name: 5448ebf3a614 FullName: 5448ebf3a614
+2020-10-08 20:47:48,049 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/result/dashboard'
+2020-10-08 20:47:48,052 INFO o.a.j.s.FileServer: Default base='/opt/apache-jmeter-5.3'
+2020-10-08 20:47:48,058 INFO o.a.j.s.FileServer: Set new base='/io'
+2020-10-08 20:47:48,235 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-10-08 20:47:48,261 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-10-08 20:47:48,268 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-10-08 20:47:48,276 INFO o.a.j.s.SaveService: Loading file: /io/test_plan_qgis2.jmx
+2020-10-08 20:47:48,389 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-08 20:47:48,389 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-08 20:47:48,389 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-08 20:47:48,389 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-08 20:47:48,389 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-10-08 20:47:48,389 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-10-08 20:47:48,410 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-10-08 20:47:48,426 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2020-10-08 20:47:48,426 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /result/result.jtl
+2020-10-08 20:47:48,427 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.3/bin/reportgenerator.properties
+2020-10-08 20:47:48,427 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2020-10-08 20:47:48,437 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2020-10-08 20:47:48,442 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2020-10-08 20:47:48,442 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2020-10-08 20:47:48,442 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2020-10-08 20:47:48,442 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2020-10-08 20:47:48,442 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2020-10-08 20:47:48,443 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2020-10-08 20:47:48,443 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2020-10-08 20:47:48,443 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2020-10-08 20:47:48,450 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,451 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,451 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,451 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,451 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,451 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,451 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,452 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,452 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,452 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-08 20:47:48,453 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2020-10-08 20:47:48,454 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2020-10-08 20:47:48,454 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2020-10-08 20:47:48,454 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2020-10-08 20:47:48,455 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2020-10-08 20:47:48,455 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2020-10-08 20:47:48,461 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-08 20:47:48,462 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-08 20:47:48,463 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-08 20:47:48,473 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-10-08 20:47:48,473 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-10-08 20:47:48,911 INFO o.a.j.JMeter: Running test (1602190068911)
+2020-10-08 20:47:49,028 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter Users
+2020-10-08 20:47:49,029 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group JMeter Users.
+2020-10-08 20:47:49,030 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-08 20:47:49,030 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-10-08 20:47:49,052 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-08 20:47:49,052 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-08 20:47:49,107 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-1
+2020-10-08 20:47:49,109 INFO o.a.j.s.FileServer: Stored: /urls.txt
+2020-10-08 20:47:49,110 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,117 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-1
+2020-10-08 20:47:49,198 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-2
+2020-10-08 20:47:49,199 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,200 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-2
+2020-10-08 20:47:49,296 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-3
+2020-10-08 20:47:49,297 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,298 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-3
+2020-10-08 20:47:49,395 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-4
+2020-10-08 20:47:49,397 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,398 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-4
+2020-10-08 20:47:49,494 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-5
+2020-10-08 20:47:49,495 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,496 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-5
+2020-10-08 20:47:49,592 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-6
+2020-10-08 20:47:49,593 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,594 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-6
+2020-10-08 20:47:49,691 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-7
+2020-10-08 20:47:49,692 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,693 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-7
+2020-10-08 20:47:49,790 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-8
+2020-10-08 20:47:49,791 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,792 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-8
+2020-10-08 20:47:49,889 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-9
+2020-10-08 20:47:49,890 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,891 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-9
+2020-10-08 20:47:49,986 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-10
+2020-10-08 20:47:49,987 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File urls.txt must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:212) ~[ApacheJMeter_components.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:398) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:390) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:159) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:221) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:174) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+2020-10-08 20:47:49,988 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-10
+2020-10-08 20:47:49,988 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-08 20:47:49,991 INFO o.a.j.r.Summariser: summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+2020-10-08 20:47:49,992 INFO o.a.j.JMeter: Generating Dashboard
+2020-10-08 20:47:49,992 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2020-10-08 20:47:50,011 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2020-10-08 20:47:50,055 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2020-10-08 20:47:50,055 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2020-10-08 20:47:50,056 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2020-10-08 20:47:50,056 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2020-10-08 20:47:50,057 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2020-10-08 20:47:50,057 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2020-10-08 20:47:50,057 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2020-10-08 20:47:50,057 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2020-10-08 20:47:50,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2020-10-08 20:47:50,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2020-10-08 20:47:50,071 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2020-10-08 20:47:50,071 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2020-10-08 20:47:50,074 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2020-10-08 20:47:50,074 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 0 samples
+2020-10-08 20:47:50,074 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2020-10-08 20:47:50,074 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2020-10-08 20:47:50,074 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2020-10-08 20:47:50,074 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2020-10-08 20:47:50,074 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2020-10-08 20:47:50,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2020-10-08 20:47:50,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2020-10-08 20:47:50,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2020-10-08 20:47:50,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2020-10-08 20:47:50,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2020-10-08 20:47:50,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 0 samples
+2020-10-08 20:47:50,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 0 samples
+2020-10-08 20:47:50,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 0 samples
+2020-10-08 20:47:50,076 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 0 samples produced in 27ms on channel 0
+2020-10-08 20:47:50,076 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2020-10-08 20:47:50,078 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2020-10-08 20:47:50,078 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2020-10-08 20:47:50,079 ERROR o.a.j.JMeter: Error generating the report: null
+java.lang.NullPointerException: null
+	at org.apache.jmeter.report.dashboard.JsonExporter.createStatistic(JsonExporter.java:120) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.report.dashboard.JsonExporter.export(JsonExporter.java:70) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.exportData(ReportGenerator.java:379) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:258) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter$ListenToTest.endTest(JMeter.java:1332) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter$ListenToTest.testEnded(JMeter.java:1288) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:217) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:491) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]

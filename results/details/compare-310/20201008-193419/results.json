@@ -1,0 +1,356 @@
+{
+  "qgis310-stock": {
+    "somap310_lk": {
+      "lk_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5272,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 381.05899089529674,
+        "medianResTime": 195.0,
+        "minResTime": 28.0,
+        "maxResTime": 5870.0,
+        "pct1ResTime": 913.0,
+        "pct2ResTime": 1256.699999999999,
+        "pct3ResTime": 2151.8099999999986,
+        "throughput": 26.050519824485118,
+        "receivedKBytesPerSec": 1242.5332605289782,
+        "sentKBytesPerSec": 13.196608085012551,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-stock/somap310_lk/lk_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_farbig": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 924.3102040816327,
+        "medianResTime": 812.0,
+        "minResTime": 172.0,
+        "maxResTime": 4927.0,
+        "pct1ResTime": 1503.4,
+        "pct2ResTime": 1744.999999999999,
+        "pct3ResTime": 4180.719999999999,
+        "throughput": 10.695887540382433,
+        "receivedKBytesPerSec": 1565.3018439037078,
+        "sentKBytesPerSec": 4.709322657455106,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-stock/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_sw": {
+      "av_sw_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 855.0433442496615,
+        "medianResTime": 692.0,
+        "minResTime": 181.0,
+        "maxResTime": 8798.0,
+        "pct1ResTime": 1560.0,
+        "pct2ResTime": 1955.199999999999,
+        "pct3ResTime": 2903.7999999999993,
+        "throughput": 11.638517641625132,
+        "receivedKBytesPerSec": 3149.2392981016505,
+        "sentKBytesPerSec": 5.068806888691961,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-stock/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-maxcache20": {
+    "somap310_lk": {
+      "lk_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5272,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 302.6771623672227,
+        "medianResTime": 182.0,
+        "minResTime": 27.0,
+        "maxResTime": 2312.0,
+        "pct1ResTime": 728.0,
+        "pct2ResTime": 961.3499999999995,
+        "pct3ResTime": 1527.1599999999962,
+        "throughput": 32.68606006497533,
+        "receivedKBytesPerSec": 1559.0272490072352,
+        "sentKBytesPerSec": 16.55802369499107,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-maxcache20/somap310_lk/lk_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_farbig": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 829.7387755102035,
+        "medianResTime": 774.0,
+        "minResTime": 171.0,
+        "maxResTime": 3283.0,
+        "pct1ResTime": 1311.4,
+        "pct2ResTime": 1541.7999999999993,
+        "pct3ResTime": 3089.5199999999995,
+        "throughput": 11.88435792128836,
+        "receivedKBytesPerSec": 1739.2201685941695,
+        "sentKBytesPerSec": 5.232597651828736,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-maxcache20/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_sw": {
+      "av_sw_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 858.6698131381232,
+        "medianResTime": 700.0,
+        "minResTime": 178.0,
+        "maxResTime": 5724.0,
+        "pct1ResTime": 1521.0,
+        "pct2ResTime": 1921.3999999999996,
+        "pct3ResTime": 2980.16,
+        "throughput": 11.586536315343066,
+        "receivedKBytesPerSec": 3135.2099650789864,
+        "sentKBytesPerSec": 5.046167982874649,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-maxcache20/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-maxcache200": {
+    "somap310_lk": {
+      "lk_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5272,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 305.21452959028863,
+        "medianResTime": 173.0,
+        "minResTime": 27.0,
+        "maxResTime": 2491.0,
+        "pct1ResTime": 739.6999999999998,
+        "pct2ResTime": 965.0,
+        "pct3ResTime": 1556.2699999999995,
+        "throughput": 32.480054215568494,
+        "receivedKBytesPerSec": 1549.2197427167082,
+        "sentKBytesPerSec": 16.45366575986508,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-maxcache200/somap310_lk/lk_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_farbig": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 852.2231292517014,
+        "medianResTime": 794.0,
+        "minResTime": 170.0,
+        "maxResTime": 3747.0,
+        "pct1ResTime": 1308.3999999999996,
+        "pct2ResTime": 1675.5999999999995,
+        "pct3ResTime": 3018.16,
+        "throughput": 11.579909251323418,
+        "receivedKBytesPerSec": 1694.659791546863,
+        "sentKBytesPerSec": 5.098551083548651,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-maxcache200/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_sw": {
+      "av_sw_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 880.2450394914276,
+        "medianResTime": 727.0,
+        "minResTime": 183.0,
+        "maxResTime": 8583.0,
+        "pct1ResTime": 1600.6000000000004,
+        "pct2ResTime": 1978.3999999999996,
+        "pct3ResTime": 2938.9199999999964,
+        "throughput": 11.31676477000218,
+        "receivedKBytesPerSec": 3062.274381489127,
+        "sentKBytesPerSec": 4.928677086739699,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-maxcache200/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-cachesize20": {
+    "somap310_lk": {
+      "lk_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5272,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 308.12025796661567,
+        "medianResTime": 163.0,
+        "minResTime": 27.0,
+        "maxResTime": 3188.0,
+        "pct1ResTime": 756.6999999999998,
+        "pct2ResTime": 991.0,
+        "pct3ResTime": 1542.079999999998,
+        "throughput": 32.141637809101105,
+        "receivedKBytesPerSec": 1533.0190937187547,
+        "sentKBytesPerSec": 16.282231611303832,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-cachesize20/somap310_lk/lk_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_farbig": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 839.0421768707484,
+        "medianResTime": 773.0,
+        "minResTime": 184.0,
+        "maxResTime": 3335.0,
+        "pct1ResTime": 1273.0,
+        "pct2ResTime": 1462.799999999999,
+        "pct3ResTime": 2950.72,
+        "throughput": 11.75041166408211,
+        "receivedKBytesPerSec": 1719.637869248693,
+        "sentKBytesPerSec": 5.1736220743873,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-cachesize20/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_sw": {
+      "av_sw_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 859.6237719129273,
+        "medianResTime": 702.0,
+        "minResTime": 177.0,
+        "maxResTime": 5819.0,
+        "pct1ResTime": 1563.8000000000002,
+        "pct2ResTime": 1933.3999999999996,
+        "pct3ResTime": 2974.7999999999993,
+        "throughput": 11.574265041973712,
+        "receivedKBytesPerSec": 3131.86541760499,
+        "sentKBytesPerSec": 5.04082359822852,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-cachesize20/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-cachesize200": {
+    "somap310_lk": {
+      "lk_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5272,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 311.0345220030363,
+        "medianResTime": 171.0,
+        "minResTime": 28.0,
+        "maxResTime": 3372.0,
+        "pct1ResTime": 768.3999999999996,
+        "pct2ResTime": 1014.6999999999989,
+        "pct3ResTime": 1657.079999999998,
+        "throughput": 31.688024427187266,
+        "receivedKBytesPerSec": 1511.4275398279156,
+        "sentKBytesPerSec": 16.052441263028033,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-cachesize200/somap310_lk/lk_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_farbig": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 846.8312925170073,
+        "medianResTime": 804.0,
+        "minResTime": 170.0,
+        "maxResTime": 3666.0,
+        "pct1ResTime": 1303.9999999999998,
+        "pct2ResTime": 1514.9999999999995,
+        "pct3ResTime": 3030.2,
+        "throughput": 11.661113755354593,
+        "receivedKBytesPerSec": 1706.566612005196,
+        "sentKBytesPerSec": 5.134304844915119,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-cachesize200/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_sw": {
+      "av_sw_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 852.0042381044121,
+        "medianResTime": 697.0,
+        "minResTime": 181.0,
+        "maxResTime": 8483.0,
+        "pct1ResTime": 1551.8000000000002,
+        "pct2ResTime": 1924.7999999999993,
+        "pct3ResTime": 2832.24,
+        "throughput": 11.680812953978812,
+        "receivedKBytesPerSec": 3160.6407318319875,
+        "sentKBytesPerSec": 5.087227341984995,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-cachesize200/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-nossl": {
+    "somap310_lk": {
+      "lk_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5272,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 306.23899848254933,
+        "medianResTime": 163.0,
+        "minResTime": 27.0,
+        "maxResTime": 3430.0,
+        "pct1ResTime": 758.6999999999998,
+        "pct2ResTime": 1014.0,
+        "pct3ResTime": 1636.6199999999972,
+        "throughput": 32.22454493221354,
+        "receivedKBytesPerSec": 1537.0493672811915,
+        "sentKBytesPerSec": 16.32423049725859,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-nossl/somap310_lk/lk_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_farbig": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 836.2612244897953,
+        "medianResTime": 748.0,
+        "minResTime": 182.0,
+        "maxResTime": 3398.0,
+        "pct1ResTime": 1311.1999999999998,
+        "pct2ResTime": 1596.999999999999,
+        "pct3ResTime": 2962.7599999999984,
+        "throughput": 11.803436646860446,
+        "receivedKBytesPerSec": 1727.398294473663,
+        "sentKBytesPerSec": 5.196968594427493,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-nossl/somap310_grundplanav_farbig/av_f_big.txt/dashboard/index.html"
+      }
+    },
+    "somap310_grundplanav_sw": {
+      "av_sw_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5191,
+        "errorCount": 1,
+        "errorPct": 0.019264111,
+        "meanResTime": 859.5158928915424,
+        "medianResTime": 703.0,
+        "minResTime": 178.0,
+        "maxResTime": 6112.0,
+        "pct1ResTime": 1550.800000000001,
+        "pct2ResTime": 1874.3999999999996,
+        "pct3ResTime": 2844.359999999997,
+        "throughput": 11.575994362528656,
+        "receivedKBytesPerSec": 3132.4175003428645,
+        "sentKBytesPerSec": 5.041576751869865,
+        "dashboard": "results/details/compare-310/20201008-193419/qgis310-nossl/somap310_grundplanav_sw/av_sw_big.txt/dashboard/index.html"
+      }
+    }
+  }
+}
