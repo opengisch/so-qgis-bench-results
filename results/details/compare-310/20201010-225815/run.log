@@ -1,0 +1,77 @@
+22:58:15 INFO: Starting new run 20201010-225815, using configuration "compare-310"
+22:58:15 INFO: using configuration file "conf/tests/compare-310.yml"
+22:58:15 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+22:58:15 INFO: Starting test-case: qgis310-stock ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}})
+22:58:15 INFO: Deploying qgis310-stock
+22:58:15 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+22:58:34 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+22:58:35 INFO: Starting tests for compare-310 qgis310-stock lk_big.txt
+22:58:35 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+23:01:25 INFO: Starting tests for compare-310 qgis310-stock av_f_big.txt
+23:01:25 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+23:02:34 INFO: Starting tests for compare-310 qgis310-stock av_sw_big.txt
+23:02:34 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+23:10:14 INFO: test-case run completed in 699.5s
+23:10:14 INFO: Executing: docker service rm bench_qgis-server
+23:10:14 INFO: Starting test-case: qgis310-maxcache20 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '20', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+23:10:14 INFO: Deploying qgis310-maxcache20
+23:10:14 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+23:10:33 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:10:34 INFO: Starting tests for compare-310 qgis310-maxcache20 lk_big.txt
+23:10:34 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+23:13:31 INFO: Starting tests for compare-310 qgis310-maxcache20 av_f_big.txt
+23:13:31 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+23:14:39 INFO: Starting tests for compare-310 qgis310-maxcache20 av_sw_big.txt
+23:14:39 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+23:22:17 INFO: test-case run completed in 702.38s
+23:22:17 INFO: Executing: docker service rm bench_qgis-server
+23:22:17 INFO: Starting test-case: qgis310-maxcache200 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '200', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+23:22:17 INFO: Deploying qgis310-maxcache200
+23:22:17 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+23:22:35 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:22:36 INFO: Starting tests for compare-310 qgis310-maxcache200 lk_big.txt
+23:22:36 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+23:25:30 INFO: Starting tests for compare-310 qgis310-maxcache200 av_f_big.txt
+23:25:30 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+23:26:37 INFO: Starting tests for compare-310 qgis310-maxcache200 av_sw_big.txt
+23:26:37 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+23:34:11 INFO: test-case run completed in 695.01s
+23:34:11 INFO: Executing: docker service rm bench_qgis-server
+23:34:11 INFO: Starting test-case: qgis310-cachesize20 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '20', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+23:34:11 INFO: Deploying qgis310-cachesize20
+23:34:11 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+23:34:30 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:34:31 INFO: Starting tests for compare-310 qgis310-cachesize20 lk_big.txt
+23:34:31 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+23:37:24 INFO: Starting tests for compare-310 qgis310-cachesize20 av_f_big.txt
+23:37:24 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+23:38:34 INFO: Starting tests for compare-310 qgis310-cachesize20 av_sw_big.txt
+23:38:34 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+23:46:29 INFO: test-case run completed in 718.33s
+23:46:29 INFO: Executing: docker service rm bench_qgis-server
+23:46:29 INFO: Starting test-case: qgis310-cachesize200 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '200', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+23:46:29 INFO: Deploying qgis310-cachesize200
+23:46:29 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+23:46:48 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:46:49 INFO: Starting tests for compare-310 qgis310-cachesize200 lk_big.txt
+23:46:49 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+23:49:41 INFO: Starting tests for compare-310 qgis310-cachesize200 av_f_big.txt
+23:49:41 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+23:50:50 INFO: Starting tests for compare-310 qgis310-cachesize200 av_sw_big.txt
+23:50:50 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+23:58:32 INFO: test-case run completed in 702.31s
+23:58:32 INFO: Executing: docker service rm bench_qgis-server
+23:58:32 INFO: Starting test-case: qgis310-nossl ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service_nossl.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+23:58:32 INFO: Deploying qgis310-nossl
+23:58:32 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+23:58:51 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:58:51 INFO: Starting tests for compare-310 qgis310-nossl lk_big.txt
+23:58:51 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+00:01:45 INFO: Starting tests for compare-310 qgis310-nossl av_f_big.txt
+00:01:45 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+00:02:53 INFO: Starting tests for compare-310 qgis310-nossl av_sw_big.txt
+00:02:53 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+00:10:34 INFO: test-case run completed in 702.18s
+00:10:34 INFO: Executing: docker service rm bench_qgis-server
+00:10:34 INFO: Finished run: 20201010-225815
+00:10:34 INFO: Generating stats
