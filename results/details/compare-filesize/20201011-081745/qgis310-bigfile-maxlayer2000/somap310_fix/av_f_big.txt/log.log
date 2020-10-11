@@ -1,0 +1,297 @@
+2020-10-11 10:10:39,161 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-10-11 10:10:39,194 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.3/bin/user.properties
+2020-10-11 10:10:39,195 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.3/bin/system.properties
+2020-10-11 10:10:39,195 INFO o.a.j.JMeter: Setting JMeter property: baseurl=qgis-server
+2020-10-11 10:10:39,195 INFO o.a.j.JMeter: Setting JMeter property: port=80
+2020-10-11 10:10:39,195 INFO o.a.j.JMeter: Setting JMeter property: threads=10
+2020-10-11 10:10:39,196 INFO o.a.j.JMeter: Setting JMeter property: filename=/urls.txt
+2020-10-11 10:10:39,196 INFO o.a.j.JMeter: Setting JMeter property: perfmonfile=/result/perfmon.jtl
+2020-10-11 10:10:39,196 INFO o.a.j.JMeter: Setting JMeter property: projectpath=ogc/somap310_fix
+2020-10-11 10:10:39,198 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-10-11 10:10:39,198 INFO o.a.j.JMeter: Version 5.3
+2020-10-11 10:10:39,198 INFO o.a.j.JMeter: java.version=1.8.0_252
+2020-10-11 10:10:39,199 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-10-11 10:10:39,199 INFO o.a.j.JMeter: os.name=Linux
+2020-10-11 10:10:39,199 INFO o.a.j.JMeter: os.arch=amd64
+2020-10-11 10:10:39,199 INFO o.a.j.JMeter: os.version=5.4.0-48-generic
+2020-10-11 10:10:39,199 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-10-11 10:10:39,199 INFO o.a.j.JMeter: java.awt.headless=true
+2020-10-11 10:10:39,199 INFO o.a.j.JMeter: Max memory     =15938355200
+2020-10-11 10:10:39,199 INFO o.a.j.JMeter: Available Processors =8
+2020-10-11 10:10:39,209 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-10-11 10:10:39,210 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-10-11 10:10:39,210 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.3
+2020-10-11 10:10:39,210 INFO o.a.j.JMeter: user.dir  =/opt/apache-jmeter-5.3
+2020-10-11 10:10:39,210 INFO o.a.j.JMeter: PWD       =/opt/apache-jmeter-5.3
+2020-10-11 10:10:39,211 INFO o.a.j.JMeter: IP: 10.0.1.205 Name: a7622b8ee737 FullName: a7622b8ee737
+2020-10-11 10:10:39,216 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/result/dashboard'
+2020-10-11 10:10:39,221 INFO o.a.j.s.FileServer: Default base='/opt/apache-jmeter-5.3'
+2020-10-11 10:10:39,230 INFO o.a.j.s.FileServer: Set new base='/io'
+2020-10-11 10:10:39,450 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-10-11 10:10:39,505 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-10-11 10:10:39,514 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-10-11 10:10:39,523 INFO o.a.j.s.SaveService: Loading file: /io/test_plan_qgis3.jmx
+2020-10-11 10:10:39,592 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-11 10:10:39,592 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-11 10:10:39,592 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-11 10:10:39,592 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-11 10:10:39,592 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-10-11 10:10:39,592 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-10-11 10:10:39,634 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-10-11 10:10:39,641 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2020-10-11 10:10:39,641 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /result/result.jtl
+2020-10-11 10:10:39,641 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.3/bin/reportgenerator.properties
+2020-10-11 10:10:39,642 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2020-10-11 10:10:39,648 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2020-10-11 10:10:39,652 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2020-10-11 10:10:39,652 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2020-10-11 10:10:39,653 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2020-10-11 10:10:39,653 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2020-10-11 10:10:39,653 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2020-10-11 10:10:39,653 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2020-10-11 10:10:39,653 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2020-10-11 10:10:39,654 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2020-10-11 10:10:39,660 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,660 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,660 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,660 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,661 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,661 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,661 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,661 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,661 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,661 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-10-11 10:10:39,663 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2020-10-11 10:10:39,663 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2020-10-11 10:10:39,663 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2020-10-11 10:10:39,664 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2020-10-11 10:10:39,664 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2020-10-11 10:10:39,664 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2020-10-11 10:10:39,670 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-11 10:10:39,671 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-11 10:10:39,671 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-11 10:10:39,682 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-10-11 10:10:39,682 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-10-11 10:10:40,223 INFO o.a.j.JMeter: Running test (1602411040223)
+2020-10-11 10:10:40,372 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter Users
+2020-10-11 10:10:40,373 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group JMeter Users.
+2020-10-11 10:10:40,373 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-11 10:10:40,373 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-10-11 10:10:40,377 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-10-11 10:10:40,378 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-10-11 10:10:40,378 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-10-11 10:10:40,378 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-10-11 10:10:40,390 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-11 10:10:40,391 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-11 10:10:40,446 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-1
+2020-10-11 10:10:40,449 INFO o.a.j.s.FileServer: Stored: /urls.txt
+2020-10-11 10:10:40,483 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = a7622b8ee737
+2020-10-11 10:10:40,492 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-10-11 10:10:40,536 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-2
+2020-10-11 10:10:40,635 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-3
+2020-10-11 10:10:40,734 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-4
+2020-10-11 10:10:40,834 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-5
+2020-10-11 10:10:40,933 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-6
+2020-10-11 10:10:41,032 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-7
+2020-10-11 10:10:41,131 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-8
+2020-10-11 10:10:41,230 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-9
+2020-10-11 10:10:41,329 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-10
+2020-10-11 10:11:00,126 INFO o.a.j.r.Summariser: summary +      7 in 00:00:20 =    0.4/s Avg: 11360 Min:  3173 Max: 19086 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:11:31,443 INFO o.a.j.r.Summariser: summary +     11 in 00:00:31 =    0.4/s Avg: 26459 Min: 21843 Max: 28462 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:11:31,444 INFO o.a.j.r.Summariser: summary =     18 in 00:00:51 =    0.4/s Avg: 20587 Min:  3173 Max: 28462 Err:     0 (0.00%)
+2020-10-11 10:12:01,803 INFO o.a.j.r.Summariser: summary +     14 in 00:00:30 =    0.5/s Avg: 24686 Min: 20999 Max: 28817 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:12:01,804 INFO o.a.j.r.Summariser: summary =     32 in 00:01:22 =    0.4/s Avg: 22381 Min:  3173 Max: 28817 Err:     0 (0.00%)
+2020-10-11 10:12:31,702 INFO o.a.j.r.Summariser: summary +     16 in 00:00:30 =    0.5/s Avg: 18942 Min: 17767 Max: 20872 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:12:31,703 INFO o.a.j.r.Summariser: summary =     48 in 00:01:51 =    0.4/s Avg: 21234 Min:  3173 Max: 28817 Err:     0 (0.00%)
+2020-10-11 10:13:02,330 INFO o.a.j.r.Summariser: summary +     12 in 00:00:31 =    0.4/s Avg: 23273 Min: 19206 Max: 25300 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:13:02,331 INFO o.a.j.r.Summariser: summary =     60 in 00:02:22 =    0.4/s Avg: 21642 Min:  3173 Max: 28817 Err:     0 (0.00%)
+2020-10-11 10:13:34,750 INFO o.a.j.r.Summariser: summary +      7 in 00:00:32 =    0.2/s Avg: 30125 Min: 24275 Max: 39972 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:13:34,751 INFO o.a.j.r.Summariser: summary =     67 in 00:02:55 =    0.4/s Avg: 22528 Min:  3173 Max: 39972 Err:     0 (0.00%)
+2020-10-11 10:14:00,152 INFO o.a.j.r.Summariser: summary +      7 in 00:00:25 =    0.3/s Avg: 44634 Min: 42201 Max: 45809 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:14:00,153 INFO o.a.j.r.Summariser: summary =     74 in 00:03:20 =    0.4/s Avg: 24619 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:14:32,474 INFO o.a.j.r.Summariser: summary +     11 in 00:00:32 =    0.3/s Avg: 33987 Min: 29026 Max: 42988 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:14:32,475 INFO o.a.j.r.Summariser: summary =     85 in 00:03:52 =    0.4/s Avg: 25832 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:15:01,511 INFO o.a.j.r.Summariser: summary +     11 in 00:00:29 =    0.4/s Avg: 26537 Min: 25849 Max: 28677 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:15:01,512 INFO o.a.j.r.Summariser: summary =     96 in 00:04:21 =    0.4/s Avg: 25913 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:15:32,328 INFO o.a.j.r.Summariser: summary +     12 in 00:00:31 =    0.4/s Avg: 24917 Min: 23432 Max: 26197 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:15:32,329 INFO o.a.j.r.Summariser: summary =    108 in 00:04:52 =    0.4/s Avg: 25802 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:16:03,010 INFO o.a.j.r.Summariser: summary +     11 in 00:00:31 =    0.4/s Avg: 29010 Min: 25965 Max: 32495 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:16:03,011 INFO o.a.j.r.Summariser: summary =    119 in 00:05:23 =    0.4/s Avg: 26098 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:16:31,547 INFO o.a.j.r.Summariser: summary +      9 in 00:00:29 =    0.3/s Avg: 28879 Min: 26584 Max: 31568 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:16:31,548 INFO o.a.j.r.Summariser: summary =    128 in 00:05:51 =    0.4/s Avg: 26294 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:17:01,951 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30671 Min: 30225 Max: 31603 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:17:01,952 INFO o.a.j.r.Summariser: summary =    138 in 00:06:22 =    0.4/s Avg: 26611 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:17:32,556 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30632 Min: 30237 Max: 30836 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:17:32,557 INFO o.a.j.r.Summariser: summary =    148 in 00:06:52 =    0.4/s Avg: 26883 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:18:02,556 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30156 Min: 29948 Max: 30652 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:18:02,557 INFO o.a.j.r.Summariser: summary =    158 in 00:07:22 =    0.4/s Avg: 27090 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:18:30,394 INFO o.a.j.r.Summariser: summary +      9 in 00:00:28 =    0.3/s Avg: 30637 Min: 30204 Max: 30830 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:18:30,395 INFO o.a.j.r.Summariser: summary =    167 in 00:07:50 =    0.4/s Avg: 27281 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:19:01,391 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30997 Min: 30801 Max: 31201 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:19:01,392 INFO o.a.j.r.Summariser: summary =    177 in 00:08:21 =    0.4/s Avg: 27491 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:19:31,792 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30837 Min: 30397 Max: 31350 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:19:31,793 INFO o.a.j.r.Summariser: summary =    187 in 00:08:52 =    0.4/s Avg: 27670 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:20:01,977 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30728 Min: 30180 Max: 30920 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:20:01,978 INFO o.a.j.r.Summariser: summary =    197 in 00:09:22 =    0.4/s Avg: 27825 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:20:32,214 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 29463 Min: 28975 Max: 30235 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:20:32,215 INFO o.a.j.r.Summariser: summary =    207 in 00:09:52 =    0.3/s Avg: 27904 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:21:02,865 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30589 Min: 30306 Max: 30873 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:21:02,865 INFO o.a.j.r.Summariser: summary =    217 in 00:10:23 =    0.3/s Avg: 28028 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:21:30,233 INFO o.a.j.r.Summariser: summary +      9 in 00:00:27 =    0.3/s Avg: 30371 Min: 30206 Max: 30576 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:21:30,234 INFO o.a.j.r.Summariser: summary =    226 in 00:10:50 =    0.3/s Avg: 28121 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:22:00,981 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30563 Min: 30275 Max: 30744 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:22:00,982 INFO o.a.j.r.Summariser: summary =    236 in 00:11:21 =    0.3/s Avg: 28225 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:22:31,421 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30696 Min: 30436 Max: 30918 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:22:31,422 INFO o.a.j.r.Summariser: summary =    246 in 00:11:51 =    0.3/s Avg: 28325 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:23:01,073 INFO o.a.j.r.Summariser: summary +     11 in 00:00:30 =    0.4/s Avg: 27793 Min: 26430 Max: 30339 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:23:01,073 INFO o.a.j.r.Summariser: summary =    257 in 00:12:21 =    0.3/s Avg: 28302 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:23:32,407 INFO o.a.j.r.Summariser: summary +     12 in 00:00:31 =    0.4/s Avg: 26898 Min: 25196 Max: 29490 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:23:32,407 INFO o.a.j.r.Summariser: summary =    269 in 00:12:52 =    0.3/s Avg: 28240 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:24:00,806 INFO o.a.j.r.Summariser: summary +     12 in 00:00:28 =    0.4/s Avg: 25311 Min: 23766 Max: 27230 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:24:00,806 INFO o.a.j.r.Summariser: summary =    281 in 00:13:21 =    0.4/s Avg: 28115 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:24:31,423 INFO o.a.j.r.Summariser: summary +     16 in 00:00:31 =    0.5/s Avg: 19765 Min: 18084 Max: 24359 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:24:31,424 INFO o.a.j.r.Summariser: summary =    297 in 00:13:51 =    0.4/s Avg: 27665 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:25:00,419 INFO o.a.j.r.Summariser: summary +     13 in 00:00:29 =    0.4/s Avg: 19819 Min: 18323 Max: 22684 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:25:00,420 INFO o.a.j.r.Summariser: summary =    310 in 00:14:20 =    0.4/s Avg: 27336 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:25:30,178 INFO o.a.j.r.Summariser: summary +     11 in 00:00:30 =    0.4/s Avg: 23543 Min: 22467 Max: 28000 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:25:30,179 INFO o.a.j.r.Summariser: summary =    321 in 00:14:50 =    0.4/s Avg: 27206 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:26:00,364 INFO o.a.j.r.Summariser: summary +     14 in 00:00:30 =    0.5/s Avg: 26722 Min: 18374 Max: 32084 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:26:00,364 INFO o.a.j.r.Summariser: summary =    335 in 00:15:20 =    0.4/s Avg: 27186 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:26:30,024 INFO o.a.j.r.Summariser: summary +     12 in 00:00:30 =    0.4/s Avg: 24336 Min: 18752 Max: 27055 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:26:30,025 INFO o.a.j.r.Summariser: summary =    347 in 00:15:50 =    0.4/s Avg: 27087 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:27:01,523 INFO o.a.j.r.Summariser: summary +     13 in 00:00:31 =    0.4/s Avg: 22535 Min: 19340 Max: 26122 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:27:01,523 INFO o.a.j.r.Summariser: summary =    360 in 00:16:21 =    0.4/s Avg: 26923 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:27:30,536 INFO o.a.j.r.Summariser: summary +     10 in 00:00:29 =    0.3/s Avg: 26061 Min: 24304 Max: 29758 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:27:30,537 INFO o.a.j.r.Summariser: summary =    370 in 00:16:50 =    0.4/s Avg: 26899 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:28:01,500 INFO o.a.j.r.Summariser: summary +     15 in 00:00:31 =    0.5/s Avg: 23913 Min: 20225 Max: 28897 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:28:01,500 INFO o.a.j.r.Summariser: summary =    385 in 00:17:21 =    0.4/s Avg: 26783 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:28:31,580 INFO o.a.j.r.Summariser: summary +     17 in 00:00:30 =    0.6/s Avg: 18546 Min: 17457 Max: 20673 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:28:31,580 INFO o.a.j.r.Summariser: summary =    402 in 00:17:51 =    0.4/s Avg: 26435 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:29:00,263 INFO o.a.j.r.Summariser: summary +     11 in 00:00:29 =    0.4/s Avg: 20247 Min: 17302 Max: 27017 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:29:00,264 INFO o.a.j.r.Summariser: summary =    413 in 00:18:20 =    0.4/s Avg: 26270 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:29:30,810 INFO o.a.j.r.Summariser: summary +     12 in 00:00:31 =    0.4/s Avg: 28776 Min: 22917 Max: 33216 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:29:30,811 INFO o.a.j.r.Summariser: summary =    425 in 00:18:51 =    0.4/s Avg: 26341 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:30:02,142 INFO o.a.j.r.Summariser: summary +     11 in 00:00:31 =    0.4/s Avg: 27486 Min: 23108 Max: 29987 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:30:02,143 INFO o.a.j.r.Summariser: summary =    436 in 00:19:22 =    0.4/s Avg: 26370 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:30:30,571 INFO o.a.j.r.Summariser: summary +     11 in 00:00:28 =    0.4/s Avg: 25593 Min: 24905 Max: 27451 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:30:30,572 INFO o.a.j.r.Summariser: summary =    447 in 00:19:50 =    0.4/s Avg: 26351 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:31:02,433 INFO o.a.j.r.Summariser: summary +     13 in 00:00:32 =    0.4/s Avg: 25100 Min: 23105 Max: 26206 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:31:02,434 INFO o.a.j.r.Summariser: summary =    460 in 00:20:22 =    0.4/s Avg: 26315 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:31:31,190 INFO o.a.j.r.Summariser: summary +      7 in 00:00:29 =    0.2/s Avg: 30370 Min: 25007 Max: 36078 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:31:31,190 INFO o.a.j.r.Summariser: summary =    467 in 00:20:51 =    0.4/s Avg: 26376 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:32:03,007 INFO o.a.j.r.Summariser: summary +      9 in 00:00:32 =    0.3/s Avg: 40565 Min: 36291 Max: 44438 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:32:03,008 INFO o.a.j.r.Summariser: summary =    476 in 00:21:23 =    0.4/s Avg: 26644 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:32:30,438 INFO o.a.j.r.Summariser: summary +      9 in 00:00:27 =    0.3/s Avg: 30559 Min: 26782 Max: 34932 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:32:30,438 INFO o.a.j.r.Summariser: summary =    485 in 00:21:50 =    0.4/s Avg: 26717 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:33:01,329 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30514 Min: 30164 Max: 30933 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:33:01,330 INFO o.a.j.r.Summariser: summary =    495 in 00:22:21 =    0.4/s Avg: 26794 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:33:31,219 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30559 Min: 29887 Max: 31019 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:33:31,220 INFO o.a.j.r.Summariser: summary =    505 in 00:22:51 =    0.4/s Avg: 26868 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:34:01,495 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30117 Min: 29757 Max: 30338 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:34:01,495 INFO o.a.j.r.Summariser: summary =    515 in 00:23:21 =    0.4/s Avg: 26931 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:34:32,526 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30458 Min: 29947 Max: 31029 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:34:32,527 INFO o.a.j.r.Summariser: summary =    525 in 00:23:52 =    0.4/s Avg: 26998 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:35:02,964 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30809 Min: 30408 Max: 31197 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:35:02,965 INFO o.a.j.r.Summariser: summary =    535 in 00:24:23 =    0.4/s Avg: 27070 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:35:32,592 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 30067 Min: 29626 Max: 30438 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:35:32,593 INFO o.a.j.r.Summariser: summary =    545 in 00:24:52 =    0.4/s Avg: 27125 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:36:01,831 INFO o.a.j.r.Summariser: summary +     10 in 00:00:29 =    0.3/s Avg: 28762 Min: 28400 Max: 29366 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:36:01,832 INFO o.a.j.r.Summariser: summary =    555 in 00:25:22 =    0.4/s Avg: 27154 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:36:30,949 INFO o.a.j.r.Summariser: summary +     10 in 00:00:29 =    0.3/s Avg: 29078 Min: 28796 Max: 29302 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:36:30,950 INFO o.a.j.r.Summariser: summary =    565 in 00:25:51 =    0.4/s Avg: 27188 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:37:01,785 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30813 Min: 30556 Max: 30980 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:37:01,786 INFO o.a.j.r.Summariser: summary =    575 in 00:26:22 =    0.4/s Avg: 27251 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:37:32,722 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30673 Min: 30459 Max: 30994 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:37:32,723 INFO o.a.j.r.Summariser: summary =    585 in 00:26:52 =    0.4/s Avg: 27310 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:38:00,266 INFO o.a.j.r.Summariser: summary +      9 in 00:00:28 =    0.3/s Avg: 30896 Min: 30607 Max: 31145 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:38:00,266 INFO o.a.j.r.Summariser: summary =    594 in 00:27:20 =    0.4/s Avg: 27364 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:38:30,897 INFO o.a.j.r.Summariser: summary +     10 in 00:00:31 =    0.3/s Avg: 30719 Min: 30360 Max: 31031 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:38:30,898 INFO o.a.j.r.Summariser: summary =    604 in 00:27:51 =    0.4/s Avg: 27420 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:39:00,654 INFO o.a.j.r.Summariser: summary +     10 in 00:00:30 =    0.3/s Avg: 29840 Min: 29518 Max: 30544 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:39:00,655 INFO o.a.j.r.Summariser: summary =    614 in 00:28:20 =    0.4/s Avg: 27459 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:39:31,042 INFO o.a.j.r.Summariser: summary +     12 in 00:00:30 =    0.4/s Avg: 26807 Min: 24622 Max: 29985 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:39:31,043 INFO o.a.j.r.Summariser: summary =    626 in 00:28:51 =    0.4/s Avg: 27447 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:40:01,755 INFO o.a.j.r.Summariser: summary +     11 in 00:00:31 =    0.4/s Avg: 27628 Min: 26372 Max: 29359 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:40:01,755 INFO o.a.j.r.Summariser: summary =    637 in 00:29:22 =    0.4/s Avg: 27450 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:40:30,899 INFO o.a.j.r.Summariser: summary +     12 in 00:00:29 =    0.4/s Avg: 24413 Min: 22329 Max: 27001 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:40:30,900 INFO o.a.j.r.Summariser: summary =    649 in 00:29:51 =    0.4/s Avg: 27394 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:41:02,035 INFO o.a.j.r.Summariser: summary +     13 in 00:00:31 =    0.4/s Avg: 23758 Min: 21583 Max: 25780 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:41:02,036 INFO o.a.j.r.Summariser: summary =    662 in 00:30:22 =    0.4/s Avg: 27322 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:41:30,957 INFO o.a.j.r.Summariser: summary +     12 in 00:00:29 =    0.4/s Avg: 25114 Min: 21532 Max: 28750 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:41:30,958 INFO o.a.j.r.Summariser: summary =    674 in 00:30:51 =    0.4/s Avg: 27283 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:42:00,394 INFO o.a.j.r.Summariser: summary +     15 in 00:00:29 =    0.5/s Avg: 21041 Min: 19226 Max: 22468 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:42:00,395 INFO o.a.j.r.Summariser: summary =    689 in 00:31:20 =    0.4/s Avg: 27147 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:42:34,938 INFO o.a.j.r.Summariser: summary +     11 in 00:00:35 =    0.3/s Avg: 28145 Min: 23019 Max: 30265 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:42:34,938 INFO o.a.j.r.Summariser: summary =    700 in 00:31:55 =    0.4/s Avg: 27163 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:43:01,581 INFO o.a.j.r.Summariser: summary +      7 in 00:00:27 =    0.3/s Avg: 31646 Min: 30060 Max: 35570 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:43:01,582 INFO o.a.j.r.Summariser: summary =    707 in 00:32:21 =    0.4/s Avg: 27207 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:43:30,238 INFO o.a.j.r.Summariser: summary +     13 in 00:00:29 =    0.5/s Avg: 29038 Min: 18518 Max: 39779 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2020-10-11 10:43:30,239 INFO o.a.j.r.Summariser: summary =    720 in 00:32:50 =    0.4/s Avg: 27240 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:43:40,730 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:40,730 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-6
+2020-10-11 10:43:42,833 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:42,833 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-7
+2020-10-11 10:43:44,507 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:44,507 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-8
+2020-10-11 10:43:46,345 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:46,345 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-9
+2020-10-11 10:43:48,117 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:48,118 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-10
+2020-10-11 10:43:49,884 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:49,884 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-1
+2020-10-11 10:43:51,524 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:51,524 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-2
+2020-10-11 10:43:53,193 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:53,193 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-3
+2020-10-11 10:43:54,871 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:54,872 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-4
+2020-10-11 10:43:56,893 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-10-11 10:43:56,893 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-5
+2020-10-11 10:43:56,894 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-11 10:43:56,894 INFO o.a.j.s.FileServer: Close: /urls.txt
+2020-10-11 10:43:56,896 INFO o.a.j.r.Summariser: summary +     15 in 00:00:27 =    0.6/s Avg: 17687 Min: 17196 Max: 18019 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+2020-10-11 10:43:56,897 INFO o.a.j.r.Summariser: summary =    735 in 00:33:17 =    0.4/s Avg: 27045 Min:  3173 Max: 45809 Err:     0 (0.00%)
+2020-10-11 10:43:56,897 INFO o.a.j.JMeter: Generating Dashboard
+2020-10-11 10:43:56,897 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2020-10-11 10:43:56,919 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2020-10-11 10:43:57,159 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2020-10-11 10:43:57,160 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2020-10-11 10:43:57,163 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2020-10-11 10:43:57,163 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2020-10-11 10:43:57,171 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2020-10-11 10:43:57,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2020-10-11 10:43:57,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2020-10-11 10:43:57,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2020-10-11 10:43:57,234 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2020-10-11 10:43:57,234 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2020-10-11 10:43:57,235 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2020-10-11 10:43:57,235 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2020-10-11 10:43:57,264 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2020-10-11 10:43:57,265 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 5145 samples
+2020-10-11 10:43:57,265 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2020-10-11 10:43:57,265 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2020-10-11 10:43:57,265 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2020-10-11 10:43:57,265 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2020-10-11 10:43:57,266 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2020-10-11 10:43:57,266 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2020-10-11 10:43:57,270 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2020-10-11 10:43:57,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2020-10-11 10:43:57,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2020-10-11 10:43:57,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2020-10-11 10:43:57,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 11025 samples
+2020-10-11 10:43:57,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 2205 samples
+2020-10-11 10:43:57,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 735 samples
+2020-10-11 10:43:57,275 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 735 samples produced in 312ms on channel 0
+2020-10-11 10:43:57,275 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2020-10-11 10:43:57,278 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2020-10-11 10:43:57,278 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2020-10-11 10:43:57,279 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2020-10-11 10:43:57,279 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2020-10-11 10:43:57,279 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /result/dashboard/statistics.json
+2020-10-11 10:43:57,559 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2020-10-11 10:43:57,563 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /result/dashboard
+2020-10-11 10:43:57,698 ERROR f.configuration: DefaultObjectWrapper.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2020-10-11 10:43:57,701 ERROR f.configuration: Configuration.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2020-10-11 10:43:57,716 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /result/dashboard, creating folder structure
+2020-10-11 10:43:57,722 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/apache-jmeter-5.3/bin/report-template' to '/result/dashboard', got message: /result/dashboard, found non empty folder with following content [/result/dashboard/statistics.json], will be ignored
+2020-10-11 10:43:58,012 INFO o.a.j.JMeter: Dashboard generated
