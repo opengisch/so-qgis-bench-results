@@ -1,0 +1,53 @@
+00:30:58 INFO: Starting new run 20201011-003058, using configuration "compare-deployment-sequential"
+00:30:58 INFO: using configuration file "conf/tests/compare-deployment-sequential.yml"
+00:30:58 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+00:30:58 INFO: Starting test-case: qgis310-singlethread-multiinstance ({'active': True, 'parallel-requests': 1, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}})
+00:30:58 INFO: Deploying qgis310-singlethread-multiinstance
+00:30:58 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+00:31:18 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+00:31:19 INFO: Starting tests for compare-deployment-sequential qgis310-singlethread-multiinstance lk.txt
+00:31:19 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+00:31:28 INFO: Starting tests for compare-deployment-sequential qgis310-singlethread-multiinstance av_f.txt
+00:31:28 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+00:31:53 INFO: Starting tests for compare-deployment-sequential qgis310-singlethread-multiinstance av_sw.txt
+00:31:53 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+00:32:13 INFO: test-case run completed in 54.17s
+00:32:13 INFO: Executing: docker service rm bench_qgis-server
+00:32:13 INFO: Starting test-case: qgis310-multithread-singleinstance ({'active': True, 'parallel-requests': 1, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-singlethread-multiinstance'})
+00:32:13 INFO: Deploying qgis310-multithread-singleinstance
+00:32:13 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+00:32:32 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+00:32:33 INFO: Starting tests for compare-deployment-sequential qgis310-multithread-singleinstance lk.txt
+00:32:33 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+00:32:41 INFO: Starting tests for compare-deployment-sequential qgis310-multithread-singleinstance av_f.txt
+00:32:41 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+00:33:00 INFO: Starting tests for compare-deployment-sequential qgis310-multithread-singleinstance av_sw.txt
+00:33:00 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+00:33:17 INFO: test-case run completed in 44.5s
+00:33:17 INFO: Executing: docker service rm bench_qgis-server
+00:33:18 INFO: Starting test-case: qgis310-balanced ({'active': True, 'parallel-requests': 1, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '3', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '2', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-singlethread-multiinstance'})
+00:33:18 INFO: Deploying qgis310-balanced
+00:33:18 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+00:33:36 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+00:33:37 INFO: Starting tests for compare-deployment-sequential qgis310-balanced lk.txt
+00:33:37 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+00:33:45 INFO: Starting tests for compare-deployment-sequential qgis310-balanced av_f.txt
+00:33:45 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+00:34:07 INFO: Starting tests for compare-deployment-sequential qgis310-balanced av_sw.txt
+00:34:07 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+00:34:25 INFO: test-case run completed in 48.35s
+00:34:25 INFO: Executing: docker service rm bench_qgis-server
+00:34:26 INFO: Starting test-case: qgis310-unlimited-threads ({'active': True, 'parallel-requests': 1, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '3', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '-1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-balanced'})
+00:34:26 INFO: Deploying qgis310-unlimited-threads
+00:34:26 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+00:34:44 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+00:34:45 INFO: Starting tests for compare-deployment-sequential qgis310-unlimited-threads lk.txt
+00:34:45 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_lk
+00:34:53 INFO: Starting tests for compare-deployment-sequential qgis310-unlimited-threads av_f.txt
+00:34:53 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_farbig
+00:35:12 INFO: Starting tests for compare-deployment-sequential qgis310-unlimited-threads av_sw.txt
+00:35:12 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=1 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_grundplanav_sw
+00:35:30 INFO: test-case run completed in 44.53s
+00:35:30 INFO: Executing: docker service rm bench_qgis-server
+00:35:30 INFO: Finished run: 20201011-003058
+00:35:30 INFO: Generating stats
