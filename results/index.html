@@ -12,8 +12,12 @@
         const data = await response.json();
         let htmlString = '<ul>';
         for (let file of data) {
-            if (file.type == 'dir' || file.name == 'index.html') {continue;}
-            let file_name = file.replace(/\.[^/.]+$/, "")
+            if (file.type == 'dir' || file.name == 'index.html') {
+                continue;
+            }
+            let period = file.name.lastIndexOf('.');
+            let file_name = file.name.substring(0, period);
+
             htmlString += `<li><a href="${file_name}">${file_name}</a></li>`;
         }
         htmlString += '</ul>';
