@@ -1,0 +1,29 @@
+00:28:00 INFO: Starting new run 20201012-002800, using configuration "compare-categorized"
+00:28:00 INFO: using configuration file "conf/tests/compare-categorized.yml"
+00:28:00 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+00:28:00 INFO: Starting test-case: qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+00:28:00 INFO: Deploying qgis218-stock
+00:28:00 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+00:28:23 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+00:28:23 INFO: Starting tests for compare-categorized qgis218-stock bodenbedeckung_big.txt
+00:28:23 INFO: Executing: jmeter -n -t /io/test_plan_qgis2.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ows/somap218_avbobe_farbig_categorized
+00:32:14 INFO: test-case qgis218-stock run completed in 00h 03m 50s
+00:32:14 INFO: Executing: docker service rm bench_qgis-server
+00:32:14 INFO: Starting test-case: qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+00:32:14 INFO: Deploying qgis310-stock
+00:32:14 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+00:32:33 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+00:32:33 INFO: Starting tests for compare-categorized qgis310-stock bodenbedeckung_big.txt
+00:32:33 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap310_avbobe_farbig_categorized
+00:38:04 INFO: test-case qgis310-stock run completed in 00h 05m 31s
+00:38:04 INFO: Executing: docker service rm bench_qgis-server
+00:38:05 INFO: Starting test-case: qgis314-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+00:38:05 INFO: Deploying qgis314-stock
+00:38:05 INFO: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+00:38:23 INFO: Probing http://localhost:8080/ogc/somap314_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+00:38:24 INFO: Starting tests for compare-categorized qgis314-stock bodenbedeckung_big.txt
+00:38:24 INFO: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -Jprojectpath=ogc/somap314_avbobe_farbig_categorized
+00:43:56 INFO: test-case qgis314-stock run completed in 00h 05m 32s
+00:43:56 INFO: Executing: docker service rm bench_qgis-server
+00:43:56 INFO: Finished run: 20201012-002800
+00:43:56 INFO: Generating stats

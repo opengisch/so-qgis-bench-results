@@ -1,0 +1,915 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1602461050833,27518,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461050834,3856300,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461051835,82070,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461051835,3861300,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461052835,99125,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461052835,3895238,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461053836,83686,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461053836,3830050,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461054837,86674,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461054837,4374781,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461055837,85660,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461055837,4310292,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461056838,82142,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461056838,4009199,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461057838,84567,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461057838,4093289,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461058842,92134,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461058842,4598441,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461059843,86766,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461059843,4593457,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461060844,81795,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461060844,3913632,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461061844,87453,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461061845,4551054,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461062845,85377,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461062845,4346492,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461063846,86600,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461063846,4410656,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461064846,82651,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461064846,4130218,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461065847,85254,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461065847,4053753,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461066847,90362,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461066847,4584523,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461067848,81874,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461067848,4377691,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461068851,85148,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461068851,4825015,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461069851,79404,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461069851,4425828,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461070852,83830,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461070852,4617707,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461071853,85572,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461071853,4358917,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461072854,81435,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461072854,4389742,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461073854,87250,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461073854,4349843,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461074855,85803,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461074855,4503167,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461075855,86318,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461075855,4491000,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461076856,85276,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461076856,4751539,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461077856,87048,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461077857,4536226,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461078858,89152,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461078858,4713863,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461079859,98879,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461079859,4805878,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461080859,90875,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461080859,4607406,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461081859,86245,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461081859,4353746,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461082860,82076,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461082861,4404648,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461083862,87344,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461083862,4449839,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461084862,85483,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461084862,4404210,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461085863,87344,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461085863,4417609,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461086863,88184,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461086864,4741429,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461087864,89788,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461087864,4898125,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461088864,89676,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461088865,4992582,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461089865,80049,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461089865,4847515,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461090865,87484,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461090866,4960402,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461091866,83930,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461091866,4678542,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461092866,87640,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461092866,4639214,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461093867,85696,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461093867,4840847,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461094868,84367,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461094868,4746191,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461095868,84557,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461095868,4768546,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461096869,86516,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461096869,4708519,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461097869,87236,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461097869,4863867,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461098870,84375,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461098870,4692207,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461099870,85199,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461099870,4895078,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461100871,89165,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461100871,5005515,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461101871,86408,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461101871,5210691,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461102871,80000,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461102872,4932386,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461103872,85910,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461103872,4945660,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461104873,83292,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461104873,5089410,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461105873,85341,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461105873,4852226,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461106874,84769,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461106874,4871859,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461107874,75990,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461107875,5104292,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461108875,70136,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461108875,4895078,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461109875,74257,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461109875,5051835,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461110876,77085,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461110876,5328894,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461111877,80448,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461111877,5289894,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461112877,81806,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461112877,5139503,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461113878,84777,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461113878,5253113,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461114878,80916,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461114879,5298332,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461115879,83935,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461115879,5481898,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461116879,80000,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461116879,5306996,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461117880,87810,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461117880,5752835,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461118880,86550,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461118880,5191539,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461119881,90274,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461119881,5452816,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461120881,81795,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461120881,5098496,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461121881,89027,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461121881,5153753,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461122882,86408,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461122882,5174972,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461123883,82818,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461123883,5011062,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461124883,88184,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461124883,5292316,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461125884,81784,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461125884,5190253,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461126884,77463,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461126884,5066808,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461127885,75339,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461127885,5071765,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461128886,75832,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461128886,5074671,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461129886,80545,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461129886,5096410,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461130886,84472,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461130887,5346128,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461131887,85254,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461131887,5436550,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461132887,79950,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461132888,5032683,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461133888,84739,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461133888,5347882,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461134888,87141,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461134889,5381703,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461135889,85607,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461135890,5293277,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461136890,86907,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461136890,5153832,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461137890,84452,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461137891,5137996,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461138891,85997,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461138891,5388914,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461139892,84844,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461139892,5155656,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461140892,81358,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461140892,5410925,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461141892,84739,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461141893,5238667,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461142893,82981,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461142893,5451828,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461143894,81320,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461143894,5372812,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461144894,85820,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461144894,5535738,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461145895,83208,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461145895,5714625,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461146895,87096,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461146895,6050656,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461147895,84472,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461147895,5711457,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461148896,80000,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461148896,5514222,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461149896,85819,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461149896,5942441,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461150896,85180,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461150897,6180859,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461151897,81683,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461151897,5793542,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461152897,82076,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461152897,5384246,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461153898,85820,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461153898,5867859,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461154899,86533,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461154899,6141218,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461155899,82614,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461155899,6180433,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461156899,85820,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461156899,6207421,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461157900,84184,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461157900,6003425,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461158900,84987,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461158900,6007226,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461159901,81965,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461159901,6197164,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461160901,76397,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461160902,6451617,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461161902,73723,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461161902,5986445,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461162903,71199,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461162903,5905652,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461163903,72400,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461163903,6151425,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461164904,69097,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461164904,5707687,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461165905,69827,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461165905,5963300,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461166905,80869,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461166905,6090824,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461167906,72568,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461167906,5780171,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461168906,80940,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461168906,5809035,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461169907,86189,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461169907,6351914,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461170907,84758,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461170908,6287304,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461171908,79579,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461171908,5910613,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461172908,77599,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461172909,5882484,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461173909,82587,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461173909,6083007,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461174910,84059,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461174910,6090031,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461175910,85323,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461175910,6385007,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461176911,84184,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461176911,6242699,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461177911,89013,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461177911,6426917,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461178912,91304,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461178912,6444562,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461179912,85518,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461179912,6280839,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461180913,86425,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461180913,6297488,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461181914,82818,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461181914,6165605,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461182915,88778,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461182915,6371015,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461183915,76231,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461183915,6164875,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461184915,86708,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461184915,7091535,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461185916,88805,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461185916,7599765,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461186916,85175,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461186916,6340246,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461187917,87826,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461187917,6403171,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461188918,86533,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461188918,6650531,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461189918,86708,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461189918,6650089,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461190919,78562,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461190919,6509777,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461191919,83415,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461191919,6923878,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461192920,81829,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461192920,6318312,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461193920,78535,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461193920,6340214,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461194921,88059,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461194921,7268171,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461195921,85396,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461195921,7154378,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461196922,82178,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461196922,6578210,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461197922,79604,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461197922,6672867,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461198923,87515,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461198923,6605343,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461199923,85217,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461199923,6881378,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461200924,85997,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461200924,6945882,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461201924,83640,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461201924,6489343,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461202925,86159,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461202925,6771488,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461203925,88059,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461203925,7007359,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461204926,84405,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461204926,6880328,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461205926,83498,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461205926,6576738,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461206926,85519,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461206926,6760687,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461207927,87747,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461207927,6885976,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461208927,89526,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461208927,7015898,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461209928,82032,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461209928,7010878,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461210928,85326,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461210928,6886054,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461211928,83604,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461211928,6882054,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461212929,88059,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461212929,7255160,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461213930,81004,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461213930,6782714,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461214930,87313,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461214930,7278757,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461215930,85323,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461215930,7157503,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461216931,87980,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461216931,7048882,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461217931,89179,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461217931,7319277,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461218932,84538,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461218932,6843417,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461219933,85696,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461219933,6869636,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461220933,86142,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461220933,7141031,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461221934,83147,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461221934,7652843,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461222934,84701,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461222934,8002953,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461223934,87422,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461223935,7675585,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461224935,86086,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461224935,7242097,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461225935,87092,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461225936,7210375,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461226936,83663,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461226936,7433308,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461227936,85803,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461227937,7137996,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461228937,82857,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461228937,7129531,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461229938,78054,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461229938,7134414,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461230938,83250,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461230938,7188437,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461231939,82506,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461231939,7190050,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461232939,83002,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461232939,7474394,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461233940,84596,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461233940,7222546,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461234940,84950,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461234940,7296351,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461235941,87780,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461235941,7435273,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461236941,85607,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461236941,7757343,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461237941,86783,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461237942,7670761,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461238942,84340,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461238942,7454992,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461239950,87890,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461239950,7906648,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461240950,87048,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461240951,8148214,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461241951,86442,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461241951,7905968,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461242951,88403,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461242951,8382121,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461243952,86069,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461243952,7646242,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461244952,81513,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461244952,7420433,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461245952,78660,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461245952,7436765,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461246953,80793,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461246953,7772515,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461247953,84394,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461247953,7448035,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461248954,80196,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461248954,7768648,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461249955,82938,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461249955,7743890,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461250955,86799,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461250955,7778847,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461251956,87422,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461251956,7639179,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461252956,89205,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461252956,7730000,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461253957,86650,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461253957,8012250,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461254957,85980,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461254957,8035867,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461255958,84682,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461255958,7876390,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461256958,83312,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461256958,8049417,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461257959,85056,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461257959,7727679,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461258959,82608,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461258959,7859636,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461259960,84863,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461259960,8014171,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461260960,80987,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461260960,7925800,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461261966,87048,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461261966,8211472,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461262966,85696,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461262966,8146226,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461263967,85501,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461263967,8211828,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461264967,82382,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461264967,7664218,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461265968,88639,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461265968,8221148,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461266968,88184,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461266968,8221738,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461267968,86641,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461267968,7820527,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461268969,90100,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461268969,8047550,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461269969,82694,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461269969,8086593,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461270970,89165,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461270970,8771546,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461271970,83663,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461271970,8226917,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461272970,85465,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461272971,8622144,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461273971,77722,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461273971,8381949,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461274971,82651,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461274971,8056285,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461275972,85856,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461275972,8388820,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461276972,84825,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461276973,8724207,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461277973,84825,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461277973,8512652,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461278973,80199,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461278973,7991351,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461279974,85945,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461279974,8398464,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461280974,90012,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461280974,8942339,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461281975,83146,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461281975,8305152,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461282975,85305,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461282975,8839203,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461283975,85254,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461283975,8585281,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461284976,89192,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461284976,8685183,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461285976,87577,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461285976,8432238,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461286977,89887,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461286977,8614546,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461287977,87141,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461287977,8552339,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461288977,86335,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461288978,8250750,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461289978,90738,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461289978,8533640,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461290978,86799,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461290978,8611140,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461291979,83561,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461291979,8564000,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461292979,85714,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461292979,8763230,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461293979,83850,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461293979,9105539,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461294980,78641,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461294980,8808691,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461295980,80893,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461295981,8831011,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461296981,81863,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461296981,8535957,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461297982,89401,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461297982,8889554,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461298982,85714,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461298982,8400628,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461299982,89612,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461299983,8475277,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461300983,80673,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461300983,8467457,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461301983,86583,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461301983,8854644,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461302984,86691,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461302984,8779082,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461303984,88322,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461303984,8645601,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461304985,90262,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461304985,8584894,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461305985,86550,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461305985,8440988,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461306986,91905,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461306986,9072445,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461307986,87717,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461307986,9034269,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461308987,85678,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461308987,8697589,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461309987,89388,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461309987,8421433,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461310987,80049,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461310987,8472839,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461311988,89862,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461311988,8443531,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461312988,89179,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461312988,8389429,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461313989,89192,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461313989,8508925,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461314989,85323,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461314989,8860203,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461315989,88447,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461315989,8452593,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461316990,89027,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461316990,8717281,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461317990,86724,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461317990,9209675,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461318991,82484,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461318991,8589796,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461319991,88014,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461319991,8852578,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461320992,87313,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461320992,8547769,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461321992,90773,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461321992,8654734,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461322993,86052,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461322993,8416808,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461323993,87281,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461323993,8696968,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461324994,83126,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461324994,8438257,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461325994,86567,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461325994,8923664,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461326994,84863,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461326994,8554425,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461327995,85910,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461327995,8512714,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461328995,90422,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461328995,8585457,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461329995,88875,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461329995,8623707,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461330996,86600,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461330996,8649265,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461331996,86533,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461331996,8680992,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461332997,85608,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461332997,8742128,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461333997,82711,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461333997,8415839,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461334997,90174,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461334997,8792070,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461335998,84663,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461335998,8671316,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461336998,85093,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461336998,8692812,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461337999,81784,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461337999,8454187,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461338999,83456,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461338999,8864062,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461339999,85785,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461339999,8895125,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461341000,88014,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461341000,9525562,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461342002,81087,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461342002,9291011,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461343002,81885,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461343002,8508710,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461344003,85341,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461344003,9195027,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461345003,85945,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461345003,9238058,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461346003,83663,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461346004,8948007,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461347004,85696,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461347004,8760203,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461348004,82646,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461348004,8870910,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461349005,85945,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461349005,8960070,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461350005,85359,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461350005,9014250,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461351006,81885,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461351006,8502562,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461352006,85323,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461352006,8712179,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461353007,88916,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461353007,8612132,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461354007,88930,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461354007,8891257,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461355007,88235,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461355007,8462570,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461356008,85111,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461356008,8646164,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461357008,77423,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461357009,8460179,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461358009,77295,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461358009,8503882,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461359009,78411,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461359009,8484976,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461360010,80098,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461360010,9010148,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461361010,87064,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461361010,9108765,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461362011,86176,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461362011,8732003,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461363011,85111,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461363011,9009394,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461364011,76818,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461364011,8567546,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461365012,82960,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461365012,9009832,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461366012,84425,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461366012,8923765,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461367013,78368,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461367013,8811875,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461368013,84491,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461368013,8666179,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461369014,83208,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461369014,8835984,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461370014,84039,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461370014,8601417,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461371014,82403,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461371015,8564164,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461372015,85286,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461372015,8797289,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461373015,84863,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461373015,8630593,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461374016,84720,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461374016,8846335,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461375016,84758,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461375016,8538210,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461376016,86750,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461376016,8694539,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461377017,82032,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461377017,8758863,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461378017,87608,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461378017,9006164,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461379017,87625,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461379017,9119265,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461380018,86052,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461380018,9192253,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461381018,85180,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461381018,9166593,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461382018,83539,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461382018,8508003,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461383019,86583,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461383019,9249417,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461384019,78606,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461384019,8548441,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461385020,85536,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461385020,9041554,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461386020,85272,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461386020,8919152,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461387021,83086,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461387021,8617097,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461388021,83770,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461388021,8554125,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461389021,86625,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461389021,9028203,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461390021,81660,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461390022,8790023,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461391022,82592,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461391022,8795308,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461392023,83002,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461392023,8747140,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461393023,85465,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461393023,8923808,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461394023,82737,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461394023,8788769,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461395024,87173,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461395024,9315679,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461396024,81157,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461396024,9122804,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461397025,82587,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461397025,8878367,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461398025,83167,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461398026,8799101,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461399026,83519,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461399026,9039261,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461400026,86301,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461400026,9498332,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461401027,79455,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461401027,8776675,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461402027,80469,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461402027,8832972,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461403027,82899,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461403028,8841734,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461404028,86583,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461404028,8586468,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461405029,82323,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461405029,9131335,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461406029,79802,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461406029,8871226,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461407030,78094,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461407030,8777062,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461408030,85943,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461408030,8731878,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461409030,88375,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461409030,9467656,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461410031,84739,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461410031,8913804,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461411031,84931,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461411031,8631656,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461412031,92365,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461412032,8670308,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461413032,88118,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461413032,8571027,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461414032,88625,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461414032,9232929,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461415033,84308,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461415033,8731671,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461416033,81164,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461416033,8987769,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461417034,76202,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461417034,8597078,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461418034,78914,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461418034,8634359,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461419035,91521,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461419035,8846332,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461420035,81896,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461420035,9080273,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461421036,83539,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461421036,8568597,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461422036,86815,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461422036,8981445,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461423036,89348,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461423036,8856667,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461424037,87546,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461424037,8807125,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461425037,80248,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461425037,8632000,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461426038,83995,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461426038,8809031,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461427038,82835,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461427038,8581285,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461428038,84844,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461428039,9242054,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461429039,83955,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461429039,9038492,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461430039,82133,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461430039,8849835,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461431040,84806,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461431040,8718257,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461432040,85447,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461432040,8884234,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461433040,86442,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461433040,9038617,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461434041,80621,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461434041,8587601,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461435041,89138,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461435041,8934429,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461436042,85803,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461436042,8576773,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461437042,85945,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461437042,8938730,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461438043,85249,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461438043,8656109,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461439044,82646,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461439044,8754988,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461440044,86891,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461440044,8674382,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461441044,87297,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461441044,8732843,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461442045,81582,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461442045,8833921,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461443047,85554,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461443047,8670878,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461444048,84413,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461444048,8809328,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461445048,86267,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461445048,9150816,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461446048,84039,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461446048,8893843,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461447049,86335,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461447049,9137828,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461448049,89095,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461448049,8920175,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461449050,86799,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461449050,8965203,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461450050,87220,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461450050,8823914,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461451050,87562,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461451051,9261632,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461452051,86159,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461452051,8598386,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461453051,81513,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461453052,8675804,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461454052,84720,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461454052,9314800,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461455052,86014,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461455052,9125972,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461456053,85483,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461456053,8860882,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461457053,86250,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461457053,8773281,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461458053,89440,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461458053,9187226,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461459054,79280,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461459054,8602871,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461460054,88139,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461460054,9277636,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461461055,80248,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461461055,8731925,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461462055,78960,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461462055,8792777,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461463055,82258,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461463055,8670582,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461464056,80172,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461464056,8654207,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461465056,82651,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461465056,8937503,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461466057,87236,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461466057,9121957,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461467057,87376,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461467057,8915972,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461468057,90062,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461468057,9943066,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461469058,83686,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461469058,8945730,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461470058,89912,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461470058,8827078,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461471058,87173,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461471058,9261113,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461472059,87810,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461472059,8939597,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461473059,87500,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461473059,8949726,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461474060,80569,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461474060,8680511,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461475062,77750,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461475062,8881949,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461476062,90613,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461476062,9076742,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461477063,79141,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461477063,8783515,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461478063,87750,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461478063,9056136,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461479063,87344,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461479063,9679828,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461480064,83416,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461480064,9319484,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461481064,83720,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461481064,9112140,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461482068,88089,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461482068,9040238,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461483068,87980,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461483068,9294144,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461484068,87220,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461484068,9137347,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461485069,83063,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461485069,8893964,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461486070,87048,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461486070,9035414,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461487070,86750,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461487070,8841144,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461488071,87671,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461488071,8898632,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461489071,84825,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461489071,9099429,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461490071,85093,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461490072,9109398,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461491072,83726,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461491072,8854261,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461492072,88888,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461492072,9013804,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461493073,85856,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461493073,8800125,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461494073,86476,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461494073,8588371,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461495073,88308,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461495074,9032675,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461496074,86459,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461496074,8874933,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461497075,86733,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461497075,9016234,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461498075,81863,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461498075,9051246,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461499075,87281,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461499075,8608738,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461500076,86650,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461500076,9199511,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461501076,83208,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461501076,8920816,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461502078,84931,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461502078,9033746,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461503079,84184,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461503079,8881625,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461504079,85305,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461504079,9189609,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461505079,85341,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461505079,9342500,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461506080,81111,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461506080,8881894,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0
+1602461507080,74193,perfmon-agent CPU,,,,,true,,0,0,0,0,null,0,0,0
+1602461507080,9053707,perfmon-agent Memory used MB,,,,,true,,0,0,0,0,null,0,0,0

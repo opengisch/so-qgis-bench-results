@@ -1,0 +1,29 @@
+08:49:59 INFO: Starting new run 20201012-084959, using configuration "compare-orthofotos"
+08:49:59 INFO: using configuration file "conf/tests/compare-orthofotos.yml"
+08:49:59 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+08:49:59 INFO: Starting test-case: qgis218-stock ({'active': True, 'calculate-response-size': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_orthofoto': ['orthofotos_big.txt']}})
+08:49:59 INFO: Deploying qgis218-stock
+08:50:18 INFO: Probing http://localhost:8080/ows/somap218_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:50:19 INFO: Starting tests for compare-orthofotos qgis218-stock orthofotos_big.txt
+08:54:09 INFO: Done in 00h 03m 50s
+08:54:09 INFO: test-case qgis218-stock run completed in 00h 03m 50s
+
+
+08:54:09 INFO: Starting test-case: qgis310-stock ({'active': True, 'calculate-response-size': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_orthofoto': ['orthofotos_big.txt']}})
+08:54:09 INFO: Deploying qgis310-stock
+08:54:28 INFO: Probing http://localhost:8080/ogc/somap310_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:54:28 INFO: Starting tests for compare-orthofotos qgis310-stock orthofotos_big.txt
+09:07:49 INFO: Done in 00h 13m 20s
+09:07:49 INFO: test-case qgis310-stock run completed in 00h 13m 20s
+
+
+09:07:49 INFO: Starting test-case: qgis314-stock ({'active': True, 'calculate-response-size': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_orthofoto': ['orthofotos_big.txt']}})
+09:07:49 INFO: Deploying qgis314-stock
+09:08:08 INFO: Probing http://localhost:8080/ogc/somap314_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+09:08:08 INFO: Starting tests for compare-orthofotos qgis314-stock orthofotos_big.txt
+09:11:18 INFO: Done in 00h 03m 09s
+09:11:18 INFO: test-case qgis314-stock run completed in 00h 03m 09s
+
+
+09:11:18 INFO: Finished run: 20201012-084959
+09:11:18 INFO: Generating stats
