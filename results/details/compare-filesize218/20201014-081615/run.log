@@ -1,0 +1,12 @@
+08:16:15 INFO: Starting new run 20201014-081615, using configuration "compare-filesize218"
+08:16:15 INFO: using configuration file "conf/tests/compare-filesize218.yml"
+08:16:15 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+08:16:15 INFO: Starting test-case: qgis218-bigfile ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap218_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}})
+08:16:15 INFO: Deploying qgis218-bigfile
+08:16:22 WARNING: FAILED setting env up: <class 'subprocess.CalledProcessError'>
+08:16:22 INFO: Starting test-case: qgis218-smallfile ({'active': True, 'template': 'docker-compose-qgis-2', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap218_lk': ['lk.txt'], 'somap218_grundplanav_farbig': ['av_f.txt'], 'somap218_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis218-bigfile'})
+08:16:22 INFO: Deploying qgis218-smallfile
+08:16:42 INFO: Probing http://localhost:8080/ogc/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:17:44 WARNING: FAILED setting env up: <class 'requests.exceptions.RetryError'>
+08:17:44 INFO: Finished run: 20201014-081615
+08:17:44 INFO: Generating stats
