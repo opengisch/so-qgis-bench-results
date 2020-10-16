@@ -1,0 +1,29 @@
+08:18:17 INFO: Starting new run 20201016-081817, using configuration "compare-filesize218"
+08:18:17 INFO: using configuration file "conf/tests/compare-filesize218.yml"
+08:18:17 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+08:18:17 INFO: Starting test-case: qgis218-bigfile ({'active': True, 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'projects': {'somap218': ['lk_big.txt', 'av_f_big.txt', 'av_sw_big.txt']}})
+08:18:17 INFO: Deploying qgis218-bigfile
+08:18:36 INFO: Probing http://localhost:8080/ows/somap218?SERVICE=WMS&REQUEST=GetCapabilities
+08:19:10 INFO: Starting tests for compare-filesize218 qgis218-bigfile lk_big.txt
+08:22:00 INFO: Done in 00h 02m 49s
+08:22:00 INFO: Starting tests for compare-filesize218 qgis218-bigfile av_f_big.txt
+08:23:29 INFO: Done in 00h 01m 29s
+08:23:29 INFO: Starting tests for compare-filesize218 qgis218-bigfile av_sw_big.txt
+08:35:01 INFO: Done in 00h 11m 31s
+08:35:01 INFO: test-case qgis218-bigfile run completed in 00h 15m 50s
+
+
+08:35:01 INFO: Starting test-case: qgis218-smallfile ({'active': True, 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'projects': {'somap218_lk': ['lk_big.txt'], 'somap218_grundplanav_farbig': ['av_f_big.txt'], 'somap218_grundplanav_sw': ['av_sw_big.txt']}})
+08:35:01 INFO: Deploying qgis218-smallfile
+08:35:21 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:35:22 INFO: Starting tests for compare-filesize218 qgis218-smallfile lk_big.txt
+08:38:01 INFO: Done in 00h 02m 39s
+08:38:01 INFO: Starting tests for compare-filesize218 qgis218-smallfile av_f_big.txt
+08:39:21 INFO: Done in 00h 01m 19s
+08:39:21 INFO: Starting tests for compare-filesize218 qgis218-smallfile av_sw_big.txt
+08:48:18 INFO: Done in 00h 08m 57s
+08:48:18 INFO: test-case qgis218-smallfile run completed in 00h 12m 55s
+
+
+08:48:18 INFO: Finished run: 20201016-081817
+08:48:18 INFO: Generating stats

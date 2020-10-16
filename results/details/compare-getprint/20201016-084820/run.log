@@ -1,0 +1,7 @@
+08:48:20 INFO: Starting new run 20201016-084820, using configuration "compare-getprint"
+08:48:20 INFO: using configuration file "conf/tests/compare-getprint.yml"
+08:48:20 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+08:48:20 INFO: Starting test-case: qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218': ['getprint.txt']}})
+08:48:20 INFO: Deploying qgis218-stock
+08:48:40 INFO: Probing http://localhost:8080/ows/somap218?SERVICE=WMS&REQUEST=GetCapabilities
+08:49:14 INFO: Starting tests for compare-getprint qgis218-stock getprint.txt

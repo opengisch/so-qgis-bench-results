@@ -1,0 +1,110 @@
+{
+  "qgis218-stock": {
+    "somap218": {
+      "featureinfo.txt": {
+        "transaction": "Total",
+        "sampleCount": 347,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 289.20461095100876,
+        "medianResTime": 74.0,
+        "minResTime": 21.0,
+        "maxResTime": 6814.0,
+        "pct1ResTime": 534.5999999999999,
+        "pct2ResTime": 905.5999999999972,
+        "pct3ResTime": 4841.519999999999,
+        "throughput": 32.14153390144498,
+        "receivedKBytesPerSec": 2077.2248727827437,
+        "sentKBytesPerSec": 14.982853168997778,
+        "memMaxMB": 7792.2,
+        "memAvgMB": 6325.8,
+        "memMinMB": 3188.9,
+        "cpuMax%": 99.8,
+        "cpuAvg%": 84.6,
+        "cpuMin%": 12.7,
+        "dashboard": "results/details/compare-featureinfo/20201016-023622/qgis218-stock/somap218/featureinfo.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis310-stock": {
+    "somap310": {
+      "featureinfo.txt": {
+        "transaction": "Total",
+        "sampleCount": 347,
+        "errorCount": 347,
+        "errorPct": 100.0,
+        "meanResTime": 115414.57060518739,
+        "medianResTime": 120058.0,
+        "minResTime": 39077.0,
+        "maxResTime": 120118.0,
+        "pct1ResTime": 120080.2,
+        "pct2ResTime": 120083.0,
+        "pct3ResTime": 120088.04,
+        "throughput": 0.08501163948989096,
+        "receivedKBytesPerSec": 0.02789779368459065,
+        "sentKBytesPerSec": 0.03962837977920983,
+        "memMaxMB": 6446.6,
+        "memAvgMB": 6285.8,
+        "memMinMB": 3857.7,
+        "cpuMax%": 93.0,
+        "cpuAvg%": 73.2,
+        "cpuMin%": 13.8,
+        "dashboard": "results/details/compare-featureinfo/20201016-023622/qgis310-stock/somap310/featureinfo.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis314-stock": {
+    "somap314": {
+      "featureinfo.txt": {
+        "transaction": "Total",
+        "sampleCount": 347,
+        "errorCount": 347,
+        "errorPct": 100.0,
+        "meanResTime": 27982.90489913541,
+        "medianResTime": 1.0,
+        "minResTime": 0.0,
+        "maxResTime": 120123.0,
+        "pct1ResTime": 120064.0,
+        "pct2ResTime": 120090.4,
+        "pct3ResTime": 120118.56,
+        "throughput": 0.33811040132827697,
+        "receivedKBytesPerSec": 0.10777573536576336,
+        "sentKBytesPerSec": 0.15761097505631927,
+        "memMaxMB": 6643.7,
+        "memAvgMB": 6475.1,
+        "memMinMB": 3675.4,
+        "cpuMax%": 87.5,
+        "cpuAvg%": 71.2,
+        "cpuMin%": 31.2,
+        "dashboard": "results/details/compare-featureinfo/20201016-023622/qgis314-stock/somap314/featureinfo.txt/dashboard/index.html"
+      }
+    }
+  },
+  "qgis314-standalone": {
+    "somap314": {
+      "featureinfo.txt": {
+        "transaction": "Total",
+        "sampleCount": 347,
+        "errorCount": 347,
+        "errorPct": 100.0,
+        "meanResTime": 57750.88472622477,
+        "medianResTime": 36048.0,
+        "minResTime": 33276.0,
+        "maxResTime": 215566.0,
+        "pct1ResTime": 109921.19999999997,
+        "pct2ResTime": 141556.8,
+        "pct3ResTime": 204102.1999999997,
+        "throughput": 0.16676102040443633,
+        "receivedKBytesPerSec": 0.02687067223313671,
+        "sentKBytesPerSec": 0.0800159857198261,
+        "memMaxMB": 6551.1,
+        "memAvgMB": 6353.5,
+        "memMinMB": 3364.8,
+        "cpuMax%": 89.8,
+        "cpuAvg%": 69.7,
+        "cpuMin%": 11.3,
+        "dashboard": "results/details/compare-featureinfo/20201016-023622/qgis314-standalone/somap314/featureinfo.txt/dashboard/index.html"
+      }
+    }
+  }
+}

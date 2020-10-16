@@ -1,0 +1,29 @@
+23:43:28 INFO: Starting new run 20201015-234328, using configuration "compare-av-ohnelabel"
+23:43:28 INFO: using configuration file "conf/tests/compare-av-ohnelabel.yml"
+23:43:28 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+23:43:28 INFO: Starting test-case: qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_grundplanav_farbig_ohne_labels': ['av_f_big.txt']}})
+23:43:28 INFO: Deploying qgis218-stock
+23:43:47 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+23:43:49 INFO: Starting tests for compare-av-ohnelabel qgis218-stock av_f_big.txt
+23:44:33 INFO: Done in 00h 00m 43s
+23:44:33 INFO: test-case qgis218-stock run completed in 00h 00m 43s
+
+
+23:44:33 INFO: Starting test-case: qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_grundplanav_farbig_ohne_labels': ['av_f_big.txt']}})
+23:44:33 INFO: Deploying qgis310-stock
+23:44:52 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+23:44:54 INFO: Starting tests for compare-av-ohnelabel qgis310-stock av_f_big.txt
+23:46:01 INFO: Done in 00h 01m 06s
+23:46:01 INFO: test-case qgis310-stock run completed in 00h 01m 06s
+
+
+23:46:01 INFO: Starting test-case: qgis314-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_grundplanav_farbig_ohne_labels': ['av_f_big.txt']}})
+23:46:01 INFO: Deploying qgis314-stock
+23:46:20 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+23:46:22 INFO: Starting tests for compare-av-ohnelabel qgis314-stock av_f_big.txt
+23:47:31 INFO: Done in 00h 01m 09s
+23:47:31 INFO: test-case qgis314-stock run completed in 00h 01m 09s
+
+
+23:47:31 INFO: Finished run: 20201015-234328
+23:47:31 INFO: Generating stats
