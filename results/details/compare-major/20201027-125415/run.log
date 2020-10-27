@@ -1,0 +1,82 @@
+12:54:15 INFO: Starting new run 20201027-125415, using configuration "compare-major"
+12:54:15 INFO: using configuration file "conf/tests/compare-major.yml"
+12:54:15 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+12:54:15 INFO: Starting test-case: qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_lk': ['lk.txt'], 'somap218_grundplanav_farbig': ['av_f.txt'], 'somap218_grundplanav_sw': ['av_sw.txt']}})
+12:54:15 INFO: Deploying qgis218-stock
+12:54:34 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+12:54:35 INFO: Starting tests for compare-major qgis218-stock lk.txt
+12:54:43 INFO: Done in 00h 00m 08s
+12:54:43 INFO: Starting tests for compare-major qgis218-stock av_f.txt
+12:54:53 INFO: Done in 00h 00m 09s
+12:54:53 INFO: Starting tests for compare-major qgis218-stock av_sw.txt
+12:55:02 INFO: Done in 00h 00m 09s
+12:55:02 INFO: test-case qgis218-stock run completed in 00h 00m 27s
+
+
+12:55:02 INFO: Starting test-case: qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}})
+12:55:02 INFO: Deploying qgis310-stock
+12:55:22 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+12:55:23 INFO: Starting tests for compare-major qgis310-stock lk.txt
+12:55:30 INFO: Done in 00h 00m 06s
+12:55:30 INFO: Starting tests for compare-major qgis310-stock av_f.txt
+12:55:42 INFO: Done in 00h 00m 12s
+12:55:42 INFO: Starting tests for compare-major qgis310-stock av_sw.txt
+12:55:52 INFO: Done in 00h 00m 10s
+12:55:52 INFO: test-case qgis310-stock run completed in 00h 00m 29s
+
+
+12:55:52 INFO: Starting test-case: qgis314-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_lk': ['lk.txt'], 'somap314_grundplanav_farbig': ['av_f.txt'], 'somap314_grundplanav_sw': ['av_sw.txt']}})
+12:55:52 INFO: Deploying qgis314-stock
+12:56:12 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+12:56:13 INFO: Starting tests for compare-major qgis314-stock lk.txt
+12:56:20 INFO: Done in 00h 00m 06s
+12:56:20 INFO: Starting tests for compare-major qgis314-stock av_f.txt
+12:56:32 INFO: Done in 00h 00m 11s
+12:56:32 INFO: Starting tests for compare-major qgis314-stock av_sw.txt
+12:56:43 INFO: Done in 00h 00m 11s
+12:56:43 INFO: test-case qgis314-stock run completed in 00h 00m 30s
+
+
+12:56:43 INFO: Starting test-case: qgis316-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}})
+12:56:43 INFO: Deploying qgis316-stock
+12:57:02 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+12:57:03 INFO: Starting tests for compare-major qgis316-stock lk.txt
+12:57:10 INFO: Done in 00h 00m 06s
+12:57:10 INFO: Starting tests for compare-major qgis316-stock av_f.txt
+12:57:20 INFO: Done in 00h 00m 10s
+12:57:20 INFO: Starting tests for compare-major qgis316-stock av_sw.txt
+12:57:31 INFO: Done in 00h 00m 10s
+12:57:31 INFO: test-case qgis316-stock run completed in 00h 00m 28s
+
+
+12:57:31 INFO: Starting test-case: qgis314-standalone ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis314-stock', 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'projects': {'somap314_lk': ['lk.txt'], 'somap314_grundplanav_farbig': ['av_f.txt'], 'somap314_grundplanav_sw': ['av_sw.txt']}, 'use-map-param-path': '/io/data'})
+12:57:31 INFO: Deploying qgis314-standalone
+12:57:51 INFO: Probing http://localhost:8080/?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+12:57:52 INFO: Starting tests for compare-major qgis314-standalone lk.txt
+12:57:59 INFO: Done in 00h 00m 07s
+12:57:59 INFO: Starting tests for compare-major qgis314-standalone av_f.txt
+12:59:38 INFO: Done in 00h 01m 38s
+12:59:38 INFO: Starting tests for compare-major qgis314-standalone av_sw.txt
+13:01:17 INFO: Done in 00h 01m 38s
+13:01:17 INFO: test-case qgis314-standalone run completed in 00h 03m 24s
+
+
+13:01:17 INFO: Starting test-case: qgis316-standalone ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis314-standalone', 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'projects': {'somap314_lk': ['lk.txt'], 'somap314_grundplanav_farbig': ['av_f.txt'], 'somap314_grundplanav_sw': ['av_sw.txt']}, 'use-map-param-path': '/io/data'})
+13:01:17 INFO: Deploying qgis316-standalone
+13:01:36 INFO: Probing http://localhost:8080/?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+13:01:36 WARNING: Retrying (Retry(total=5, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff6517a430>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+13:01:38 WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff6517aeb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+13:01:42 WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff6517abb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+13:01:51 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff6517a970>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+13:02:07 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff6517af70>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+13:02:07 INFO: Starting tests for compare-major qgis316-standalone lk.txt
+13:02:14 INFO: Done in 00h 00m 06s
+13:02:14 INFO: Starting tests for compare-major qgis316-standalone av_f.txt
+13:04:03 INFO: Done in 00h 01m 49s
+13:04:04 INFO: Starting tests for compare-major qgis316-standalone av_sw.txt
+13:05:53 INFO: Done in 00h 01m 49s
+13:05:53 INFO: test-case qgis316-standalone run completed in 00h 03m 45s
+
+
+13:05:53 INFO: Finished run: 20201027-125415
+13:05:53 INFO: Generating stats
