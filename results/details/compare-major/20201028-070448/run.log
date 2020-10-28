@@ -1,0 +1,77 @@
+07:04:48 INFO: Starting new run 20201028-070448, using configuration "compare-major"
+07:04:48 INFO: using configuration file "conf/tests/compare-major.yml"
+07:04:48 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+07:04:48 INFO: Starting test-case: qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_lk': ['lk_big.txt'], 'somap218_grundplanav_farbig': ['av_f_big.txt'], 'somap218_grundplanav_sw': ['av_sw_big.txt']}})
+07:04:48 INFO: Deploying qgis218-stock
+07:05:08 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+07:05:09 INFO: Starting tests for compare-major qgis218-stock lk_big.txt
+07:07:38 INFO: Done in 00h 02m 28s
+07:07:38 INFO: Starting tests for compare-major qgis218-stock av_f_big.txt
+07:08:48 INFO: Done in 00h 01m 10s
+07:08:48 INFO: Starting tests for compare-major qgis218-stock av_sw_big.txt
+07:17:41 INFO: Done in 00h 08m 52s
+07:17:41 INFO: test-case qgis218-stock run completed in 00h 12m 31s
+
+
+07:17:41 INFO: Starting test-case: qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}})
+07:17:41 INFO: Deploying qgis310-stock
+07:18:00 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+07:18:01 INFO: Starting tests for compare-major qgis310-stock lk_big.txt
+07:21:23 INFO: Done in 00h 03m 21s
+07:21:23 INFO: Starting tests for compare-major qgis310-stock av_f_big.txt
+07:22:47 INFO: Done in 00h 01m 24s
+07:22:47 INFO: Starting tests for compare-major qgis310-stock av_sw_big.txt
+07:31:54 INFO: Done in 00h 09m 06s
+07:31:54 INFO: test-case qgis310-stock run completed in 00h 13m 52s
+
+
+07:31:54 INFO: Starting test-case: qgis314-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_lk': ['lk_big.txt'], 'somap314_grundplanav_farbig': ['av_f_big.txt'], 'somap314_grundplanav_sw': ['av_sw_big.txt']}})
+07:31:54 INFO: Deploying qgis314-stock
+07:32:13 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+07:32:14 INFO: Starting tests for compare-major qgis314-stock lk_big.txt
+07:35:37 INFO: Done in 00h 03m 23s
+07:35:37 INFO: Starting tests for compare-major qgis314-stock av_f_big.txt
+07:37:04 INFO: Done in 00h 01m 26s
+07:37:04 INFO: Starting tests for compare-major qgis314-stock av_sw_big.txt
+07:46:29 INFO: Done in 00h 09m 24s
+07:46:29 INFO: test-case qgis314-stock run completed in 00h 14m 14s
+
+
+07:46:29 INFO: Starting test-case: qgis316-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_lk': ['lk_big.txt'], 'somap316_grundplanav_farbig': ['av_f_big.txt'], 'somap316_grundplanav_sw': ['av_sw_big.txt']}})
+07:46:29 INFO: Deploying qgis316-stock
+07:46:49 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+07:46:50 INFO: Starting tests for compare-major qgis316-stock lk_big.txt
+07:49:39 INFO: Done in 00h 02m 49s
+07:49:39 INFO: Starting tests for compare-major qgis316-stock av_f_big.txt
+07:50:41 INFO: Done in 00h 01m 02s
+07:50:41 INFO: Starting tests for compare-major qgis316-stock av_sw_big.txt
+07:57:08 INFO: Done in 00h 06m 26s
+07:57:08 INFO: test-case qgis316-stock run completed in 00h 10m 18s
+
+
+07:57:08 INFO: Starting test-case: qgis314-standalone ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis314-stock', 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'projects': {'somap314_lk': ['lk_big.txt'], 'somap314_grundplanav_farbig': ['av_f_big.txt'], 'somap314_grundplanav_sw': ['av_sw_big.txt']}, 'use-map-param-path': '/io/data'})
+07:57:08 INFO: Deploying qgis314-standalone
+07:57:27 INFO: Probing http://localhost:8080/?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+07:57:28 INFO: Starting tests for compare-major qgis314-standalone lk_big.txt
+08:00:49 INFO: Done in 00h 03m 20s
+08:00:49 INFO: Starting tests for compare-major qgis314-standalone av_f_big.txt
+08:15:02 INFO: Done in 00h 14m 13s
+08:15:02 INFO: Starting tests for compare-major qgis314-standalone av_sw_big.txt
+09:08:18 INFO: Done in 00h 53m 15s
+09:08:18 INFO: test-case qgis314-standalone run completed in 01h 10m 50s
+
+
+09:08:18 INFO: Starting test-case: qgis316-standalone ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis314-standalone', 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'projects': {'somap314_lk': ['lk_big.txt'], 'somap314_grundplanav_farbig': ['av_f_big.txt'], 'somap314_grundplanav_sw': ['av_sw_big.txt']}, 'use-map-param-path': '/io/data'})
+09:08:18 INFO: Deploying qgis316-standalone
+09:08:38 INFO: Probing http://localhost:8080/?MAP=/io/data/somap314_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+09:08:40 INFO: Starting tests for compare-major qgis316-standalone lk_big.txt
+09:12:03 INFO: Done in 00h 03m 23s
+09:12:03 INFO: Starting tests for compare-major qgis316-standalone av_f_big.txt
+09:30:08 INFO: Done in 00h 18m 04s
+09:30:08 INFO: Starting tests for compare-major qgis316-standalone av_sw_big.txt
+10:27:26 INFO: Done in 00h 57m 17s
+10:27:26 INFO: test-case qgis316-standalone run completed in 01h 18m 46s
+
+
+10:27:26 INFO: Finished run: 20201028-070448
+10:27:26 INFO: Generating stats
