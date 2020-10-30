@@ -1,0 +1,29 @@
+09:25:05 INFO: Starting new run 20201030-092505, using configuration "compare-rulebased"
+09:25:05 INFO: using configuration file "conf/tests/compare-rulebased.yml"
+09:25:05 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+09:25:05 INFO: Starting test-case: compare-rulebased::qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_avbobe_farbig_rulebased': ['bodenbedeckung_big.txt']}})
+09:25:05 INFO: Deploying qgis218-stock
+09:25:25 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+09:25:25 INFO: Starting tests for compare-rulebased qgis218-stock bodenbedeckung_big.txt
+09:27:40 INFO: Done in 00h 02m 14s
+09:27:40 INFO: test-case compare-rulebased::qgis218-stock run completed in 00h 02m 14s
+
+
+09:27:40 INFO: Starting test-case: compare-rulebased::qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_avbobe_farbig_rulebased': ['bodenbedeckung_big.txt']}})
+09:27:40 INFO: Deploying qgis310-stock
+09:28:00 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+09:28:00 INFO: Starting tests for compare-rulebased qgis310-stock bodenbedeckung_big.txt
+09:31:13 INFO: Done in 00h 03m 13s
+09:31:13 INFO: test-case compare-rulebased::qgis310-stock run completed in 00h 03m 13s
+
+
+09:31:13 INFO: Starting test-case: compare-rulebased::qgis316-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_avbobe_farbig_rulebased': ['bodenbedeckung_big.txt']}})
+09:31:13 INFO: Deploying qgis316-stock
+09:31:33 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+09:31:34 INFO: Starting tests for compare-rulebased qgis316-stock bodenbedeckung_big.txt
+09:34:24 INFO: Done in 00h 02m 49s
+09:34:24 INFO: test-case compare-rulebased::qgis316-stock run completed in 00h 02m 49s
+
+
+09:34:24 INFO: Generating stats
+09:34:24 INFO: Finished run: compare-rulebased 20201030-092505 in 00h 09m 18s

@@ -1,0 +1,53 @@
+23:11:02 INFO: Starting new run 20201029-231102, using configuration "compare-deployment-sequential"
+23:11:02 INFO: using configuration file "conf/tests/compare-deployment-sequential.yml"
+23:11:02 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+23:11:02 INFO: Starting test-case: compare-deployment-sequential::qgis310-singlethread-multiinstance ({'active': True, 'parallel-requests': 1, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}})
+23:11:02 INFO: Deploying qgis310-singlethread-multiinstance
+23:11:22 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:11:23 INFO: Starting tests for compare-deployment-sequential qgis310-singlethread-multiinstance lk.txt
+23:11:32 INFO: Done in 00h 00m 09s
+23:11:32 INFO: Starting tests for compare-deployment-sequential qgis310-singlethread-multiinstance av_f_big.txt
+23:20:26 INFO: Done in 00h 08m 53s
+23:20:26 INFO: Starting tests for compare-deployment-sequential qgis310-singlethread-multiinstance av_sw.txt
+23:20:47 INFO: Done in 00h 00m 21s
+23:20:48 INFO: test-case compare-deployment-sequential::qgis310-singlethread-multiinstance run completed in 00h 09m 24s
+
+
+23:20:48 INFO: Starting test-case: compare-deployment-sequential::qgis310-multithread-singleinstance ({'active': True, 'parallel-requests': 1, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-singlethread-multiinstance'})
+23:20:48 INFO: Deploying qgis310-multithread-singleinstance
+23:21:06 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:21:07 INFO: Starting tests for compare-deployment-sequential qgis310-multithread-singleinstance lk.txt
+23:21:15 INFO: Done in 00h 00m 08s
+23:21:15 INFO: Starting tests for compare-deployment-sequential qgis310-multithread-singleinstance av_f_big.txt
+23:27:07 INFO: Done in 00h 05m 51s
+23:27:07 INFO: Starting tests for compare-deployment-sequential qgis310-multithread-singleinstance av_sw.txt
+23:27:25 INFO: Done in 00h 00m 18s
+23:27:25 INFO: test-case compare-deployment-sequential::qgis310-multithread-singleinstance run completed in 00h 06m 18s
+
+
+23:27:25 INFO: Starting test-case: compare-deployment-sequential::qgis310-balanced ({'active': True, 'parallel-requests': 1, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '3', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '2', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-singlethread-multiinstance'})
+23:27:25 INFO: Deploying qgis310-balanced
+23:27:45 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:27:46 INFO: Starting tests for compare-deployment-sequential qgis310-balanced lk.txt
+23:27:54 INFO: Done in 00h 00m 08s
+23:27:54 INFO: Starting tests for compare-deployment-sequential qgis310-balanced av_f_big.txt
+23:34:58 INFO: Done in 00h 07m 03s
+23:34:58 INFO: Starting tests for compare-deployment-sequential qgis310-balanced av_sw.txt
+23:35:17 INFO: Done in 00h 00m 19s
+23:35:17 INFO: test-case compare-deployment-sequential::qgis310-balanced run completed in 00h 07m 31s
+
+
+23:35:17 INFO: Starting test-case: compare-deployment-sequential::qgis310-unlimited-threads ({'active': True, 'parallel-requests': 1, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '3', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '-1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-balanced'})
+23:35:17 INFO: Deploying qgis310-unlimited-threads
+23:35:36 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:35:37 INFO: Starting tests for compare-deployment-sequential qgis310-unlimited-threads lk.txt
+23:35:46 INFO: Done in 00h 00m 08s
+23:35:46 INFO: Starting tests for compare-deployment-sequential qgis310-unlimited-threads av_f_big.txt
+23:41:35 INFO: Done in 00h 05m 49s
+23:41:35 INFO: Starting tests for compare-deployment-sequential qgis310-unlimited-threads av_sw.txt
+23:41:53 INFO: Done in 00h 00m 18s
+23:41:53 INFO: test-case compare-deployment-sequential::qgis310-unlimited-threads run completed in 00h 06m 15s
+
+
+23:41:53 INFO: Generating stats
+23:41:53 INFO: Finished run: compare-deployment-sequential 20201029-231102 in 00h 30m 51s
