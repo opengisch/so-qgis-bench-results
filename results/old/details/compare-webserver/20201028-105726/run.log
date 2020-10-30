@@ -1,0 +1,41 @@
+10:57:26 INFO: Starting new run 20201028-105726, using configuration "compare-webserver"
+10:57:26 INFO: using configuration file "conf/tests/compare-webserver.yml"
+10:57:26 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+10:57:26 INFO: Starting test-case: qgis310-nginx ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}})
+10:57:26 INFO: Deploying qgis310-nginx
+10:57:45 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+10:57:46 INFO: Starting tests for compare-webserver qgis310-nginx lk.txt
+10:57:54 INFO: Done in 00h 00m 07s
+10:57:54 INFO: Starting tests for compare-webserver qgis310-nginx av_f.txt
+10:58:11 INFO: Done in 00h 00m 16s
+10:58:11 INFO: Starting tests for compare-webserver qgis310-nginx av_sw.txt
+10:58:26 INFO: Done in 00h 00m 15s
+10:58:27 INFO: test-case qgis310-nginx run completed in 00h 00m 40s
+
+
+10:58:27 INFO: Starting test-case: qgis310-apache ({'active': True, 'template': 'docker-compose-proxy-qgis-3-apache', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-nginx'})
+10:58:27 INFO: Deploying qgis310-apache
+10:58:48 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+10:58:49 INFO: Starting tests for compare-webserver qgis310-apache lk.txt
+10:58:57 INFO: Done in 00h 00m 08s
+10:58:57 INFO: Starting tests for compare-webserver qgis310-apache av_f.txt
+10:59:14 INFO: Done in 00h 00m 17s
+10:59:14 INFO: Starting tests for compare-webserver qgis310-apache av_sw.txt
+10:59:31 INFO: Done in 00h 00m 16s
+10:59:31 INFO: test-case qgis310-apache run completed in 00h 00m 41s
+
+
+10:59:31 INFO: Starting test-case: qgis310-caddy ({'active': True, 'template': 'docker-compose-proxy-qgis-3-caddy', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-nginx'})
+10:59:31 INFO: Deploying qgis310-caddy
+10:59:53 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:53 INFO: Starting tests for compare-webserver qgis310-caddy lk.txt
+11:00:01 INFO: Done in 00h 00m 08s
+11:00:01 INFO: Starting tests for compare-webserver qgis310-caddy av_f.txt
+11:00:18 INFO: Done in 00h 00m 17s
+11:00:18 INFO: Starting tests for compare-webserver qgis310-caddy av_sw.txt
+11:00:34 INFO: Done in 00h 00m 15s
+11:00:34 INFO: test-case qgis310-caddy run completed in 00h 00m 41s
+
+
+11:00:34 INFO: Finished run: 20201028-105726
+11:00:34 INFO: Generating stats

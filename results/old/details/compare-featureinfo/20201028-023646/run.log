@@ -1,0 +1,55 @@
+02:36:46 INFO: Starting new run 20201028-023646, using configuration "compare-featureinfo"
+02:36:46 INFO: using configuration file "conf/tests/compare-featureinfo.yml"
+02:36:46 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+02:36:46 INFO: Starting test-case: qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_lk': ['featureinfo_lk.txt'], 'somap218_grundplanav_farbig': ['featureinfo_av.txt']}})
+02:36:46 INFO: Deploying qgis218
+02:37:05 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:37:06 INFO: Starting tests for compare-featureinfo qgis218 featureinfo_lk.txt
+02:37:16 INFO: Done in 00h 00m 09s
+02:37:16 INFO: Starting tests for compare-featureinfo qgis218 featureinfo_av.txt
+02:37:22 INFO: Done in 00h 00m 06s
+02:37:22 INFO: test-case qgis218 run completed in 00h 00m 15s
+
+
+02:37:22 INFO: Starting test-case: qgis310 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_lk': ['featureinfo_lk.txt'], 'somap310_grundplanav_farbig': ['featureinfo_av.txt']}})
+02:37:22 INFO: Deploying qgis310
+02:37:42 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:37:42 INFO: Starting tests for compare-featureinfo qgis310 featureinfo_lk.txt
+02:37:58 INFO: Done in 00h 00m 15s
+02:37:58 INFO: Starting tests for compare-featureinfo qgis310 featureinfo_av.txt
+02:38:04 INFO: Done in 00h 00m 06s
+02:38:04 INFO: test-case qgis310 run completed in 00h 00m 21s
+
+
+02:38:04 INFO: Starting test-case: qgis314 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_lk': ['featureinfo_lk.txt'], 'somap314_grundplanav_farbig': ['featureinfo_av.txt']}})
+02:38:04 INFO: Deploying qgis314
+02:38:24 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:38:24 INFO: Starting tests for compare-featureinfo qgis314 featureinfo_lk.txt
+02:38:41 INFO: Done in 00h 00m 16s
+02:38:41 INFO: Starting tests for compare-featureinfo qgis314 featureinfo_av.txt
+02:38:47 INFO: Done in 00h 00m 06s
+02:38:47 INFO: test-case qgis314 run completed in 00h 00m 23s
+
+
+02:38:47 INFO: Starting test-case: qgis316 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_lk': ['featureinfo_lk.txt'], 'somap316_grundplanav_farbig': ['featureinfo_av.txt']}})
+02:38:47 INFO: Deploying qgis316
+02:39:07 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:39:07 INFO: Starting tests for compare-featureinfo qgis316 featureinfo_lk.txt
+02:39:16 INFO: Done in 00h 00m 08s
+02:39:16 INFO: Starting tests for compare-featureinfo qgis316 featureinfo_av.txt
+02:39:22 INFO: Done in 00h 00m 06s
+02:39:22 INFO: test-case qgis316 run completed in 00h 00m 14s
+
+
+02:39:22 INFO: Starting test-case: qgis316-standalone ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis316', 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'projects': {'somap316_lk': ['featureinfo_lk.txt'], 'somap316_grundplanav_farbig': ['featureinfo_av.txt']}, 'use-map-param-path': '/io/data'})
+02:39:22 INFO: Deploying qgis316-standalone
+02:39:42 INFO: Probing http://localhost:8080/?MAP=/io/data/somap316_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+02:39:42 INFO: Starting tests for compare-featureinfo qgis316-standalone featureinfo_lk.txt
+02:39:50 INFO: Done in 00h 00m 07s
+02:39:50 INFO: Starting tests for compare-featureinfo qgis316-standalone featureinfo_av.txt
+02:39:57 INFO: Done in 00h 00m 06s
+02:39:57 INFO: test-case qgis316-standalone run completed in 00h 00m 14s
+
+
+02:39:57 INFO: Finished run: 20201028-023646
+02:39:57 INFO: Generating stats

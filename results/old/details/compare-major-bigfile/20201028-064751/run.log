@@ -1,0 +1,53 @@
+06:47:51 INFO: Starting new run 20201028-064751, using configuration "compare-major-bigfile"
+06:47:51 INFO: using configuration file "conf/tests/compare-major-bigfile.yml"
+06:47:51 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+06:47:52 INFO: Starting test-case: qgis218 ({'active': True, 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap218_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}})
+06:47:52 INFO: Deploying qgis218
+06:48:11 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+06:48:40 INFO: Starting tests for compare-major-bigfile qgis218 lk.txt
+06:48:56 INFO: Done in 00h 00m 15s
+06:48:56 INFO: Starting tests for compare-major-bigfile qgis218 av_f.txt
+06:49:03 INFO: Done in 00h 00m 07s
+06:49:03 INFO: Starting tests for compare-major-bigfile qgis218 av_sw.txt
+06:49:10 INFO: Done in 00h 00m 07s
+06:49:11 INFO: test-case qgis218 run completed in 00h 00m 30s
+
+
+06:49:11 INFO: Starting test-case: qgis310 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}, 'inherit': 'qgis218'})
+06:49:11 INFO: Deploying qgis310
+06:49:30 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+06:50:41 INFO: Starting tests for compare-major-bigfile qgis310 lk.txt
+06:51:38 INFO: Done in 00h 00m 57s
+06:51:38 INFO: Starting tests for compare-major-bigfile qgis310 av_f.txt
+06:52:51 INFO: Done in 00h 01m 13s
+06:52:51 INFO: Starting tests for compare-major-bigfile qgis310 av_sw.txt
+06:53:50 INFO: Done in 00h 00m 58s
+06:53:50 INFO: test-case qgis310 run completed in 00h 03m 09s
+
+
+06:53:50 INFO: Starting test-case: qgis314 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1'}, 'projects': {'somap314_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}, 'inherit': 'qgis310'})
+06:53:50 INFO: Deploying qgis314
+06:54:12 INFO: Probing http://localhost:8080/ogc/somap314_fix?SERVICE=WMS&REQUEST=GetCapabilities
+06:55:16 INFO: Starting tests for compare-major-bigfile qgis314 lk.txt
+06:56:33 INFO: Done in 00h 01m 17s
+06:56:33 INFO: Starting tests for compare-major-bigfile qgis314 av_f.txt
+06:58:34 INFO: Done in 00h 02m 00s
+06:58:34 INFO: Starting tests for compare-major-bigfile qgis314 av_sw.txt
+06:58:53 INFO: Done in 00h 00m 18s
+06:58:53 INFO: test-case qgis314 run completed in 00h 03m 36s
+
+
+06:58:53 INFO: Starting test-case: qgis316 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1'}, 'projects': {'somap316_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}, 'inherit': 'qgis310'})
+06:58:53 INFO: Deploying qgis316
+06:59:12 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+07:00:18 INFO: Starting tests for compare-major-bigfile qgis316 lk.txt
+07:00:26 INFO: Done in 00h 00m 08s
+07:00:26 INFO: Starting tests for compare-major-bigfile qgis316 av_f.txt
+07:01:39 INFO: Done in 00h 01m 12s
+07:01:39 INFO: Starting tests for compare-major-bigfile qgis316 av_sw.txt
+07:02:27 INFO: Done in 00h 00m 48s
+07:02:27 INFO: test-case qgis316 run completed in 00h 02m 09s
+
+
+07:02:27 INFO: Finished run: 20201028-064751
+07:02:27 INFO: Generating stats
