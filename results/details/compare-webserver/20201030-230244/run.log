@@ -1,0 +1,51 @@
+23:02:44 INFO: Starting new run 20201030-230244, using configuration "compare-webserver"
+23:02:44 INFO: using configuration file "conf/tests/compare-webserver.yml"
+23:02:44 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+23:02:44 INFO: Starting test-case: compare-webserver::qgis310-nginx ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}})
+23:02:44 INFO: Deploying qgis310-nginx
+23:03:04 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:03:05 INFO: Starting tests for compare-webserver qgis310-nginx lk.txt
+23:03:12 INFO: Done in 00h 00m 07s
+23:03:12 INFO: Starting tests for compare-webserver qgis310-nginx av_f.txt
+23:03:29 INFO: Done in 00h 00m 16s
+23:03:29 INFO: Starting tests for compare-webserver qgis310-nginx av_sw.txt
+23:03:44 INFO: Done in 00h 00m 15s
+23:03:44 INFO: test-case compare-webserver::qgis310-nginx run completed in 00h 00m 39s
+
+
+23:03:44 INFO: Starting test-case: compare-webserver::qgis310-apache ({'active': True, 'template': 'docker-compose-proxy-qgis-3-apache', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-nginx'})
+23:03:44 INFO: Deploying qgis310-apache
+23:04:05 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:04:06 INFO: Starting tests for compare-webserver qgis310-apache lk.txt
+23:04:14 INFO: Done in 00h 00m 07s
+23:04:14 INFO: Starting tests for compare-webserver qgis310-apache av_f.txt
+23:04:30 INFO: Done in 00h 00m 16s
+23:04:30 INFO: Starting tests for compare-webserver qgis310-apache av_sw.txt
+23:04:47 INFO: Done in 00h 00m 16s
+23:04:47 INFO: test-case compare-webserver::qgis310-apache run completed in 00h 00m 41s
+
+
+23:04:47 INFO: Starting test-case: compare-webserver::qgis310-caddy ({'active': True, 'template': 'docker-compose-proxy-qgis-3-caddy', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-nginx'})
+23:04:47 INFO: Deploying qgis310-caddy
+23:05:09 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:05:09 INFO: Starting tests for compare-webserver qgis310-caddy lk.txt
+23:05:17 INFO: Done in 00h 00m 07s
+23:05:17 INFO: Starting tests for compare-webserver qgis310-caddy av_f.txt
+23:05:33 INFO: Done in 00h 00m 15s
+23:05:33 INFO: Starting tests for compare-webserver qgis310-caddy av_sw.txt
+23:05:48 INFO: Done in 00h 00m 15s
+23:05:48 INFO: test-case compare-webserver::qgis310-caddy run completed in 00h 00m 39s
+
+
+23:05:48 INFO: Starting test-case: compare-webserver::qgis310-standalone ({'active': True, 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-nginx', 'use-map-param-path': '/io/data'})
+23:05:48 INFO: Deploying qgis310-standalone
+23:06:07 INFO: Probing http://localhost:8080/?MAP=/io/data/somap310_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+23:06:07 WARNING: Retrying (Retry(total=5, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feb03c2dca0>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap310_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+23:06:09 WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feb03c2d400>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap310_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+23:06:13 WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feb03c2d790>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap310_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+23:06:21 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feb03c2dfa0>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap310_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+23:06:37 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feb03c2d310>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap310_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+23:07:09 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feb03c2d340>: Failed to establish a new connection: [Errno 111] Connection refused')': /?MAP=/io/data/somap310_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+23:07:09 ERROR: Failed setting env up: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /?MAP=/io/data/somap310_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feb03c2d520>: Failed to establish a new connection: [Errno 111] Connection refused'))
+23:07:09 INFO: Generating stats
+23:07:09 INFO: Finished run: compare-webserver 20201030-230244 in 00h 04m 24s
