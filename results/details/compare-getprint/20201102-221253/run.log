@@ -1,0 +1,29 @@
+22:12:53 INFO: Starting new run 20201102-221253, using configuration "compare-getprint"
+22:12:53 INFO: using configuration file "conf/tests/compare-getprint.yml"
+22:12:53 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+22:12:53 INFO: Starting test-case: compare-getprint::qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'QGIS_SERVER_IGNORE_BAD_LAYERS': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fix_print': ['getprint.txt']}})
+22:12:53 INFO: Deploying qgis218
+22:13:13 INFO: Probing http://localhost:8080/ows/somap218_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+22:14:44 INFO: Starting tests for compare-getprint qgis218 getprint.txt
+22:16:16 INFO: Done in 00h 01m 32s
+22:16:16 INFO: test-case compare-getprint::qgis218 run completed in 00h 01m 32s
+
+
+22:16:16 INFO: Starting test-case: compare-getprint::qgis310 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'QGIS_SERVER_IGNORE_BAD_LAYERS': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_fix_print': ['getprint.txt']}})
+22:16:16 INFO: Deploying qgis310
+22:16:37 INFO: Probing http://localhost:8080/ogc/somap310_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+22:17:45 INFO: Starting tests for compare-getprint qgis310 getprint.txt
+22:19:00 INFO: Done in 00h 01m 14s
+22:19:00 INFO: test-case compare-getprint::qgis310 run completed in 00h 01m 14s
+
+
+22:19:00 INFO: Starting test-case: compare-getprint::qgis316 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'QGIS_SERVER_IGNORE_BAD_LAYERS': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_fix_print': ['getprint.txt']}})
+22:19:00 INFO: Deploying qgis316
+22:19:20 INFO: Probing http://localhost:8080/ogc/somap316_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+22:20:23 INFO: Starting tests for compare-getprint qgis316 getprint.txt
+22:21:02 INFO: Done in 00h 00m 39s
+22:21:02 INFO: test-case compare-getprint::qgis316 run completed in 00h 00m 39s
+
+
+22:21:02 INFO: Generating stats
+22:21:02 INFO: Finished run: compare-getprint 20201102-221253 in 00h 08m 09s
