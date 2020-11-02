@@ -1,0 +1,89 @@
+14:23:17 INFO: Starting new run 20201101-142317, using configuration "compare-bigfile-settings"
+14:23:17 INFO: using configuration file "conf/tests/compare-bigfile-settings.yml"
+14:23:17 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+14:23:17 INFO: Starting test-case: compare-bigfile-settings::qgis310-bigfile ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '8', 'QGIS_MAX_CACHE_LAYERS': '100', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f_big.txt', 'av_sw.txt']}})
+14:23:17 INFO: Deploying qgis310-bigfile
+14:23:37 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+14:24:49 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile lk.txt
+14:25:46 INFO: Done in 00h 00m 56s
+14:25:46 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile av_f_big.txt
+14:58:31 INFO: Done in 00h 32m 45s
+14:58:31 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile av_sw.txt
+14:59:26 INFO: Done in 00h 00m 55s
+14:59:26 INFO: test-case compare-bigfile-settings::qgis310-bigfile run completed in 00h 34m 37s
+
+
+14:59:26 INFO: Starting test-case: compare-bigfile-settings::qgis310-bigfile-bigcache ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '8', 'QGIS_MAX_CACHE_LAYERS': '100', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_CACHE_SIZE': '200'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f_big.txt', 'av_sw.txt']}, 'inherit': 'qgis310-bigfile'})
+14:59:26 INFO: Deploying qgis310-bigfile-bigcache
+14:59:46 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+15:00:58 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-bigcache lk.txt
+15:01:54 INFO: Done in 00h 00m 56s
+15:01:54 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-bigcache av_f_big.txt
+15:34:26 INFO: Done in 00h 32m 31s
+15:34:26 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-bigcache av_sw.txt
+15:35:21 INFO: Done in 00h 00m 55s
+15:35:21 INFO: test-case compare-bigfile-settings::qgis310-bigfile-bigcache run completed in 00h 34m 23s
+
+
+15:35:21 INFO: Starting test-case: compare-bigfile-settings::qgis310-bigfile-hugecache ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '8', 'QGIS_MAX_CACHE_LAYERS': '100', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_CACHE_SIZE': '1000'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f_big.txt', 'av_sw.txt']}, 'inherit': 'qgis310-bigfile'})
+15:35:21 INFO: Deploying qgis310-bigfile-hugecache
+15:35:41 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+15:36:52 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-hugecache lk.txt
+15:37:48 INFO: Done in 00h 00m 56s
+15:37:48 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-hugecache av_f_big.txt
+16:10:24 INFO: Done in 00h 32m 35s
+16:10:24 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-hugecache av_sw.txt
+16:11:19 INFO: Done in 00h 00m 55s
+16:11:19 INFO: test-case compare-bigfile-settings::qgis310-bigfile-hugecache run completed in 00h 34m 27s
+
+
+16:11:19 INFO: Starting test-case: compare-bigfile-settings::qgis310-bigfile-maxlayer2000 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '8', 'QGIS_MAX_CACHE_LAYERS': '2000', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f_big.txt', 'av_sw.txt']}, 'inherit': 'qgis310-bigfile'})
+16:11:19 INFO: Deploying qgis310-bigfile-maxlayer2000
+16:11:39 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+16:12:51 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-maxlayer2000 lk.txt
+16:13:47 INFO: Done in 00h 00m 56s
+16:13:47 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-maxlayer2000 av_f_big.txt
+16:46:18 INFO: Done in 00h 32m 31s
+16:46:18 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-maxlayer2000 av_sw.txt
+16:47:14 INFO: Done in 00h 00m 56s
+16:47:14 INFO: test-case compare-bigfile-settings::qgis310-bigfile-maxlayer2000 run completed in 00h 34m 23s
+
+
+16:47:14 INFO: Starting test-case: compare-bigfile-settings::qgis310-bigfile-bigcache-maxlayer2000 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '8', 'QGIS_MAX_CACHE_LAYERS': '2000', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_CACHE_SIZE': '200'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f_big.txt', 'av_sw.txt']}, 'inherit': 'qgis310-bigfile'})
+16:47:14 INFO: Deploying qgis310-bigfile-bigcache-maxlayer2000
+16:47:34 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+16:48:44 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-bigcache-maxlayer2000 lk.txt
+16:49:40 INFO: Done in 00h 00m 55s
+16:49:40 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-bigcache-maxlayer2000 av_f_big.txt
+17:22:07 INFO: Done in 00h 32m 26s
+17:22:07 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-bigcache-maxlayer2000 av_sw.txt
+17:23:02 INFO: Done in 00h 00m 55s
+17:23:02 INFO: test-case compare-bigfile-settings::qgis310-bigfile-bigcache-maxlayer2000 run completed in 00h 34m 17s
+
+
+17:23:02 INFO: Starting test-case: compare-bigfile-settings::qgis310-bigfile-hugecache-maxlayer2000 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '8', 'QGIS_MAX_CACHE_LAYERS': '2000', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_CACHE_SIZE': '1000'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f_big.txt', 'av_sw.txt']}, 'inherit': 'qgis310-bigfile'})
+17:23:02 INFO: Deploying qgis310-bigfile-hugecache-maxlayer2000
+17:23:22 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+17:24:33 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-hugecache-maxlayer2000 lk.txt
+17:25:29 INFO: Done in 00h 00m 56s
+17:25:29 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-hugecache-maxlayer2000 av_f_big.txt
+17:58:00 INFO: Done in 00h 32m 31s
+17:58:00 INFO: Starting tests for compare-bigfile-settings qgis310-bigfile-hugecache-maxlayer2000 av_sw.txt
+17:58:55 INFO: Done in 00h 00m 54s
+17:58:55 INFO: test-case compare-bigfile-settings::qgis310-bigfile-hugecache-maxlayer2000 run completed in 00h 34m 21s
+
+
+17:58:55 INFO: Starting test-case: compare-bigfile-settings::qgis310-smallfile ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '8', 'QGIS_MAX_CACHE_LAYERS': '100', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-bigfile'})
+17:58:55 INFO: Deploying qgis310-smallfile
+17:59:18 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+17:59:19 INFO: Starting tests for compare-bigfile-settings qgis310-smallfile lk.txt
+17:59:27 INFO: Done in 00h 00m 08s
+17:59:27 INFO: Starting tests for compare-bigfile-settings qgis310-smallfile av_f_big.txt
+18:05:10 INFO: Done in 00h 05m 42s
+18:05:10 INFO: Starting tests for compare-bigfile-settings qgis310-smallfile av_sw.txt
+18:05:28 INFO: Done in 00h 00m 18s
+18:05:28 INFO: test-case compare-bigfile-settings::qgis310-smallfile run completed in 00h 06m 09s
+
+
+18:05:28 INFO: Generating stats
+18:05:29 INFO: Finished run: compare-bigfile-settings 20201101-142317 in 03h 42m 11s

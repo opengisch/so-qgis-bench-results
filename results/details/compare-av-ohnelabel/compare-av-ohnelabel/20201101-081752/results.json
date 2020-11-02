@@ -1,0 +1,86 @@
+{
+  "qgis218-stock": {
+    "somap218_grundplanav_farbig_ohne_labels": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 527.027210884353,
+        "medianResTime": 479.0,
+        "minResTime": 177.0,
+        "maxResTime": 3064.0,
+        "pct1ResTime": 752.9999999999999,
+        "pct2ResTime": 946.1999999999996,
+        "pct3ResTime": 1556.04,
+        "throughput": 18.670460029974343,
+        "receivedKBytesPerSec": 3027.4697428604545,
+        "sentKBytesPerSec": 8.439264247339143,
+        "memMaxMB": 6082.5,
+        "memAvgMB": 5681.0,
+        "memMinMB": 4800.7,
+        "cpuMax%": 98.7,
+        "cpuAvg%": 95.6,
+        "cpuMin%": 41.0,
+        "dashboard": "results/details/compare-av-ohnelabel/20201101-081752/qgis218-stock/somap218_grundplanav_farbig_ohne_labels/av_f_big.txt/dashboard/index.html",
+        "effective duration": 44.8
+      }
+    }
+  },
+  "qgis310-stock": {
+    "somap310_grundplanav_farbig_ohne_labels": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 831.9673469387769,
+        "medianResTime": 823.0,
+        "minResTime": 138.0,
+        "maxResTime": 3211.0,
+        "pct1ResTime": 1251.1999999999998,
+        "pct2ResTime": 1368.1999999999985,
+        "pct3ResTime": 2276.7999999999993,
+        "throughput": 11.847195357833657,
+        "receivedKBytesPerSec": 1640.4466089166265,
+        "sentKBytesPerSec": 5.355069561976144,
+        "memMaxMB": 6345.0,
+        "memAvgMB": 5706.2,
+        "memMinMB": 5114.2,
+        "cpuMax%": 93.2,
+        "cpuAvg%": 74.5,
+        "cpuMin%": 54.2,
+        "dashboard": "results/details/compare-av-ohnelabel/20201101-081752/qgis310-stock/somap310_grundplanav_farbig_ohne_labels/av_f_big.txt/dashboard/index.html",
+        "effective duration": 67.5
+      }
+    }
+  },
+  "qgis316-stock": {
+    "somap316_grundplanav_farbig_ohne_labels": {
+      "av_f_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 735,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 653.0857142857151,
+        "medianResTime": 632.0,
+        "minResTime": 6.0,
+        "maxResTime": 2778.0,
+        "pct1ResTime": 1034.8,
+        "pct2ResTime": 1174.0,
+        "pct3ResTime": 1968.319999999997,
+        "throughput": 15.0104153902708,
+        "receivedKBytesPerSec": 2078.209102521392,
+        "sentKBytesPerSec": 6.784881665339215,
+        "memMaxMB": 6436.6,
+        "memAvgMB": 5848.9,
+        "memMinMB": 5198.1,
+        "cpuMax%": 95.7,
+        "cpuAvg%": 71.6,
+        "cpuMin%": 50.5,
+        "dashboard": "results/details/compare-av-ohnelabel/20201101-081752/qgis316-stock/somap316_grundplanav_farbig_ohne_labels/av_f_big.txt/dashboard/index.html",
+        "effective duration": 54.7
+      }
+    }
+  }
+}

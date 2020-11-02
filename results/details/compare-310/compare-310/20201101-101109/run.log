@@ -1,0 +1,77 @@
+10:11:09 INFO: Starting new run 20201101-101109, using configuration "compare-310"
+10:11:09 INFO: using configuration file "conf/tests/compare-310.yml"
+10:11:09 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+10:11:09 INFO: Starting test-case: compare-310::qgis310-stock ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}})
+10:11:09 INFO: Deploying qgis310-stock
+10:11:29 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+10:11:29 INFO: Starting tests for compare-310 qgis310-stock lk_big.txt
+10:14:29 INFO: Done in 00h 02m 59s
+10:14:29 INFO: Starting tests for compare-310 qgis310-stock av_f_big.txt
+10:15:40 INFO: Done in 00h 01m 11s
+10:15:41 INFO: Starting tests for compare-310 qgis310-stock av_sw_big.txt
+10:23:32 INFO: Done in 00h 07m 51s
+10:23:32 INFO: test-case compare-310::qgis310-stock run completed in 00h 12m 02s
+
+
+10:23:32 INFO: Starting test-case: compare-310::qgis310-maxcache20 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '20', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+10:23:32 INFO: Deploying qgis310-maxcache20
+10:23:52 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+10:23:53 INFO: Starting tests for compare-310 qgis310-maxcache20 lk_big.txt
+10:26:52 INFO: Done in 00h 02m 59s
+10:26:52 INFO: Starting tests for compare-310 qgis310-maxcache20 av_f_big.txt
+10:28:04 INFO: Done in 00h 01m 12s
+10:28:04 INFO: Starting tests for compare-310 qgis310-maxcache20 av_sw_big.txt
+10:35:56 INFO: Done in 00h 07m 51s
+10:35:56 INFO: test-case compare-310::qgis310-maxcache20 run completed in 00h 12m 03s
+
+
+10:35:56 INFO: Starting test-case: compare-310::qgis310-maxcache200 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '200', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+10:35:56 INFO: Deploying qgis310-maxcache200
+10:36:16 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+10:36:17 INFO: Starting tests for compare-310 qgis310-maxcache200 lk_big.txt
+10:39:17 INFO: Done in 00h 02m 59s
+10:39:17 INFO: Starting tests for compare-310 qgis310-maxcache200 av_f_big.txt
+10:40:30 INFO: Done in 00h 01m 12s
+10:40:30 INFO: Starting tests for compare-310 qgis310-maxcache200 av_sw_big.txt
+10:48:25 INFO: Done in 00h 07m 55s
+10:48:25 INFO: test-case compare-310::qgis310-maxcache200 run completed in 00h 12m 07s
+
+
+10:48:25 INFO: Starting test-case: compare-310::qgis310-cachesize20 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '20', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+10:48:25 INFO: Deploying qgis310-cachesize20
+10:48:44 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+10:48:45 INFO: Starting tests for compare-310 qgis310-cachesize20 lk_big.txt
+10:51:43 INFO: Done in 00h 02m 58s
+10:51:43 INFO: Starting tests for compare-310 qgis310-cachesize20 av_f_big.txt
+10:52:55 INFO: Done in 00h 01m 12s
+10:52:55 INFO: Starting tests for compare-310 qgis310-cachesize20 av_sw_big.txt
+11:00:49 INFO: Done in 00h 07m 54s
+11:00:49 INFO: test-case compare-310::qgis310-cachesize20 run completed in 00h 12m 04s
+
+
+11:00:49 INFO: Starting test-case: compare-310::qgis310-cachesize200 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '200', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+11:00:49 INFO: Deploying qgis310-cachesize200
+11:01:10 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+11:01:11 INFO: Starting tests for compare-310 qgis310-cachesize200 lk_big.txt
+11:04:11 INFO: Done in 00h 02m 59s
+11:04:11 INFO: Starting tests for compare-310 qgis310-cachesize200 av_f_big.txt
+11:05:22 INFO: Done in 00h 01m 11s
+11:05:22 INFO: Starting tests for compare-310 qgis310-cachesize200 av_sw_big.txt
+11:13:25 INFO: Done in 00h 08m 03s
+11:13:26 INFO: test-case compare-310::qgis310-cachesize200 run completed in 00h 12m 14s
+
+
+11:13:26 INFO: Starting test-case: compare-310::qgis310-nossl ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'PG_SERVICE': 'pg_service_nossl.conf'}, 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}, 'inherit': 'qgis310-stock'})
+11:13:26 INFO: Deploying qgis310-nossl
+11:13:45 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+11:13:46 INFO: Starting tests for compare-310 qgis310-nossl lk_big.txt
+11:16:47 INFO: Done in 00h 03m 01s
+11:16:47 INFO: Starting tests for compare-310 qgis310-nossl av_f_big.txt
+11:17:58 INFO: Done in 00h 01m 10s
+11:17:58 INFO: Starting tests for compare-310 qgis310-nossl av_sw_big.txt
+11:25:53 INFO: Done in 00h 07m 55s
+11:25:53 INFO: test-case compare-310::qgis310-nossl run completed in 00h 12m 07s
+
+
+11:25:53 INFO: Generating stats
+11:25:53 INFO: Finished run: compare-310 20201101-101109 in 01h 14m 43s
