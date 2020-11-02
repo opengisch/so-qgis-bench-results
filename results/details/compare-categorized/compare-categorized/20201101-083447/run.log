@@ -1,0 +1,29 @@
+08:34:47 INFO: Starting new run 20201101-083447, using configuration "compare-categorized"
+08:34:47 INFO: using configuration file "conf/tests/compare-categorized.yml"
+08:34:47 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+08:34:47 INFO: Starting test-case: compare-categorized::qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+08:34:47 INFO: Deploying qgis218-stock
+08:35:07 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+08:35:07 INFO: Starting tests for compare-categorized qgis218-stock bodenbedeckung_big.txt
+08:39:06 INFO: Done in 00h 03m 58s
+08:39:06 INFO: test-case compare-categorized::qgis218-stock run completed in 00h 03m 58s
+
+
+08:39:06 INFO: Starting test-case: compare-categorized::qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+08:39:06 INFO: Deploying qgis310-stock
+08:39:26 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+08:39:26 INFO: Starting tests for compare-categorized qgis310-stock bodenbedeckung_big.txt
+08:45:05 INFO: Done in 00h 05m 38s
+08:45:05 INFO: test-case compare-categorized::qgis310-stock run completed in 00h 05m 38s
+
+
+08:45:05 INFO: Starting test-case: compare-categorized::qgis316-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_MAX_CACHE_LAYERS': '50', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+08:45:05 INFO: Deploying qgis316-stock
+08:45:25 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+08:45:25 INFO: Starting tests for compare-categorized qgis316-stock bodenbedeckung_big.txt
+08:51:02 INFO: Done in 00h 05m 37s
+08:51:02 INFO: test-case compare-categorized::qgis316-stock run completed in 00h 05m 37s
+
+
+08:51:02 INFO: Generating stats
+08:51:02 INFO: Finished run: compare-categorized 20201101-083447 in 00h 16m 14s

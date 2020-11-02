@@ -1,0 +1,45 @@
+08:15:29 INFO: Starting new run 20201101-081529, using configuration "compare-major-fileversion"
+08:15:29 INFO: using configuration file "conf/tests/compare-major-fileversion.yml"
+08:15:29 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+08:15:29 INFO: Starting test-case: compare-major-fileversion::qgis310 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt']}})
+08:15:29 INFO: Deploying qgis310
+08:15:50 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:15:51 INFO: Starting tests for compare-major-fileversion qgis310 lk.txt
+08:15:58 INFO: Done in 00h 00m 07s
+08:15:58 INFO: test-case compare-major-fileversion::qgis310 run completed in 00h 00m 07s
+
+
+08:15:58 INFO: Starting test-case: compare-major-fileversion::qgis310-218file ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap218_lk': ['lk.txt']}, 'inherit': 'qgis310'})
+08:15:58 INFO: Deploying qgis310-218file
+08:16:19 INFO: Probing http://localhost:8080/ogc/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:16:20 INFO: Starting tests for compare-major-fileversion qgis310-218file lk.txt
+08:16:28 INFO: Done in 00h 00m 07s
+08:16:28 INFO: test-case compare-major-fileversion::qgis310-218file run completed in 00h 00m 07s
+
+
+08:16:28 INFO: Starting test-case: compare-major-fileversion::qgis316 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap316_lk': ['lk.txt']}, 'inherit': 'qgis310'})
+08:16:28 INFO: Deploying qgis316
+08:16:48 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:16:49 INFO: Starting tests for compare-major-fileversion qgis316 lk.txt
+08:16:56 INFO: Done in 00h 00m 06s
+08:16:56 INFO: test-case compare-major-fileversion::qgis316 run completed in 00h 00m 06s
+
+
+08:16:56 INFO: Starting test-case: compare-major-fileversion::qgis316-218file ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap218_lk': ['lk.txt']}, 'inherit': 'qgis316'})
+08:16:56 INFO: Deploying qgis316-218file
+08:17:16 INFO: Probing http://localhost:8080/ogc/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:17:17 INFO: Starting tests for compare-major-fileversion qgis316-218file lk.txt
+08:17:24 INFO: Done in 00h 00m 06s
+08:17:24 INFO: test-case compare-major-fileversion::qgis316-218file run completed in 00h 00m 06s
+
+
+08:17:24 INFO: Starting test-case: compare-major-fileversion::qgis316-310file ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt']}, 'inherit': 'qgis316'})
+08:17:24 INFO: Deploying qgis316-310file
+08:17:43 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:17:43 INFO: Starting tests for compare-major-fileversion qgis316-310file lk.txt
+08:17:50 INFO: Done in 00h 00m 06s
+08:17:50 INFO: test-case compare-major-fileversion::qgis316-310file run completed in 00h 00m 06s
+
+
+08:17:50 INFO: Generating stats
+08:17:50 INFO: Finished run: compare-major-fileversion 20201101-081529 in 00h 02m 21s
