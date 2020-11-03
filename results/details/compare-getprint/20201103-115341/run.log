@@ -1,0 +1,44 @@
+11:53:41 INFO: Starting new run 20201103-115341, using configuration "compare-getprint"
+11:53:41 INFO: using configuration file "conf/tests/compare-getprint.yml"
+11:53:41 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+11:53:41 INFO: Starting test-case: compare-getprint::qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'QGIS_SERVER_IGNORE_BAD_LAYERS': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fix_print': ['getprint.txt']}})
+11:53:41 INFO: Deploying qgis218
+11:54:01 INFO: Probing http://localhost:8080/ows/somap218_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+11:55:31 INFO: Probing http://localhost:8080/ows/somap218_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+11:57:01 INFO: Probing http://localhost:8080/ows/somap218_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+11:58:31 INFO: Probing http://localhost:8080/ows/somap218_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:00:01 INFO: Probing http://localhost:8080/ows/somap218_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:01:31 INFO: Probing http://localhost:8080/ows/somap218_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:03:01 INFO: Starting tests for compare-getprint qgis218 getprint.txt
+12:04:41 INFO: Done in 00h 01m 39s
+12:04:41 INFO: test-case compare-getprint::qgis218 run completed in 00h 01m 39s
+
+
+12:04:41 INFO: Starting test-case: compare-getprint::qgis310 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'QGIS_SERVER_IGNORE_BAD_LAYERS': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_fix_print': ['getprint.txt']}})
+12:04:41 INFO: Deploying qgis310
+12:05:03 INFO: Probing http://localhost:8080/ogc/somap310_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:06:10 INFO: Probing http://localhost:8080/ogc/somap310_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:07:17 INFO: Probing http://localhost:8080/ogc/somap310_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:08:24 INFO: Probing http://localhost:8080/ogc/somap310_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:09:30 INFO: Probing http://localhost:8080/ogc/somap310_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:10:36 INFO: Probing http://localhost:8080/ogc/somap310_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:11:42 INFO: Starting tests for compare-getprint qgis310 getprint.txt
+12:12:28 INFO: Done in 00h 00m 45s
+12:12:28 INFO: test-case compare-getprint::qgis310 run completed in 00h 00m 45s
+
+
+12:12:28 INFO: Starting test-case: compare-getprint::qgis316 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'QGIS_SERVER_IGNORE_BAD_LAYERS': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_fix_print': ['getprint.txt']}})
+12:12:28 INFO: Deploying qgis316
+12:12:47 INFO: Probing http://localhost:8080/ogc/somap316_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:13:51 INFO: Probing http://localhost:8080/ogc/somap316_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:14:52 INFO: Probing http://localhost:8080/ogc/somap316_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:15:53 INFO: Probing http://localhost:8080/ogc/somap316_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:16:54 INFO: Probing http://localhost:8080/ogc/somap316_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:17:55 INFO: Probing http://localhost:8080/ogc/somap316_fix_print?SERVICE=WMS&REQUEST=GetCapabilities
+12:18:55 INFO: Starting tests for compare-getprint qgis316 getprint.txt
+12:19:08 INFO: Done in 00h 00m 13s
+12:19:09 INFO: test-case compare-getprint::qgis316 run completed in 00h 00m 13s
+
+
+12:19:09 INFO: Generating stats
+12:19:09 INFO: Finished run: compare-getprint 20201103-115341 in 00h 25m 27s

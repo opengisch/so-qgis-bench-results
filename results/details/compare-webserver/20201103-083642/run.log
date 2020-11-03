@@ -1,0 +1,56 @@
+08:36:42 INFO: Starting new run 20201103-083642, using configuration "compare-webserver"
+08:36:42 INFO: using configuration file "conf/tests/compare-webserver.yml"
+08:36:42 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+08:36:42 INFO: Starting test-case: compare-webserver::qgis310-nginx ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}})
+08:36:42 INFO: Deploying qgis310-nginx
+08:37:01 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:37:02 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+08:37:05 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+08:37:08 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:37:08 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+08:37:11 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+08:37:14 INFO: Starting tests for compare-webserver qgis310-nginx lk.txt
+08:37:22 INFO: Done in 00h 00m 07s
+08:37:22 INFO: Starting tests for compare-webserver qgis310-nginx av_f.txt
+08:37:37 INFO: Done in 00h 00m 15s
+08:37:37 INFO: Starting tests for compare-webserver qgis310-nginx av_sw.txt
+08:37:50 INFO: Done in 00h 00m 13s
+08:37:50 INFO: test-case compare-webserver::qgis310-nginx run completed in 00h 00m 36s
+
+
+08:37:50 INFO: Starting test-case: compare-webserver::qgis310-apache ({'active': True, 'template': 'docker-compose-proxy-qgis-3-apache', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-nginx'})
+08:37:50 INFO: Deploying qgis310-apache
+08:38:12 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:38:13 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+08:38:16 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+08:38:19 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:38:20 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+08:38:22 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+08:38:25 INFO: Starting tests for compare-webserver qgis310-apache lk.txt
+08:38:33 INFO: Done in 00h 00m 07s
+08:38:33 INFO: Starting tests for compare-webserver qgis310-apache av_f.txt
+08:38:48 INFO: Done in 00h 00m 15s
+08:38:48 INFO: Starting tests for compare-webserver qgis310-apache av_sw.txt
+08:39:02 INFO: Done in 00h 00m 14s
+08:39:03 INFO: test-case compare-webserver::qgis310-apache run completed in 00h 00m 37s
+
+
+08:39:03 INFO: Starting test-case: compare-webserver::qgis310-caddy ({'active': True, 'template': 'docker-compose-proxy-qgis-3-caddy', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt'], 'somap310_grundplanav_farbig': ['av_f.txt'], 'somap310_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis310-nginx'})
+08:39:03 INFO: Deploying qgis310-caddy
+08:39:26 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:39:26 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+08:39:26 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+08:39:26 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+08:39:26 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+08:39:26 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+08:39:26 INFO: Starting tests for compare-webserver qgis310-caddy lk.txt
+08:39:34 INFO: Done in 00h 00m 08s
+08:39:34 INFO: Starting tests for compare-webserver qgis310-caddy av_f.txt
+08:39:51 INFO: Done in 00h 00m 17s
+08:39:51 INFO: Starting tests for compare-webserver qgis310-caddy av_sw.txt
+08:40:08 INFO: Done in 00h 00m 17s
+08:40:09 INFO: test-case compare-webserver::qgis310-caddy run completed in 00h 00m 42s
+
+
+08:40:09 INFO: Generating stats
+08:40:09 INFO: Finished run: compare-webserver 20201103-083642 in 00h 03m 26s
