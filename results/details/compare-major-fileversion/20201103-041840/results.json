@@ -1,0 +1,147 @@
+{
+  "qgis310": {
+    "somap310_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 521.3666666666667,
+        "medianResTime": 549.0,
+        "minResTime": 239.0,
+        "maxResTime": 702.0,
+        "pct1ResTime": 696.4,
+        "pct2ResTime": 699.25,
+        "pct3ResTime": 702.0,
+        "throughput": 13.679890560875513,
+        "receivedKBytesPerSec": 370.7686744756042,
+        "sentKBytesPerSec": 5.580611605107159,
+        "responseSizeMB": 0.8,
+        "memMaxMB": 2229.6,
+        "memAvgMB": 2225.8,
+        "memMinMB": 2222.0,
+        "cpuMax%": 20.1,
+        "cpuAvg%": 10.2,
+        "cpuMin%": 0.3,
+        "dashboard": "results/details/compare-major-fileversion/20201103-041840/qgis310/somap310_lk/lk.txt/dashboard/index.html",
+        "effective duration": 8.1
+      }
+    }
+  },
+  "qgis310-218file": {
+    "somap218_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 495.9000000000001,
+        "medianResTime": 540.5,
+        "minResTime": 208.0,
+        "maxResTime": 679.0,
+        "pct1ResTime": 660.4000000000001,
+        "pct2ResTime": 674.6,
+        "pct3ResTime": 679.0,
+        "throughput": 14.204545454545453,
+        "receivedKBytesPerSec": 384.98849579782194,
+        "sentKBytesPerSec": 5.794640743371212,
+        "responseSizeMB": 0.8,
+        "memMaxMB": 2238.7,
+        "memAvgMB": 2231.4,
+        "memMinMB": 2224.0,
+        "cpuMax%": 21.6,
+        "cpuAvg%": 15.0,
+        "cpuMin%": 8.4,
+        "dashboard": "results/details/compare-major-fileversion/20201103-041840/qgis310-218file/somap218_lk/lk.txt/dashboard/index.html",
+        "effective duration": 7.9
+      }
+    }
+  },
+  "qgis316": {
+    "somap316_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 217.80000000000007,
+        "medianResTime": 215.0,
+        "minResTime": 122.0,
+        "maxResTime": 315.0,
+        "pct1ResTime": 288.6,
+        "pct2ResTime": 307.84999999999997,
+        "pct3ResTime": 315.0,
+        "throughput": 26.881720430107528,
+        "receivedKBytesPerSec": 728.5278757840501,
+        "sentKBytesPerSec": 10.966201836917561,
+        "responseSizeMB": 0.8,
+        "memMaxMB": 2225.8,
+        "memAvgMB": 2225.8,
+        "memMinMB": 2225.8,
+        "cpuMax%": 8.7,
+        "cpuAvg%": 8.7,
+        "cpuMin%": 8.7,
+        "dashboard": "results/details/compare-major-fileversion/20201103-041840/qgis316/somap316_lk/lk.txt/dashboard/index.html",
+        "effective duration": 6.9
+      }
+    }
+  },
+  "qgis316-218file": {
+    "somap218_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 217.76666666666662,
+        "medianResTime": 210.5,
+        "minResTime": 132.0,
+        "maxResTime": 323.0,
+        "pct1ResTime": 292.1,
+        "pct2ResTime": 315.84999999999997,
+        "pct3ResTime": 323.0,
+        "throughput": 26.80965147453083,
+        "receivedKBytesPerSec": 726.5747179401251,
+        "sentKBytesPerSec": 10.93680183199285,
+        "responseSizeMB": 0.8,
+        "memMaxMB": 2226.4,
+        "memAvgMB": 2226.4,
+        "memMinMB": 2226.4,
+        "cpuMax%": 7.9,
+        "cpuAvg%": 7.9,
+        "cpuMin%": 7.9,
+        "dashboard": "results/details/compare-major-fileversion/20201103-041840/qgis316-218file/somap218_lk/lk.txt/dashboard/index.html",
+        "effective duration": 6.9
+      }
+    }
+  },
+  "qgis316-310file": {
+    "somap310_lk": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 241.5333333333333,
+        "medianResTime": 230.0,
+        "minResTime": 143.0,
+        "maxResTime": 386.0,
+        "pct1ResTime": 347.80000000000007,
+        "pct2ResTime": 378.3,
+        "pct3ResTime": 386.0,
+        "throughput": 24.711696869851732,
+        "receivedKBytesPerSec": 669.7175530271829,
+        "sentKBytesPerSec": 10.080956548599671,
+        "responseSizeMB": 0.8,
+        "memMaxMB": 2243.1,
+        "memAvgMB": 2227.3,
+        "memMinMB": 2211.6,
+        "cpuMax%": 26.8,
+        "cpuAvg%": 17.6,
+        "cpuMin%": 8.3,
+        "dashboard": "results/details/compare-major-fileversion/20201103-041840/qgis316-310file/somap310_lk/lk.txt/dashboard/index.html",
+        "effective duration": 6.8
+      }
+    }
+  }
+}
