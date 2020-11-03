@@ -1,0 +1,32 @@
+04:27:18 INFO: Starting new run 20201103-042718, using configuration "compare-filesize"
+04:27:18 INFO: using configuration file "conf/tests/compare-filesize.yml"
+04:27:18 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+04:27:18 INFO: Starting test-case: compare-filesize::qgis218-bigfile ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fix': ['lk_big.txt', 'av_f_big.txt', 'av_sw_big.txt']}})
+04:27:18 INFO: Deploying qgis218-bigfile
+04:27:38 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+04:28:07 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+04:28:34 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+04:29:00 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+04:29:26 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+04:29:53 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+04:30:20 INFO: Starting tests for compare-filesize qgis218-bigfile lk_big.txt
+04:32:19 INFO: Done in 00h 01m 58s
+04:32:19 INFO: Starting tests for compare-filesize qgis218-bigfile av_f_big.txt
+04:32:54 INFO: Done in 00h 00m 35s
+04:32:54 INFO: Starting tests for compare-filesize qgis218-bigfile av_sw_big.txt
+04:37:01 INFO: Done in 00h 04m 06s
+04:37:01 INFO: test-case compare-filesize::qgis218-bigfile run completed in 00h 06m 41s
+
+
+04:37:01 INFO: Starting test-case: compare-filesize::qgis218-smallfile ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'projects': {'somap218_lk': ['lk_big.txt'], 'somap218_grundplanav_farbig': ['av_f_big.txt'], 'somap218_grundplanav_sw': ['av_sw_big.txt']}})
+04:37:01 INFO: Deploying qgis218-smallfile
+04:37:01 ERROR: Failed setting env up: 'template'
+04:37:01 INFO: Starting test-case: compare-filesize::qgis316-bigfile ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3', 'path-prefix': 'ogc', 'projects': {'somap316_fix': ['lk_big.txt', 'av_f_big.txt', 'av_sw_big.txt']}})
+04:37:01 INFO: Deploying qgis316-bigfile
+04:37:01 ERROR: Failed setting env up: Command '['docker', 'stack', 'deploy', '-c', './deploy/docker-compose.yml', '-c', './conf/qgis/docker-compose-qgis-base.yml', '-c', './conf/qgis/docker-compose-qgis-3.yml', 'bench']' returned non-zero exit status 1.
+04:37:01 ERROR: Error was: b'open ./conf/qgis/docker-compose-qgis-3.yml: no such file or directory\n'
+04:37:01 INFO: Starting test-case: compare-filesize::qgis316-smallfile ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'projects': {'somap316_lk': ['lk_big.txt'], 'somap316_grundplanav_farbig': ['av_f_big.txt'], 'somap316_grundplanav_sw': ['av_sw_big.txt']}})
+04:37:01 INFO: Deploying qgis316-smallfile
+04:37:01 ERROR: Failed setting env up: 'template'
+04:37:01 INFO: Generating stats
+04:37:01 INFO: Finished run: compare-filesize 20201103-042718 in 00h 09m 43s
