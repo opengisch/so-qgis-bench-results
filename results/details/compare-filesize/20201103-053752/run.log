@@ -1,0 +1,97 @@
+05:37:52 INFO: Starting new run 20201103-053752, using configuration "compare-filesize"
+05:37:52 INFO: using configuration file "conf/tests/compare-filesize.yml"
+05:37:52 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+05:37:52 INFO: Starting test-case: compare-filesize::qgis218-bigfile ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}})
+05:37:52 INFO: Deploying qgis218-bigfile
+05:38:12 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:38:42 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:39:11 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:39:41 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:40:10 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:40:39 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:41:09 INFO: Starting tests for compare-filesize qgis218-bigfile lk.txt
+05:41:27 INFO: Done in 00h 00m 18s
+05:41:27 INFO: Starting tests for compare-filesize qgis218-bigfile av_f.txt
+05:41:37 INFO: Done in 00h 00m 10s
+05:41:37 INFO: Starting tests for compare-filesize qgis218-bigfile av_sw.txt
+05:41:45 INFO: Done in 00h 00m 08s
+05:41:45 INFO: test-case compare-filesize::qgis218-bigfile run completed in 00h 00m 36s
+
+
+05:41:45 INFO: Starting test-case: compare-filesize::qgis218-smallfile ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'qgis218-bigfile', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_lk': ['lk.txt'], 'somap218_grundplanav_farbig': ['av_f.txt'], 'somap218_grundplanav_sw': ['av_sw.txt']}})
+05:41:45 INFO: Deploying qgis218-smallfile
+05:42:05 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:07 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:08 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:10 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:11 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:13 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:42:15 INFO: Starting tests for compare-filesize qgis218-smallfile lk.txt
+05:42:23 INFO: Done in 00h 00m 07s
+05:42:23 INFO: Starting tests for compare-filesize qgis218-smallfile av_f.txt
+05:42:32 INFO: Done in 00h 00m 09s
+05:42:32 INFO: Starting tests for compare-filesize qgis218-smallfile av_sw.txt
+05:42:42 INFO: Done in 00h 00m 09s
+05:42:42 INFO: test-case compare-filesize::qgis218-smallfile run completed in 00h 00m 26s
+
+
+05:42:42 INFO: Starting test-case: compare-filesize::qgis316-bigfile ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}})
+05:42:42 INFO: Deploying qgis316-bigfile
+05:43:03 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:44:14 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:45:25 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:46:38 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:47:47 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:48:55 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+05:50:04 INFO: Starting tests for compare-filesize qgis316-bigfile lk.txt
+05:50:20 INFO: Done in 00h 00m 15s
+05:50:20 INFO: Starting tests for compare-filesize qgis316-bigfile av_f.txt
+05:50:38 INFO: Done in 00h 00m 18s
+05:50:38 INFO: Starting tests for compare-filesize qgis316-bigfile av_sw.txt
+05:50:54 INFO: Done in 00h 00m 16s
+05:50:54 INFO: test-case compare-filesize::qgis316-bigfile run completed in 00h 00m 50s
+
+
+05:50:54 INFO: Starting test-case: compare-filesize::qgis316-smallfile ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'qgis316-bigfile', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}})
+05:50:54 INFO: Deploying qgis316-smallfile
+05:51:14 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:15 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:18 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:21 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:22 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:24 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+05:51:27 INFO: Starting tests for compare-filesize qgis316-smallfile lk.txt
+05:51:34 INFO: Done in 00h 00m 06s
+05:51:34 INFO: Starting tests for compare-filesize qgis316-smallfile av_f.txt
+05:51:43 INFO: Done in 00h 00m 09s
+05:51:43 INFO: Starting tests for compare-filesize qgis316-smallfile av_sw.txt
+05:51:53 INFO: Done in 00h 00m 09s
+05:51:53 INFO: test-case compare-filesize::qgis316-smallfile run completed in 00h 00m 26s
+
+
+05:51:53 INFO: Generating stats
+05:51:53 INFO: Finished run: compare-filesize 20201103-053752 in 00h 14m 00s
