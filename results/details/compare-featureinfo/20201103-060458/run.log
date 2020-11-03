@@ -1,0 +1,49 @@
+06:04:58 INFO: Starting new run 20201103-060458, using configuration "compare-featureinfo"
+06:04:58 INFO: using configuration file "conf/tests/compare-featureinfo.yml"
+06:04:58 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+06:04:58 INFO: Starting test-case: compare-featureinfo::qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_lk': ['featureinfo_lk.txt'], 'somap218_grundplanav_farbig': ['featureinfo_av.txt']}})
+06:04:58 INFO: Deploying qgis218
+06:05:24 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:05:25 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:05:25 INFO: Starting tests for compare-featureinfo qgis218 featureinfo_lk.txt
+06:05:33 INFO: Done in 00h 00m 07s
+06:05:33 INFO: Starting tests for compare-featureinfo qgis218 featureinfo_av.txt
+06:05:41 INFO: Done in 00h 00m 07s
+06:05:41 INFO: test-case compare-featureinfo::qgis218 run completed in 00h 00m 15s
+
+
+06:05:41 INFO: Starting test-case: compare-featureinfo::qgis310 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_lk': ['featureinfo_lk.txt'], 'somap310_grundplanav_farbig': ['featureinfo_av.txt']}})
+06:05:41 INFO: Deploying qgis310
+06:06:04 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:06:04 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:06:06 INFO: Starting tests for compare-featureinfo qgis310 featureinfo_lk.txt
+06:06:16 INFO: Done in 00h 00m 09s
+06:06:16 INFO: Starting tests for compare-featureinfo qgis310 featureinfo_av.txt
+06:06:40 INFO: Done in 00h 00m 24s
+06:06:41 INFO: test-case compare-featureinfo::qgis310 run completed in 00h 00m 34s
+
+
+06:06:41 INFO: Starting test-case: compare-featureinfo::qgis316 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_lk': ['featureinfo_lk.txt'], 'somap316_grundplanav_farbig': ['featureinfo_av.txt']}})
+06:06:41 INFO: Deploying qgis316
+06:07:03 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:07:04 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:07:05 INFO: Starting tests for compare-featureinfo qgis316 featureinfo_lk.txt
+06:07:10 INFO: Done in 00h 00m 05s
+06:07:10 INFO: Starting tests for compare-featureinfo qgis316 featureinfo_av.txt
+06:07:17 INFO: Done in 00h 00m 06s
+06:07:17 INFO: test-case compare-featureinfo::qgis316 run completed in 00h 00m 11s
+
+
+06:07:17 INFO: Starting test-case: compare-featureinfo::qgis316-standalone ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis316', 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'projects': {'somap316_lk': ['featureinfo_lk.txt'], 'somap316_grundplanav_farbig': ['featureinfo_av.txt']}, 'use-map-param-path': '/io/data'})
+06:07:17 INFO: Deploying qgis316-standalone
+06:07:40 INFO: Probing http://localhost:8080/?MAP=/io/data/somap316_lk.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+06:07:41 INFO: Probing http://localhost:8080/?MAP=/io/data/somap316_grundplanav_farbig.qgs&SERVICE=WMS&REQUEST=GetCapabilities
+06:07:42 INFO: Starting tests for compare-featureinfo qgis316-standalone featureinfo_lk.txt
+06:07:48 INFO: Done in 00h 00m 05s
+06:07:48 INFO: Starting tests for compare-featureinfo qgis316-standalone featureinfo_av.txt
+06:07:54 INFO: Done in 00h 00m 05s
+06:07:54 INFO: test-case compare-featureinfo::qgis316-standalone run completed in 00h 00m 11s
+
+
+06:07:54 INFO: Generating stats
+06:07:54 INFO: Finished run: compare-featureinfo 20201103-060458 in 00h 02m 55s
