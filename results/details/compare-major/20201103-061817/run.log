@@ -1,0 +1,169 @@
+06:18:17 INFO: Starting new run 20201103-061817, using configuration "compare-major"
+06:18:17 INFO: using configuration file "conf/tests/compare-major.yml"
+06:18:17 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+06:18:17 INFO: Starting test-case: compare-major::qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '10', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_lk': ['lk_big.txt'], 'somap218_grundplanav_farbig': ['av_f_big.txt'], 'somap218_grundplanav_sw': ['av_sw_big.txt']}})
+06:18:17 INFO: Deploying qgis218
+06:18:37 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:39 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:40 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:42 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:43 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:45 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:47 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:48 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:50 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:52 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:53 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:54 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:56 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:56 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:58 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:18:59 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:00 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:01 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:03 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:03 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:05 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:06 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:07 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:08 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:10 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:11 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:12 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:13 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:14 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:15 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:19:17 INFO: Starting tests for compare-major qgis218 lk_big.txt
+06:21:45 INFO: Done in 00h 02m 28s
+06:21:45 INFO: Starting tests for compare-major qgis218 av_f_big.txt
+06:22:54 INFO: Done in 00h 01m 09s
+06:22:54 INFO: Starting tests for compare-major qgis218 av_sw_big.txt
+06:31:25 INFO: Done in 00h 08m 30s
+06:31:25 INFO: test-case compare-major::qgis218 run completed in 00h 12m 08s
+
+
+06:31:25 INFO: Starting test-case: compare-major::qgis310 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '10', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_lk': ['lk_big.txt'], 'somap310_grundplanav_farbig': ['av_f_big.txt'], 'somap310_grundplanav_sw': ['av_sw_big.txt']}})
+06:31:25 INFO: Deploying qgis310
+06:31:46 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:31:47 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:31:50 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:31:53 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:31:54 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:31:57 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:00 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:00 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:03 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:06 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:07 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:09 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:12 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:13 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:15 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:18 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:19 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:22 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:24 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:25 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:28 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:30 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:31 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:34 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:36 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:37 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:40 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:42 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:43 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:45 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:32:48 INFO: Starting tests for compare-major qgis310 lk_big.txt
+06:35:07 INFO: Done in 00h 02m 18s
+06:35:07 INFO: Starting tests for compare-major qgis310 av_f_big.txt
+06:36:07 INFO: Done in 00h 01m 00s
+06:36:07 INFO: Starting tests for compare-major qgis310 av_sw_big.txt
+06:42:24 INFO: Done in 00h 06m 16s
+06:42:24 INFO: test-case compare-major::qgis310 run completed in 00h 09m 35s
+
+
+06:42:24 INFO: Starting test-case: compare-major::qgis314 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '10', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_lk': ['lk_big.txt'], 'somap314_grundplanav_farbig': ['av_f_big.txt'], 'somap314_grundplanav_sw': ['av_sw_big.txt']}})
+06:42:24 INFO: Deploying qgis314
+06:42:43 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:42:44 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:42:47 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:42:49 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:42:50 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:42:52 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:42:55 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:42:56 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:42:58 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:01 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:01 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:04 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:06 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:06 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:09 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:11 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:12 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:14 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:16 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:17 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:19 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:22 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:22 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:25 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:27 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:28 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:30 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:32 INFO: Probing http://localhost:8080/ogc/somap314_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:33 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:35 INFO: Probing http://localhost:8080/ogc/somap314_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:43:38 INFO: Starting tests for compare-major qgis314 lk_big.txt
+06:46:02 INFO: Done in 00h 02m 24s
+06:46:02 INFO: Starting tests for compare-major qgis314 av_f_big.txt
+06:47:04 INFO: Done in 00h 01m 01s
+06:47:04 INFO: Starting tests for compare-major qgis314 av_sw_big.txt
+06:53:21 INFO: Done in 00h 06m 17s
+06:53:21 INFO: test-case compare-major::qgis314 run completed in 00h 09m 43s
+
+
+06:53:21 INFO: Starting test-case: compare-major::qgis316 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '10', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_lk': ['lk_big.txt'], 'somap316_grundplanav_farbig': ['av_f_big.txt'], 'somap316_grundplanav_sw': ['av_sw_big.txt']}})
+06:53:21 INFO: Deploying qgis316
+06:53:41 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:42 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:45 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:47 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:48 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:50 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:53 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:53 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:56 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:58 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:53:59 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:01 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:04 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:04 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:07 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:09 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:10 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:12 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:14 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:15 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:17 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:20 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:20 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:23 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:25 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:25 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:28 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:30 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:31 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:33 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+06:54:35 INFO: Starting tests for compare-major qgis316 lk_big.txt
+06:56:32 INFO: Done in 00h 01m 56s
+06:56:32 INFO: Starting tests for compare-major qgis316 av_f_big.txt
+06:57:15 INFO: Done in 00h 00m 43s
+06:57:15 INFO: Starting tests for compare-major qgis316 av_sw_big.txt
+07:01:40 INFO: Done in 00h 04m 24s
+07:01:40 INFO: test-case compare-major::qgis316 run completed in 00h 07m 04s
+
+
+07:01:40 INFO: Generating stats
+07:01:40 INFO: Finished run: compare-major 20201103-061817 in 00h 43m 22s
