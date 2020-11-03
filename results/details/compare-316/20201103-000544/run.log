@@ -1,0 +1,93 @@
+00:05:44 INFO: Starting new run 20201103-000544, using configuration "compare-316"
+00:05:44 INFO: using configuration file "conf/tests/compare-316.yml"
+00:05:44 INFO: Starting test-case: compare-316::qgis316-bigfile-fastread ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_TRUST_LAYER_METADATA': '"true"', 'QGIS_SERVER_DISABLE_GETPRINT': '"true"'}, 'projects': {'somap316_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}, 'inherit': 'qgis316-bigfile'})
+00:05:44 INFO: Deploying qgis316-bigfile-fastread
+00:05:44 DEBUG: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+00:05:55 DEBUG: b'Updating service bench_pgadmin (id: hwibeh351dsdkgj3u7npk3e5k)\nUpdating service bench_postgis-testenv (id: fvu79dai7m21qry4ts0rjjjca)\nCreating service bench_qgis-server\nUpdating service bench_perfmon-agent (id: whwa31l7z3xekfon6i44efxh3)\n'
+00:06:05 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+00:06:05 DEBUG: Starting new HTTP connection (1): localhost:8080
+00:07:13 DEBUG: http://localhost:8080 "GET /ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 1243835
+00:07:13 INFO: Starting tests for compare-316 qgis316-bigfile-fastread lk.txt
+00:07:13 DEBUG: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap316_fix
+00:07:13 DEBUG: Trying paths: ['/home/ubuntu/.docker/config.json', '/home/ubuntu/.dockercfg']
+00:07:13 DEBUG: No config file found
+00:07:13 DEBUG: Trying paths: ['/home/ubuntu/.docker/config.json', '/home/ubuntu/.dockercfg']
+00:07:13 DEBUG: No config file found
+00:07:13 DEBUG: http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 88
+00:07:13 DEBUG: http://localhost:None "GET /v1.35/containers/dcd3bec21321305fe8d1289b6fc5dd1ac5b51c3fde0036cf5c77b3edb5dbd0aa/json HTTP/1.1" 200 None
+00:07:14 DEBUG: http://localhost:None "POST /v1.35/containers/dcd3bec21321305fe8d1289b6fc5dd1ac5b51c3fde0036cf5c77b3edb5dbd0aa/start HTTP/1.1" 204 0
+00:07:14 DEBUG: http://localhost:None "GET /v1.35/containers/dcd3bec21321305fe8d1289b6fc5dd1ac5b51c3fde0036cf5c77b3edb5dbd0aa/logs?stderr=0&stdout=1&timestamps=0&follow=1&tail=all HTTP/1.1" 200 None
+00:07:14 DEBUG: http://localhost:None "GET /v1.35/containers/dcd3bec21321305fe8d1289b6fc5dd1ac5b51c3fde0036cf5c77b3edb5dbd0aa/json HTTP/1.1" 200 None
+00:07:14 DEBUG: http://localhost:None "POST /v1.35/containers/dcd3bec21321305fe8d1289b6fc5dd1ac5b51c3fde0036cf5c77b3edb5dbd0aa/wait HTTP/1.1" 200 None
+00:07:21 DEBUG: START Running Jmeter on Tue Nov  3 00:07:14 UTC 2020
+JVM_ARGS=-Xmn3264m -Xms13056m -Xmx13056m
+jmeter args=-n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap316_fix
+Creating summariser <summary>
+Created the tree successfully using /io/test_plan_qgis3.jmx
+Starting standalone test @ Tue Nov 03 00:07:16 GMT 2020 (1604362036758)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     30 in 00:00:02 =   12.2/s Avg:   492 Min:   274 Max:   603 Err:     0 (0.00%)
+Tidying up ...    @ Tue Nov 03 00:07:19 GMT 2020 (1604362039731)
+... end of run
+END Running Jmeter on Tue Nov  3 00:07:21 UTC 2020
+
+00:07:21 INFO: Done in 00h 00m 08s
+00:07:21 INFO: Starting tests for compare-316 qgis316-bigfile-fastread av_f.txt
+00:07:21 DEBUG: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap316_fix
+00:07:21 DEBUG: Trying paths: ['/home/ubuntu/.docker/config.json', '/home/ubuntu/.dockercfg']
+00:07:21 DEBUG: No config file found
+00:07:21 DEBUG: Trying paths: ['/home/ubuntu/.docker/config.json', '/home/ubuntu/.dockercfg']
+00:07:21 DEBUG: No config file found
+00:07:21 DEBUG: http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 88
+00:07:21 DEBUG: http://localhost:None "GET /v1.35/containers/4818bd7870c857ea3c68a6c30c15f110c828e2cea301305aba0750b55a60e723/json HTTP/1.1" 200 None
+00:07:22 DEBUG: http://localhost:None "POST /v1.35/containers/4818bd7870c857ea3c68a6c30c15f110c828e2cea301305aba0750b55a60e723/start HTTP/1.1" 204 0
+00:07:22 DEBUG: http://localhost:None "GET /v1.35/containers/4818bd7870c857ea3c68a6c30c15f110c828e2cea301305aba0750b55a60e723/logs?stderr=0&stdout=1&timestamps=0&follow=1&tail=all HTTP/1.1" 200 None
+00:07:22 DEBUG: http://localhost:None "GET /v1.35/containers/4818bd7870c857ea3c68a6c30c15f110c828e2cea301305aba0750b55a60e723/json HTTP/1.1" 200 None
+00:07:22 DEBUG: http://localhost:None "POST /v1.35/containers/4818bd7870c857ea3c68a6c30c15f110c828e2cea301305aba0750b55a60e723/wait HTTP/1.1" 200 None
+00:07:56 DEBUG: START Running Jmeter on Tue Nov  3 00:07:22 UTC 2020
+JVM_ARGS=-Xmn3258m -Xms13032m -Xmx13032m
+jmeter args=-n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap316_fix
+Creating summariser <summary>
+Created the tree successfully using /io/test_plan_qgis3.jmx
+Starting standalone test @ Tue Nov 03 00:07:24 GMT 2020 (1604362044759)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      3 in 00:00:06 =    0.5/s Avg:  3718 Min:  2168 Max:  5233 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary +     19 in 00:00:23 =    0.8/s Avg: 12366 Min:  6638 Max: 15730 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+summary =     22 in 00:00:29 =    0.8/s Avg: 11187 Min:  2168 Max: 15730 Err:     0 (0.00%)
+Tidying up ...    @ Tue Nov 03 00:07:54 GMT 2020 (1604362074069)
+... end of run
+END Running Jmeter on Tue Nov  3 00:07:55 UTC 2020
+
+00:07:56 INFO: Done in 00h 00m 34s
+00:07:56 INFO: Starting tests for compare-316 qgis316-bigfile-fastread av_sw.txt
+00:07:56 DEBUG: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap316_fix
+00:07:56 DEBUG: Trying paths: ['/home/ubuntu/.docker/config.json', '/home/ubuntu/.dockercfg']
+00:07:56 DEBUG: No config file found
+00:07:56 DEBUG: Trying paths: ['/home/ubuntu/.docker/config.json', '/home/ubuntu/.dockercfg']
+00:07:56 DEBUG: No config file found
+00:07:56 DEBUG: http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 88
+00:07:56 DEBUG: http://localhost:None "GET /v1.35/containers/11104c74fa3af30964b61f320aefb98d3ad33c1754bf5b9c904b6a1b03a0a18f/json HTTP/1.1" 200 None
+00:07:56 DEBUG: http://localhost:None "POST /v1.35/containers/11104c74fa3af30964b61f320aefb98d3ad33c1754bf5b9c904b6a1b03a0a18f/start HTTP/1.1" 204 0
+00:07:56 DEBUG: http://localhost:None "GET /v1.35/containers/11104c74fa3af30964b61f320aefb98d3ad33c1754bf5b9c904b6a1b03a0a18f/logs?stderr=0&stdout=1&timestamps=0&follow=1&tail=all HTTP/1.1" 200 None
+00:07:56 DEBUG: http://localhost:None "GET /v1.35/containers/11104c74fa3af30964b61f320aefb98d3ad33c1754bf5b9c904b6a1b03a0a18f/json HTTP/1.1" 200 None
+00:07:56 DEBUG: http://localhost:None "POST /v1.35/containers/11104c74fa3af30964b61f320aefb98d3ad33c1754bf5b9c904b6a1b03a0a18f/wait HTTP/1.1" 200 None
+00:08:24 DEBUG: START Running Jmeter on Tue Nov  3 00:07:56 UTC 2020
+JVM_ARGS=-Xmn3240m -Xms12960m -Xmx12960m
+jmeter args=-n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap316_fix
+Creating summariser <summary>
+Created the tree successfully using /io/test_plan_qgis3.jmx
+Starting standalone test @ Tue Nov 03 00:07:58 GMT 2020 (1604362078744)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:02 =    0.6/s Avg:  1169 Min:  1169 Max:  1169 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary +     19 in 00:00:22 =    0.9/s Avg:  8883 Min:  4583 Max: 14916 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+summary =     20 in 00:00:23 =    0.9/s Avg:  8497 Min:  1169 Max: 14916 Err:     0 (0.00%)
+Tidying up ...    @ Tue Nov 03 00:08:22 GMT 2020 (1604362102588)
+... end of run
+END Running Jmeter on Tue Nov  3 00:08:24 UTC 2020
+
+00:08:24 INFO: Done in 00h 00m 28s
+00:08:24 INFO: test-case compare-316::qgis316-bigfile-fastread run completed in 00h 01m 11s
+
+
+00:08:24 INFO: Generating stats
+00:08:24 INFO: Finished run: compare-316 20201103-000544 in 00h 02m 40s

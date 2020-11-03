@@ -1,0 +1,50 @@
+00:29:52 INFO: Starting new run 20201103-002952, using configuration "compare-316"
+00:29:52 INFO: using configuration file "conf/tests/compare-316.yml"
+00:29:52 INFO: Starting test-case: compare-316::qgis316-bigfile-fastread ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_TRUST_LAYER_METADATA': '"true"', 'QGIS_SERVER_DISABLE_GETPRINT': '"true"'}, 'projects': {'somap316_fix': ['lk.txt']}, 'inherit': 'qgis316-bigfile'})
+00:29:52 INFO: Deploying qgis316-bigfile-fastread
+00:29:52 DEBUG: Executing: docker stack deploy -c ./deploy/docker-compose.yml -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+00:30:05 DEBUG: b'Updating service bench_perfmon-agent (id: whwa31l7z3xekfon6i44efxh3)\nUpdating service bench_pgadmin (id: hwibeh351dsdkgj3u7npk3e5k)\nUpdating service bench_postgis-testenv (id: fvu79dai7m21qry4ts0rjjjca)\nUpdating service bench_qgis-server (id: ywm76dqy8kc2tt9vj14wlgy5l)\n'
+00:30:15 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+00:30:15 DEBUG: Starting new HTTP connection (1): localhost:8080
+00:30:16 DEBUG: Incremented Retry for (url='/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities'): Retry(total=5, connect=None, read=None, redirect=None, status=None)
+00:30:16 WARNING: Retrying (Retry(total=5, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f75a23a28b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+00:30:16 DEBUG: Starting new HTTP connection (2): localhost:8080
+00:30:17 DEBUG: Incremented Retry for (url='/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+00:30:19 WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f75a23a2910>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+00:30:19 DEBUG: Starting new HTTP connection (3): localhost:8080
+00:30:19 DEBUG: Incremented Retry for (url='/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+00:30:23 WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f75a23a2670>: Failed to establish a new connection: [Errno 111] Connection refused')': /ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+00:30:23 DEBUG: Starting new HTTP connection (4): localhost:8080
+00:31:29 DEBUG: http://localhost:8080 "GET /ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 1243835
+00:31:29 INFO: Starting tests for compare-316 qgis316-bigfile-fastread lk.txt
+00:31:29 DEBUG: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap316_fix
+00:31:29 DEBUG: Trying paths: ['/home/ubuntu/.docker/config.json', '/home/ubuntu/.dockercfg']
+00:31:29 DEBUG: No config file found
+00:31:29 DEBUG: Trying paths: ['/home/ubuntu/.docker/config.json', '/home/ubuntu/.dockercfg']
+00:31:29 DEBUG: No config file found
+00:31:29 DEBUG: http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 88
+00:31:29 DEBUG: http://localhost:None "GET /v1.35/containers/249f6972d01562c6d8221e3a2ee4e3261c554175416d7802d91f6e4d288ee156/json HTTP/1.1" 200 None
+00:31:30 DEBUG: http://localhost:None "POST /v1.35/containers/249f6972d01562c6d8221e3a2ee4e3261c554175416d7802d91f6e4d288ee156/start HTTP/1.1" 204 0
+00:31:30 DEBUG: http://localhost:None "GET /v1.35/containers/249f6972d01562c6d8221e3a2ee4e3261c554175416d7802d91f6e4d288ee156/logs?stderr=0&stdout=1&timestamps=0&follow=1&tail=all HTTP/1.1" 200 None
+00:31:30 DEBUG: http://localhost:None "GET /v1.35/containers/249f6972d01562c6d8221e3a2ee4e3261c554175416d7802d91f6e4d288ee156/json HTTP/1.1" 200 None
+00:31:30 DEBUG: http://localhost:None "POST /v1.35/containers/249f6972d01562c6d8221e3a2ee4e3261c554175416d7802d91f6e4d288ee156/wait HTTP/1.1" 200 None
+00:31:37 DEBUG: START Running Jmeter on Tue Nov  3 00:31:30 UTC 2020
+JVM_ARGS=-Xmn3242m -Xms12968m -Xmx12968m
+jmeter args=-n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap316_fix
+Creating summariser <summary>
+Created the tree successfully using /io/test_plan_qgis3.jmx
+Starting standalone test @ Tue Nov 03 00:31:32 GMT 2020 (1604363492123)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.4/s Avg:   269 Min:   269 Max:   269 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+summary +     29 in 00:00:02 =   17.4/s Avg:   462 Min:   297 Max:   597 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+summary =     30 in 00:00:02 =   12.6/s Avg:   455 Min:   269 Max:   597 Err:     0 (0.00%)
+Tidying up ...    @ Tue Nov 03 00:31:35 GMT 2020 (1604363495074)
+... end of run
+END Running Jmeter on Tue Nov  3 00:31:36 UTC 2020
+
+00:31:37 INFO: Done in 00h 00m 07s
+00:31:37 INFO: test-case compare-316::qgis316-bigfile-fastread run completed in 00h 00m 07s
+
+
+00:31:37 INFO: Generating stats
+00:31:37 INFO: Finished run: compare-316 20201103-002952 in 00h 01m 44s

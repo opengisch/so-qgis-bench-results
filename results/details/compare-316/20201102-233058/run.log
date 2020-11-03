@@ -1,0 +1,53 @@
+23:30:58 INFO: Starting new run 20201102-233058, using configuration "compare-316"
+23:30:58 INFO: using configuration file "conf/tests/compare-316.yml"
+23:30:58 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+23:30:58 INFO: Starting test-case: compare-316::qgis316 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}})
+23:30:58 INFO: Deploying qgis316
+23:31:19 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:31:20 INFO: Starting tests for compare-316 qgis316 lk.txt
+23:31:27 INFO: Done in 00h 00m 07s
+23:31:27 INFO: Starting tests for compare-316 qgis316 av_f.txt
+23:31:42 INFO: Done in 00h 00m 14s
+23:31:42 INFO: Starting tests for compare-316 qgis316 av_sw.txt
+23:31:56 INFO: Done in 00h 00m 13s
+23:31:56 INFO: test-case compare-316::qgis316 run completed in 00h 00m 35s
+
+
+23:31:56 INFO: Starting test-case: compare-316::qgis316-fastread ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_TRUST_LAYER_METADATA': '"true"', 'QGIS_SERVER_DISABLE_GETPRINT': '"true"'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis316'})
+23:31:56 INFO: Deploying qgis316-fastread
+23:32:16 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+23:32:16 INFO: Starting tests for compare-316 qgis316-fastread lk.txt
+23:32:24 INFO: Done in 00h 00m 07s
+23:32:24 INFO: Starting tests for compare-316 qgis316-fastread av_f.txt
+23:32:38 INFO: Done in 00h 00m 14s
+23:32:38 INFO: Starting tests for compare-316 qgis316-fastread av_sw.txt
+23:32:52 INFO: Done in 00h 00m 13s
+23:32:52 INFO: test-case compare-316::qgis316-fastread run completed in 00h 00m 35s
+
+
+23:32:52 INFO: Starting test-case: compare-316::qgis316-bigfile ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap316_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}, 'inherit': 'qgis316'})
+23:32:52 INFO: Deploying qgis316-bigfile
+23:33:12 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+23:34:19 INFO: Starting tests for compare-316 qgis316-bigfile lk.txt
+23:34:27 INFO: Done in 00h 00m 07s
+23:34:27 INFO: Starting tests for compare-316 qgis316-bigfile av_f.txt
+23:35:00 INFO: Done in 00h 00m 33s
+23:35:00 INFO: Starting tests for compare-316 qgis316-bigfile av_sw.txt
+23:35:28 INFO: Done in 00h 00m 27s
+23:35:28 INFO: test-case compare-316::qgis316-bigfile run completed in 00h 01m 08s
+
+
+23:35:28 INFO: Starting test-case: compare-316::qgis316-bigfile-fastread ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16', 'QGIS_REPLICAS': '1', 'QGIS_MAX_CACHE_LAYERS': '100', 'QGIS_SERVER_CACHE_SIZE': '50', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_TRUST_LAYER_METADATA': '"true"', 'QGIS_SERVER_DISABLE_GETPRINT': '"true"'}, 'projects': {'somap316_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}, 'inherit': 'qgis316-bigfile'})
+23:35:28 INFO: Deploying qgis316-bigfile-fastread
+23:35:50 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+23:36:57 INFO: Starting tests for compare-316 qgis316-bigfile-fastread lk.txt
+23:37:05 INFO: Done in 00h 00m 07s
+23:37:05 INFO: Starting tests for compare-316 qgis316-bigfile-fastread av_f.txt
+23:37:37 INFO: Done in 00h 00m 32s
+23:37:37 INFO: Starting tests for compare-316 qgis316-bigfile-fastread av_sw.txt
+23:38:05 INFO: Done in 00h 00m 27s
+23:38:05 INFO: test-case compare-316::qgis316-bigfile-fastread run completed in 00h 01m 08s
+
+
+23:38:05 INFO: Generating stats
+23:38:05 INFO: Finished run: compare-316 20201102-233058 in 00h 07m 06s

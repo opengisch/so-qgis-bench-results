@@ -1,0 +1,31 @@
+{
+  "qgis316-bigfile-fastread": {
+    "somap316_fix": {
+      "lk.txt": {
+        "transaction": "Total",
+        "sampleCount": 30,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 479.50000000000006,
+        "medianResTime": 519.5,
+        "minResTime": 301.0,
+        "maxResTime": 612.0,
+        "pct1ResTime": 587.5,
+        "pct2ResTime": 604.85,
+        "pct3ResTime": 612.0,
+        "throughput": 14.910536779324055,
+        "receivedKBytesPerSec": 404.1483520750497,
+        "sentKBytesPerSec": 6.097205827534792,
+        "responseSizeMB": 0.8,
+        "memMaxMB": 2928.3,
+        "memAvgMB": 2900.6,
+        "memMinMB": 2863.4,
+        "cpuMax%": 46.6,
+        "cpuAvg%": 27.9,
+        "cpuMin%": 2.7,
+        "dashboard": "results/details/compare-316/20201103-003804/qgis316-bigfile-fastread/somap316_fix/lk.txt/dashboard/index.html",
+        "effective duration": 7.9
+      }
+    }
+  }
+}
