@@ -1,0 +1,45 @@
+02:35:53 INFO: Starting new run 20201111-023553, using configuration "compare-dev-webserver"
+02:35:53 INFO: using configuration file "conf/tests/compare-dev-webserver.yml"
+02:35:53 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+02:35:53 INFO: Starting test-case: compare-dev-webserver::qgis316-nginx ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}})
+02:35:53 INFO: Deploying qgis316-nginx
+02:36:12 INFO: Found running services 2/2
+02:36:12 INFO: Probing http://localhost:8080/
+02:36:12 INFO: Starting tests for compare-dev-webserver qgis316-nginx lk.txt
+02:36:12 INFO: Warmup cache in 2 replicas
+02:36:12 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:13 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:15 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:18 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:18 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:21 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:30 INFO: Done in 00h 00m 06s
+02:36:30 INFO: Starting tests for compare-dev-webserver qgis316-nginx av_f.txt
+02:36:30 INFO: Warmup cache in 2 replicas
+02:36:30 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:30 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:30 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:30 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:30 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:30 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:42 INFO: Done in 00h 00m 12s
+02:36:42 INFO: Starting tests for compare-dev-webserver qgis316-nginx av_sw.txt
+02:36:42 INFO: Warmup cache in 2 replicas
+02:36:42 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:42 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:42 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:42 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:42 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:42 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+02:36:52 INFO: Done in 00h 00m 10s
+02:36:53 INFO: test-case compare-dev-webserver::qgis316-nginx run completed in 00h 00m 29s
+
+
+02:36:53 INFO: Starting test-case: compare-dev-webserver::qgis316-standalone ({'active': True, 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '2', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis316-nginx', 'use-map-param-path': '/io/data'})
+02:36:53 INFO: Deploying qgis316-standalone
+02:37:22 INFO: Waiting for running services 0/2
+02:37:26 INFO: Waiting for running services 0/2
+02:37:35 INFO: Waiting for running services 0/2
+02:37:51 INFO: Waiting for running services 0/2
+02:38:23 INFO: Waiting for running services 0/2
+02:38:23 ERROR: Failed setting env up: Docker swarm: Max retries exceeded with url: http://localhost:8080/ (Caused by 'Wrong number of running services 0/2')

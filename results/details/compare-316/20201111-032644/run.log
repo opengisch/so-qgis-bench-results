@@ -1,0 +1,105 @@
+03:26:44 INFO: Starting new run 20201111-032644, using configuration "compare-316"
+03:26:44 INFO: using configuration file "conf/tests/compare-316.yml"
+03:26:44 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+03:26:44 INFO: Starting test-case: compare-316::qgis316 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}})
+03:26:44 INFO: Deploying qgis316
+03:27:03 INFO: Found running services 1/1
+03:27:03 INFO: Probing http://localhost:8080/
+03:27:03 INFO: Starting tests for compare-316 qgis316 lk.txt
+03:27:03 INFO: Warmup cache in 1 replicas
+03:27:03 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:04 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:07 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:16 INFO: Done in 00h 00m 07s
+03:27:16 INFO: Starting tests for compare-316 qgis316 av_f.txt
+03:27:16 INFO: Warmup cache in 1 replicas
+03:27:16 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:16 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:16 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:29 INFO: Done in 00h 00m 13s
+03:27:29 INFO: Starting tests for compare-316 qgis316 av_sw.txt
+03:27:29 INFO: Warmup cache in 1 replicas
+03:27:29 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:29 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:29 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:27:42 INFO: Done in 00h 00m 12s
+03:27:42 INFO: test-case compare-316::qgis316 run completed in 00h 00m 32s
+
+
+03:27:42 INFO: Starting test-case: compare-316::qgis316-fastread ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_TRUST_LAYER_METADATA': '"true"', 'QGIS_SERVER_DISABLE_GETPRINT': '"true"'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis316'})
+03:27:42 INFO: Deploying qgis316-fastread
+03:28:02 INFO: Found running services 1/1
+03:28:02 INFO: Probing http://localhost:8080/
+03:28:02 INFO: Starting tests for compare-316 qgis316-fastread lk.txt
+03:28:02 INFO: Warmup cache in 1 replicas
+03:28:02 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:02 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:03 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:11 INFO: Done in 00h 00m 07s
+03:28:11 INFO: Starting tests for compare-316 qgis316-fastread av_f.txt
+03:28:11 INFO: Warmup cache in 1 replicas
+03:28:11 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:11 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:11 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:24 INFO: Done in 00h 00m 12s
+03:28:24 INFO: Starting tests for compare-316 qgis316-fastread av_sw.txt
+03:28:24 INFO: Warmup cache in 1 replicas
+03:28:24 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:24 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:24 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:36 INFO: Done in 00h 00m 11s
+03:28:36 INFO: test-case compare-316::qgis316-fastread run completed in 00h 00m 32s
+
+
+03:28:36 INFO: Starting test-case: compare-316::qgis316-trustmetadata ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_TRUST_LAYER_METADATA': '"true"'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis316'})
+03:28:36 INFO: Deploying qgis316-trustmetadata
+03:28:56 INFO: Found running services 1/1
+03:28:56 INFO: Probing http://localhost:8080/
+03:28:56 INFO: Starting tests for compare-316 qgis316-trustmetadata lk.txt
+03:28:56 INFO: Warmup cache in 1 replicas
+03:28:56 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:57 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:28:58 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:06 INFO: Done in 00h 00m 07s
+03:29:06 INFO: Starting tests for compare-316 qgis316-trustmetadata av_f.txt
+03:29:06 INFO: Warmup cache in 1 replicas
+03:29:06 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:06 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:06 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:19 INFO: Done in 00h 00m 12s
+03:29:19 INFO: Starting tests for compare-316 qgis316-trustmetadata av_sw.txt
+03:29:19 INFO: Warmup cache in 1 replicas
+03:29:19 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:19 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:19 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:31 INFO: Done in 00h 00m 11s
+03:29:31 INFO: test-case compare-316::qgis316-trustmetadata run completed in 00h 00m 32s
+
+
+03:29:31 INFO: Starting test-case: compare-316::qgis316-skipprint ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf', 'QGIS_SERVER_DISABLE_GETPRINT': '"true"'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt']}, 'inherit': 'qgis316'})
+03:29:31 INFO: Deploying qgis316-skipprint
+03:29:52 INFO: Found running services 1/1
+03:29:52 INFO: Probing http://localhost:8080/
+03:29:52 INFO: Starting tests for compare-316 qgis316-skipprint lk.txt
+03:29:52 INFO: Warmup cache in 1 replicas
+03:29:52 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:53 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:29:54 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:30:02 INFO: Done in 00h 00m 06s
+03:30:02 INFO: Starting tests for compare-316 qgis316-skipprint av_f.txt
+03:30:02 INFO: Warmup cache in 1 replicas
+03:30:02 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:30:02 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:30:02 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:30:14 INFO: Done in 00h 00m 12s
+03:30:14 INFO: Starting tests for compare-316 qgis316-skipprint av_sw.txt
+03:30:14 INFO: Warmup cache in 1 replicas
+03:30:14 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+03:30:14 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+03:30:14 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_sw?SERVICE=WMS&REQUEST=GetCapabilities
+03:30:26 INFO: Done in 00h 00m 12s
+03:30:26 INFO: test-case compare-316::qgis316-skipprint run completed in 00h 00m 31s
+
+
+03:30:26 INFO: Generating stats
+03:30:26 INFO: Finished run: compare-316 20201111-032644 in 00h 03m 42s

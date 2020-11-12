@@ -1,0 +1,92 @@
+{
+  "qgis218-stock": {
+    "somap218_orthofoto": {
+      "orthofotos_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5190,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 409.00539499036563,
+        "medianResTime": 331.0,
+        "minResTime": 2.0,
+        "maxResTime": 7497.0,
+        "pct1ResTime": 657.0,
+        "pct2ResTime": 873.8999999999996,
+        "pct3ResTime": 1877.6100000000042,
+        "throughput": 24.309019629884638,
+        "receivedKBytesPerSec": 9873.75503272672,
+        "sentKBytesPerSec": 9.644943480943883,
+        "responseSizeMB": 2058.6,
+        "memMaxMB": 7460.7,
+        "memAvgMB": 6775.6,
+        "memMinMB": 3294.4,
+        "cpuMax%": 100.0,
+        "cpuAvg%": 99.1,
+        "cpuMin%": 13.5,
+        "dashboard": "results/details/compare-orthofotos/20201111-021310/qgis218-stock/somap218_orthofoto/orthofotos_big.txt/dashboard/index.html",
+        "tests duration": 219.2,
+        "warmup duration": 2.6
+      }
+    }
+  },
+  "qgis310-stock": {
+    "somap310_orthofoto": {
+      "orthofotos_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5190,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 1420.8892100192704,
+        "medianResTime": 923.5,
+        "minResTime": 7.0,
+        "maxResTime": 12456.0,
+        "pct1ResTime": 3374.600000000002,
+        "pct2ResTime": 4001.0,
+        "pct3ResTime": 5980.620000000003,
+        "throughput": 7.010576650322163,
+        "receivedKBytesPerSec": 2763.289379776293,
+        "sentKBytesPerSec": 2.781544323492861,
+        "responseSizeMB": 1997.7,
+        "memMaxMB": 19111.9,
+        "memAvgMB": 16910.8,
+        "memMinMB": 3088.4,
+        "cpuMax%": 98.6,
+        "cpuAvg%": 74.8,
+        "cpuMin%": 13.8,
+        "dashboard": "results/details/compare-orthofotos/20201111-021310/qgis310-stock/somap310_orthofoto/orthofotos_big.txt/dashboard/index.html",
+        "tests duration": 746.5,
+        "warmup duration": 1.0
+      }
+    }
+  },
+  "qgis316-stock": {
+    "somap316_orthofoto": {
+      "orthofotos_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5190,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 329.94142581888326,
+        "medianResTime": 269.5,
+        "minResTime": 4.0,
+        "maxResTime": 4668.0,
+        "pct1ResTime": 603.0,
+        "pct2ResTime": 785.8999999999996,
+        "pct3ResTime": 1271.3600000000006,
+        "throughput": 30.074055187919384,
+        "receivedKBytesPerSec": 12204.206686108206,
+        "sentKBytesPerSec": 11.93230195814549,
+        "responseSizeMB": 2056.8,
+        "memMaxMB": 11384.5,
+        "memAvgMB": 9548.9,
+        "memMinMB": 2794.8,
+        "cpuMax%": 99.1,
+        "cpuAvg%": 75.0,
+        "cpuMin%": 15.9,
+        "dashboard": "results/details/compare-orthofotos/20201111-021310/qgis316-stock/somap316_orthofoto/orthofotos_big.txt/dashboard/index.html",
+        "tests duration": 179.1,
+        "warmup duration": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+01:27:17 INFO: Starting new run 20201111-012717, using configuration "compare-major-fileversion"
+01:27:17 INFO: using configuration file "conf/tests/compare-major-fileversion.yml"
+01:27:17 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+01:27:17 INFO: Starting test-case: compare-major-fileversion::qgis310 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt']}})
+01:27:17 INFO: Deploying qgis310
+01:27:38 INFO: Waiting for running services 0/1
+01:27:42 INFO: Waiting for running services 0/1
+01:27:50 INFO: Waiting for running services 0/1
+01:27:50 INFO: Found running services 1/1
+01:27:50 INFO: Probing http://localhost:8080/
+01:27:50 INFO: Starting tests for compare-major-fileversion qgis310 lk.txt
+01:27:50 INFO: Warmup cache in 1 replicas
+01:27:50 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:27:59 INFO: Done in 00h 00m 07s
+01:27:59 INFO: test-case compare-major-fileversion::qgis310 run completed in 00h 00m 07s
+
+
+01:27:59 INFO: Starting test-case: compare-major-fileversion::qgis310-218file ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.10-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap218_lk': ['lk.txt']}, 'inherit': 'qgis310'})
+01:27:59 INFO: Deploying qgis310-218file
+01:28:19 INFO: Found running services 1/1
+01:28:19 INFO: Probing http://localhost:8080/
+01:28:19 INFO: Starting tests for compare-major-fileversion qgis310-218file lk.txt
+01:28:19 INFO: Warmup cache in 1 replicas
+01:28:19 INFO: Probing http://localhost:8080/ogc/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:28:27 INFO: Done in 00h 00m 07s
+01:28:27 INFO: test-case compare-major-fileversion::qgis310-218file run completed in 00h 00m 07s
+
+
+01:28:27 INFO: Starting test-case: compare-major-fileversion::qgis316 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap316_lk': ['lk.txt']}, 'inherit': 'qgis310'})
+01:28:27 INFO: Deploying qgis316
+01:28:49 INFO: Waiting for running services 0/1
+01:28:53 INFO: Waiting for running services 0/1
+01:29:01 INFO: Waiting for running services 0/1
+01:29:17 INFO: Waiting for running services 0/1
+01:29:17 INFO: Found running services 1/1
+01:29:17 INFO: Probing http://localhost:8080/
+01:29:17 INFO: Starting tests for compare-major-fileversion qgis316 lk.txt
+01:29:17 INFO: Warmup cache in 1 replicas
+01:29:17 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:29:24 INFO: Done in 00h 00m 06s
+01:29:24 INFO: test-case compare-major-fileversion::qgis316 run completed in 00h 00m 06s
+
+
+01:29:24 INFO: Starting test-case: compare-major-fileversion::qgis316-218file ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap218_lk': ['lk.txt']}, 'inherit': 'qgis316'})
+01:29:24 INFO: Deploying qgis316-218file
+01:29:45 INFO: Found running services 1/1
+01:29:45 INFO: Probing http://localhost:8080/
+01:29:45 INFO: Starting tests for compare-major-fileversion qgis316-218file lk.txt
+01:29:45 INFO: Warmup cache in 1 replicas
+01:29:45 INFO: Probing http://localhost:8080/ogc/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:29:52 INFO: Done in 00h 00m 06s
+01:29:52 INFO: test-case compare-major-fileversion::qgis316-218file run completed in 00h 00m 06s
+
+
+01:29:52 INFO: Starting test-case: compare-major-fileversion::qgis316-310file ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': '3.16-ubuntu', 'QGIS_REPLICAS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap310_lk': ['lk.txt']}, 'inherit': 'qgis316'})
+01:29:52 INFO: Deploying qgis316-310file
+01:30:12 INFO: Found running services 1/1
+01:30:12 INFO: Probing http://localhost:8080/
+01:30:12 INFO: Starting tests for compare-major-fileversion qgis316-310file lk.txt
+01:30:12 INFO: Warmup cache in 1 replicas
+01:30:12 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:30:19 INFO: Done in 00h 00m 06s
+01:30:19 INFO: test-case compare-major-fileversion::qgis316-310file run completed in 00h 00m 06s
+
+
+01:30:19 INFO: Generating stats
+01:30:19 INFO: Finished run: compare-major-fileversion 20201111-012717 in 00h 03m 02s

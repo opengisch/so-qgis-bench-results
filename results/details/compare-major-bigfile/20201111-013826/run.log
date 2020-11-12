@@ -1,0 +1,62 @@
+01:38:26 INFO: Starting new run 20201111-013826, using configuration "compare-major-bigfile"
+01:38:26 INFO: using configuration file "conf/tests/compare-major-bigfile.yml"
+01:38:26 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+01:38:26 INFO: Starting test-case: compare-major-bigfile::qgis218 ({'active': True, 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap218_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}})
+01:38:26 INFO: Deploying qgis218
+01:38:45 INFO: Found running services 1/1
+01:38:45 INFO: Probing http://localhost:8080/
+01:38:45 INFO: Starting tests for compare-major-bigfile qgis218 lk.txt
+01:38:45 INFO: Warmup cache in 1 replicas
+01:38:45 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:39:29 INFO: Done in 00h 00m 15s
+01:39:29 INFO: Starting tests for compare-major-bigfile qgis218 av_f.txt
+01:39:29 INFO: Warmup cache in 1 replicas
+01:39:29 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:39:37 INFO: Done in 00h 00m 07s
+01:39:37 INFO: Starting tests for compare-major-bigfile qgis218 av_sw.txt
+01:39:37 INFO: Warmup cache in 1 replicas
+01:39:37 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:40:17 INFO: Done in 00h 00m 15s
+01:40:17 INFO: test-case compare-major-bigfile::qgis218 run completed in 00h 00m 37s
+
+
+01:40:17 INFO: Starting test-case: compare-major-bigfile::qgis310 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10-ubuntu', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1'}, 'projects': {'somap310_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}, 'inherit': 'qgis218'})
+01:40:17 INFO: Deploying qgis310
+01:40:37 INFO: Found running services 1/1
+01:40:37 INFO: Probing http://localhost:8080/
+01:40:37 INFO: Starting tests for compare-major-bigfile qgis310 lk.txt
+01:40:37 INFO: Warmup cache in 1 replicas
+01:40:37 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:42:39 INFO: Done in 00h 00m 56s
+01:42:39 INFO: Starting tests for compare-major-bigfile qgis310 av_f.txt
+01:42:39 INFO: Warmup cache in 1 replicas
+01:42:39 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:43:52 INFO: Done in 00h 01m 12s
+01:43:52 INFO: Starting tests for compare-major-bigfile qgis310 av_sw.txt
+01:43:52 INFO: Warmup cache in 1 replicas
+01:43:52 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:44:52 INFO: Done in 00h 00m 59s
+01:44:52 INFO: test-case compare-major-bigfile::qgis310 run completed in 00h 03m 08s
+
+
+01:44:52 INFO: Starting test-case: compare-major-bigfile::qgis316 ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16-ubuntu', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1'}, 'projects': {'somap316_fix': ['lk.txt', 'av_f.txt', 'av_sw.txt']}, 'inherit': 'qgis310'})
+01:44:52 INFO: Deploying qgis316
+01:45:11 INFO: Found running services 1/1
+01:45:11 INFO: Probing http://localhost:8080/
+01:45:11 INFO: Starting tests for compare-major-bigfile qgis316 lk.txt
+01:45:11 INFO: Warmup cache in 1 replicas
+01:45:11 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:46:20 INFO: Done in 00h 00m 07s
+01:46:20 INFO: Starting tests for compare-major-bigfile qgis316 av_f.txt
+01:46:20 INFO: Warmup cache in 1 replicas
+01:46:20 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:47:31 INFO: Done in 00h 01m 10s
+01:47:31 INFO: Starting tests for compare-major-bigfile qgis316 av_sw.txt
+01:47:31 INFO: Warmup cache in 1 replicas
+01:47:31 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+01:48:19 INFO: Done in 00h 00m 47s
+01:48:19 INFO: test-case compare-major-bigfile::qgis316 run completed in 00h 02m 06s
+
+
+01:48:19 INFO: Generating stats
+01:48:19 INFO: Finished run: compare-major-bigfile 20201111-013826 in 00h 09m 53s

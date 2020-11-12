@@ -1,0 +1,193 @@
+2020-11-11 05:17:52,884 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-11-11 05:17:52,910 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.3/bin/user.properties
+2020-11-11 05:17:52,911 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.3/bin/system.properties
+2020-11-11 05:17:52,911 INFO o.a.j.JMeter: Setting JMeter property: baseurl=qgis-server
+2020-11-11 05:17:52,911 INFO o.a.j.JMeter: Setting JMeter property: port=80
+2020-11-11 05:17:52,911 INFO o.a.j.JMeter: Setting JMeter property: threads=12
+2020-11-11 05:17:52,911 INFO o.a.j.JMeter: Setting JMeter property: filename=/urls.txt
+2020-11-11 05:17:52,911 INFO o.a.j.JMeter: Setting JMeter property: perfmonfile=/result/perfmon.jtl
+2020-11-11 05:17:52,911 INFO o.a.j.JMeter: Setting JMeter property: projectpath=ogc/somap310_lk
+2020-11-11 05:17:52,913 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-11-11 05:17:52,913 INFO o.a.j.JMeter: Version 5.3
+2020-11-11 05:17:52,913 INFO o.a.j.JMeter: java.version=1.8.0_252
+2020-11-11 05:17:52,913 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-11-11 05:17:52,913 INFO o.a.j.JMeter: os.name=Linux
+2020-11-11 05:17:52,913 INFO o.a.j.JMeter: os.arch=amd64
+2020-11-11 05:17:52,913 INFO o.a.j.JMeter: os.version=5.4.0-51-generic
+2020-11-11 05:17:52,913 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-11-11 05:17:52,914 INFO o.a.j.JMeter: java.awt.headless=true
+2020-11-11 05:17:52,914 INFO o.a.j.JMeter: Max memory     =11492392960
+2020-11-11 05:17:52,914 INFO o.a.j.JMeter: Available Processors =8
+2020-11-11 05:17:52,922 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-11-11 05:17:52,922 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-11-11 05:17:52,922 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.3
+2020-11-11 05:17:52,922 INFO o.a.j.JMeter: user.dir  =/opt/apache-jmeter-5.3
+2020-11-11 05:17:52,922 INFO o.a.j.JMeter: PWD       =/opt/apache-jmeter-5.3
+2020-11-11 05:17:52,923 INFO o.a.j.JMeter: IP: 10.0.1.129 Name: bb4350e9143d FullName: bb4350e9143d
+2020-11-11 05:17:52,928 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/result/dashboard'
+2020-11-11 05:17:52,936 INFO o.a.j.s.FileServer: Default base='/opt/apache-jmeter-5.3'
+2020-11-11 05:17:52,942 INFO o.a.j.s.FileServer: Set new base='/io'
+2020-11-11 05:17:53,130 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-11-11 05:17:53,181 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-11-11 05:17:53,189 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-11-11 05:17:53,198 INFO o.a.j.s.SaveService: Loading file: /io/test_plan_qgis3.jmx
+2020-11-11 05:17:53,267 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-11 05:17:53,267 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-11 05:17:53,268 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-11 05:17:53,268 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-11 05:17:53,268 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-11-11 05:17:53,268 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-11-11 05:17:53,316 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-11-11 05:17:53,323 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2020-11-11 05:17:53,323 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /result/result.jtl
+2020-11-11 05:17:53,324 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.3/bin/reportgenerator.properties
+2020-11-11 05:17:53,324 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2020-11-11 05:17:53,330 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2020-11-11 05:17:53,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2020-11-11 05:17:53,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2020-11-11 05:17:53,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2020-11-11 05:17:53,335 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2020-11-11 05:17:53,335 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2020-11-11 05:17:53,335 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2020-11-11 05:17:53,335 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2020-11-11 05:17:53,335 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2020-11-11 05:17:53,341 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,341 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,341 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,342 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,342 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,342 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,342 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,342 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,342 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,343 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-11 05:17:53,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2020-11-11 05:17:53,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2020-11-11 05:17:53,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2020-11-11 05:17:53,345 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2020-11-11 05:17:53,345 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2020-11-11 05:17:53,345 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2020-11-11 05:17:53,351 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-11-11 05:17:53,352 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-11 05:17:53,352 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-11 05:17:53,363 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-11-11 05:17:53,363 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-11-11 05:17:53,869 INFO o.a.j.JMeter: Running test (1605071873868)
+2020-11-11 05:17:54,003 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JMeter Users
+2020-11-11 05:17:54,003 INFO o.a.j.e.StandardJMeterEngine: Starting 12 threads for group JMeter Users.
+2020-11-11 05:17:54,003 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-11-11 05:17:54,004 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=12 ramp-up=1 delayedStart=false
+2020-11-11 05:17:54,022 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-11-11 05:17:54,023 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-11-11 05:17:54,088 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-1
+2020-11-11 05:17:54,091 INFO o.a.j.s.FileServer: Stored: /urls.txt
+2020-11-11 05:17:54,127 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = bb4350e9143d
+2020-11-11 05:17:54,136 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-11-11 05:17:54,138 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-11-11 05:17:54,138 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-11-11 05:17:54,139 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-11-11 05:17:54,139 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-11-11 05:17:54,163 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-2
+2020-11-11 05:17:54,245 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-3
+2020-11-11 05:17:54,327 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-4
+2020-11-11 05:17:54,409 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-5
+2020-11-11 05:17:54,491 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-6
+2020-11-11 05:17:54,573 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-7
+2020-11-11 05:17:54,654 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-8
+2020-11-11 05:17:54,737 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-9
+2020-11-11 05:17:54,820 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-10
+2020-11-11 05:17:54,901 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-11
+2020-11-11 05:17:54,982 INFO o.a.j.t.JMeterThread: Thread started: JMeter Users 1-12
+2020-11-11 05:18:00,031 INFO o.a.j.r.Summariser: summary +     84 in 00:00:06 =   13.6/s Avg:   719 Min:   113 Max:  2037 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:18:30,051 INFO o.a.j.r.Summariser: summary +    527 in 00:00:30 =   17.6/s Avg:   680 Min:   141 Max:  2226 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:18:30,051 INFO o.a.j.r.Summariser: summary =    611 in 00:00:36 =   16.9/s Avg:   685 Min:   113 Max:  2226 Err:     0 (0.00%)
+2020-11-11 05:19:00,071 INFO o.a.j.r.Summariser: summary +    330 in 00:00:30 =   11.0/s Avg:  1093 Min:   116 Max:  3431 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:19:00,072 INFO o.a.j.r.Summariser: summary =    941 in 00:01:06 =   14.2/s Avg:   828 Min:   113 Max:  3431 Err:     0 (0.00%)
+2020-11-11 05:19:30,036 INFO o.a.j.r.Summariser: summary +    415 in 00:00:30 =   13.8/s Avg:   861 Min:   151 Max:  2709 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:19:30,037 INFO o.a.j.r.Summariser: summary =   1356 in 00:01:36 =   14.1/s Avg:   838 Min:   113 Max:  3431 Err:     0 (0.00%)
+2020-11-11 05:20:00,734 INFO o.a.j.r.Summariser: summary +    453 in 00:00:31 =   14.8/s Avg:   772 Min:   147 Max:  4120 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:20:00,735 INFO o.a.j.r.Summariser: summary =   1809 in 00:02:07 =   14.3/s Avg:   822 Min:   113 Max:  4120 Err:     0 (0.00%)
+2020-11-11 05:20:30,025 INFO o.a.j.r.Summariser: summary +    775 in 00:00:29 =   26.5/s Avg:   478 Min:   137 Max:  4045 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:20:30,025 INFO o.a.j.r.Summariser: summary =   2584 in 00:02:36 =   16.5/s Avg:   719 Min:   113 Max:  4120 Err:     0 (0.00%)
+2020-11-11 05:21:00,036 INFO o.a.j.r.Summariser: summary +    606 in 00:00:30 =   20.2/s Avg:   598 Min:    86 Max:  2443 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:21:00,037 INFO o.a.j.r.Summariser: summary =   3190 in 00:03:06 =   17.1/s Avg:   696 Min:    86 Max:  4120 Err:     0 (0.00%)
+2020-11-11 05:21:30,016 INFO o.a.j.r.Summariser: summary +    593 in 00:00:30 =   19.8/s Avg:   599 Min:   122 Max:  2094 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:21:30,017 INFO o.a.j.r.Summariser: summary =   3783 in 00:03:36 =   17.5/s Avg:   681 Min:    86 Max:  4120 Err:     0 (0.00%)
+2020-11-11 05:22:00,027 INFO o.a.j.r.Summariser: summary +    468 in 00:00:30 =   15.6/s Avg:   769 Min:    65 Max:  3338 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:22:00,028 INFO o.a.j.r.Summariser: summary =   4251 in 00:04:06 =   17.3/s Avg:   690 Min:    65 Max:  4120 Err:     0 (0.00%)
+2020-11-11 05:22:30,115 INFO o.a.j.r.Summariser: summary +    541 in 00:00:30 =   18.0/s Avg:   651 Min:   135 Max:  2577 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:22:30,116 INFO o.a.j.r.Summariser: summary =   4792 in 00:04:36 =   17.3/s Avg:   686 Min:    65 Max:  4120 Err:     0 (0.00%)
+2020-11-11 05:23:00,086 INFO o.a.j.r.Summariser: summary +    448 in 00:00:30 =   14.9/s Avg:   802 Min:   137 Max:  2773 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2020-11-11 05:23:00,087 INFO o.a.j.r.Summariser: summary =   5240 in 00:05:06 =   17.1/s Avg:   696 Min:    65 Max:  4120 Err:     0 (0.00%)
+2020-11-11 05:23:04,076 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:04,076 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-4
+2020-11-11 05:23:04,109 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-11, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:04,109 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-11
+2020-11-11 05:23:04,451 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:04,451 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-9
+2020-11-11 05:23:05,131 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-12, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:05,131 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-12
+2020-11-11 05:23:05,153 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:05,154 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-1
+2020-11-11 05:23:05,360 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:05,360 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-8
+2020-11-11 05:23:06,118 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:06,118 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-2
+2020-11-11 05:23:06,184 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:06,185 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-5
+2020-11-11 05:23:06,276 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:06,276 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-7
+2020-11-11 05:23:07,174 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:07,174 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-3
+2020-11-11 05:23:07,197 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:07,198 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-10
+2020-11-11 05:23:07,396 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread JMeter Users 1-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/urls.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2020-11-11 05:23:07,396 INFO o.a.j.t.JMeterThread: Thread finished: JMeter Users 1-6
+2020-11-11 05:23:07,397 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-11-11 05:23:07,397 INFO o.a.j.s.FileServer: Close: /urls.txt
+2020-11-11 05:23:07,399 INFO o.a.j.r.Summariser: summary +     22 in 00:00:07 =    3.0/s Avg:  3670 Min:  1629 Max:  4279 Err:     0 (0.00%) Active: 0 Started: 12 Finished: 12
+2020-11-11 05:23:07,399 INFO o.a.j.r.Summariser: summary =   5262 in 00:05:14 =   16.8/s Avg:   708 Min:    65 Max:  4279 Err:     0 (0.00%)
+2020-11-11 05:23:07,400 INFO o.a.j.JMeter: Generating Dashboard
+2020-11-11 05:23:07,400 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2020-11-11 05:23:07,425 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2020-11-11 05:23:08,011 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2020-11-11 05:23:08,011 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2020-11-11 05:23:08,015 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2020-11-11 05:23:08,015 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2020-11-11 05:23:08,026 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2020-11-11 05:23:08,034 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2020-11-11 05:23:08,034 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2020-11-11 05:23:08,034 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2020-11-11 05:23:08,184 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2020-11-11 05:23:08,187 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2020-11-11 05:23:08,187 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2020-11-11 05:23:08,188 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2020-11-11 05:23:08,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2020-11-11 05:23:08,280 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 36834 samples
+2020-11-11 05:23:08,280 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2020-11-11 05:23:08,280 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2020-11-11 05:23:08,280 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2020-11-11 05:23:08,281 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2020-11-11 05:23:08,281 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2020-11-11 05:23:08,281 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2020-11-11 05:23:08,290 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2020-11-11 05:23:08,292 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2020-11-11 05:23:08,293 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2020-11-11 05:23:08,293 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2020-11-11 05:23:08,293 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 78930 samples
+2020-11-11 05:23:08,293 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 15786 samples
+2020-11-11 05:23:08,293 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 5262 samples
+2020-11-11 05:23:08,294 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 5262 samples produced in 819ms on channel 0
+2020-11-11 05:23:08,294 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2020-11-11 05:23:08,296 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2020-11-11 05:23:08,297 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2020-11-11 05:23:08,297 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2020-11-11 05:23:08,298 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2020-11-11 05:23:08,298 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /result/dashboard/statistics.json
+2020-11-11 05:23:08,560 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2020-11-11 05:23:08,563 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /result/dashboard
+2020-11-11 05:23:08,675 ERROR f.configuration: DefaultObjectWrapper.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2020-11-11 05:23:08,677 ERROR f.configuration: Configuration.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2020-11-11 05:23:08,689 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /result/dashboard, creating folder structure
+2020-11-11 05:23:08,694 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/apache-jmeter-5.3/bin/report-template' to '/result/dashboard', got message: /result/dashboard, found non empty folder with following content [/result/dashboard/statistics.json], will be ignored
+2020-11-11 05:23:08,940 INFO o.a.j.JMeter: Dashboard generated

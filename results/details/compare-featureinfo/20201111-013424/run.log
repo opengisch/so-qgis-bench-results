@@ -1,0 +1,62 @@
+01:34:24 INFO: Starting new run 20201111-013424, using configuration "compare-featureinfo"
+01:34:24 INFO: using configuration file "conf/tests/compare-featureinfo.yml"
+01:34:24 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+01:34:24 INFO: Starting test-case: compare-featureinfo::qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_lk': ['featureinfo_lk.txt'], 'somap218_grundplanav_farbig': ['featureinfo_av.txt']}})
+01:34:24 INFO: Deploying qgis218
+01:34:43 INFO: Found running services 1/1
+01:34:43 INFO: Probing http://localhost:8080/
+01:34:43 INFO: Starting tests for compare-featureinfo qgis218 featureinfo_lk.txt
+01:34:43 INFO: Warmup cache in 1 replicas
+01:34:43 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:34:45 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+01:34:55 INFO: Done in 00h 00m 09s
+01:34:55 INFO: Starting tests for compare-featureinfo qgis218 featureinfo_av.txt
+01:34:55 INFO: Warmup cache in 1 replicas
+01:34:55 INFO: Probing http://localhost:8080/ows/somap218_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:34:56 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+01:35:06 INFO: Done in 00h 00m 09s
+01:35:06 INFO: test-case compare-featureinfo::qgis218 run completed in 00h 00m 18s
+
+
+01:35:06 INFO: Starting test-case: compare-featureinfo::qgis310 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10-ubuntu'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_lk': ['featureinfo_lk.txt'], 'somap310_grundplanav_farbig': ['featureinfo_av.txt']}})
+01:35:06 INFO: Deploying qgis310
+01:35:26 INFO: Found running services 1/1
+01:35:26 INFO: Probing http://localhost:8080/
+01:35:26 INFO: Starting tests for compare-featureinfo qgis310 featureinfo_lk.txt
+01:35:26 INFO: Warmup cache in 1 replicas
+01:35:26 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:35:26 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+01:35:45 INFO: Done in 00h 00m 15s
+01:35:45 INFO: Starting tests for compare-featureinfo qgis310 featureinfo_av.txt
+01:35:45 INFO: Warmup cache in 1 replicas
+01:35:45 INFO: Probing http://localhost:8080/ogc/somap310_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:35:45 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+01:36:22 INFO: Done in 00h 00m 37s
+01:36:22 INFO: test-case compare-featureinfo::qgis310 run completed in 00h 00m 53s
+
+
+01:36:22 INFO: Starting test-case: compare-featureinfo::qgis316 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16-ubuntu'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_lk': ['featureinfo_lk.txt'], 'somap316_grundplanav_farbig': ['featureinfo_av.txt']}})
+01:36:22 INFO: Deploying qgis316
+01:36:42 INFO: Found running services 1/1
+01:36:42 INFO: Probing http://localhost:8080/
+01:36:42 INFO: Starting tests for compare-featureinfo qgis316 featureinfo_lk.txt
+01:36:42 INFO: Warmup cache in 1 replicas
+01:36:42 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:36:42 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+01:36:53 INFO: Done in 00h 00m 08s
+01:36:53 INFO: Starting tests for compare-featureinfo qgis316 featureinfo_av.txt
+01:36:53 INFO: Warmup cache in 1 replicas
+01:36:53 INFO: Probing http://localhost:8080/ogc/somap316_lk?SERVICE=WMS&REQUEST=GetCapabilities
+01:36:53 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig?SERVICE=WMS&REQUEST=GetCapabilities
+01:37:03 INFO: Done in 00h 00m 10s
+01:37:03 INFO: test-case compare-featureinfo::qgis316 run completed in 00h 00m 18s
+
+
+01:37:03 INFO: Starting test-case: compare-featureinfo::qgis316-standalone ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16-ubuntu'}, 'inherit': 'qgis316', 'template': 'docker-compose-qgis-3-standalone', 'path-prefix': '', 'projects': {'somap316_lk': ['featureinfo_lk.txt'], 'somap316_grundplanav_farbig': ['featureinfo_av.txt']}, 'use-map-param-path': '/io/data'})
+01:37:03 INFO: Deploying qgis316-standalone
+01:37:24 INFO: Waiting for running services 0/1
+01:37:28 INFO: Waiting for running services 0/1
+01:37:36 INFO: Waiting for running services 0/1
+01:37:52 INFO: Waiting for running services 0/1
+01:38:24 INFO: Waiting for running services 0/1
+01:38:24 ERROR: Failed setting env up: Docker swarm: Max retries exceeded with url: http://localhost:8080/ (Caused by 'Wrong number of running services 0/1')

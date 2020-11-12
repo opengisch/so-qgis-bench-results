@@ -1,0 +1,11 @@
+02:38:24 INFO: Starting new run 20201111-023824, using configuration "compare-imageformats"
+02:38:24 INFO: using configuration file "conf/tests/compare-imageformats.yml"
+02:38:24 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+02:38:24 INFO: Starting test-case: compare-imageformats::qgis316-jpeg ({'active': True, 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'compose-variables': {'QGIS_VERSION': 'nightly', 'QGIS_REPLICAS': '1', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '6', 'PG_SERVICE': 'pg_service.conf'}, 'projects': {'somap316_lk': ['lk.txt'], 'somap316_grundplanav_farbig': ['av_f.txt'], 'somap316_grundplanav_sw': ['av_sw.txt'], 'somap316_orthofoto': ['orthofotos.txt']}})
+02:38:24 INFO: Deploying qgis316-jpeg
+02:38:46 INFO: Waiting for running services 0/1
+02:38:50 INFO: Waiting for running services 0/1
+02:38:58 INFO: Waiting for running services 0/1
+02:39:14 INFO: Waiting for running services 0/1
+02:39:46 INFO: Waiting for running services 0/1
+02:39:46 ERROR: Failed setting env up: Docker swarm: Max retries exceeded with url: http://localhost:8080/ (Caused by 'Wrong number of running services 0/1')

@@ -1,0 +1,53 @@
+01:48:21 INFO: Starting new run 20201111-014821, using configuration "compare-categorized"
+01:48:21 INFO: using configuration file "conf/tests/compare-categorized.yml"
+01:48:21 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+01:48:21 INFO: Starting test-case: compare-categorized::qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+01:48:21 INFO: Deploying qgis218-stock
+01:48:40 INFO: Found running services 6/6
+01:48:40 INFO: Probing http://localhost:8080/
+01:48:40 INFO: Starting tests for compare-categorized qgis218-stock bodenbedeckung_big.txt
+01:48:40 INFO: Warmup cache in 6 replicas
+01:48:40 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:48:41 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:48:41 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:48:42 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:48:42 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:48:43 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:52:32 INFO: Done in 00h 03m 48s
+01:52:32 INFO: test-case compare-categorized::qgis218-stock run completed in 00h 03m 49s
+
+
+01:52:32 INFO: Starting test-case: compare-categorized::qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10-ubuntu'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+01:52:32 INFO: Deploying qgis310-stock
+01:52:51 INFO: Found running services 6/6
+01:52:51 INFO: Probing http://localhost:8080/
+01:52:51 INFO: Starting tests for compare-categorized qgis310-stock bodenbedeckung_big.txt
+01:52:51 INFO: Warmup cache in 6 replicas
+01:52:51 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:52:52 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:52:52 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:52:53 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:52:53 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:52:53 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:58:22 INFO: Done in 00h 05m 27s
+01:58:22 INFO: test-case compare-categorized::qgis310-stock run completed in 00h 05m 27s
+
+
+01:58:22 INFO: Starting test-case: compare-categorized::qgis316-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16-ubuntu'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_avbobe_farbig_categorized': ['bodenbedeckung_big.txt']}})
+01:58:22 INFO: Deploying qgis316-stock
+01:58:41 INFO: Found running services 6/6
+01:58:41 INFO: Probing http://localhost:8080/
+01:58:41 INFO: Starting tests for compare-categorized qgis316-stock bodenbedeckung_big.txt
+01:58:41 INFO: Warmup cache in 6 replicas
+01:58:41 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:58:42 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:58:42 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:58:43 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:58:43 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+01:58:44 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_categorized?SERVICE=WMS&REQUEST=GetCapabilities
+02:04:04 INFO: Done in 00h 05m 20s
+02:04:04 INFO: test-case compare-categorized::qgis316-stock run completed in 00h 05m 20s
+
+
+02:04:04 INFO: Generating stats
+02:04:04 INFO: Finished run: compare-categorized 20201111-014821 in 00h 15m 43s

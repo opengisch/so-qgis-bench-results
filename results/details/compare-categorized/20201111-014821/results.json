@@ -1,0 +1,92 @@
+{
+  "qgis218-stock": {
+    "somap218_avbobe_farbig_categorized": {
+      "bodenbedeckung_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5190,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 422.27244701348724,
+        "medianResTime": 228.0,
+        "minResTime": 18.0,
+        "maxResTime": 13130.0,
+        "pct1ResTime": 643.0,
+        "pct2ResTime": 985.0,
+        "pct3ResTime": 4517.710000000017,
+        "throughput": 23.242274966412896,
+        "receivedKBytesPerSec": 6025.253333344996,
+        "sentKBytesPerSec": 10.480654178795342,
+        "responseSizeMB": 1313.9,
+        "memMaxMB": 6887.2,
+        "memAvgMB": 6111.1,
+        "memMinMB": 3214.7,
+        "cpuMax%": 99.8,
+        "cpuAvg%": 95.4,
+        "cpuMin%": 11.4,
+        "dashboard": "results/details/compare-categorized/20201111-014821/qgis218-stock/somap218_avbobe_farbig_categorized/bodenbedeckung_big.txt/dashboard/index.html",
+        "tests duration": 229.0,
+        "warmup duration": 2.6
+      }
+    }
+  },
+  "qgis310-stock": {
+    "somap310_avbobe_farbig_categorized": {
+      "bodenbedeckung_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5190,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 614.7154142581893,
+        "medianResTime": 342.0,
+        "minResTime": 18.0,
+        "maxResTime": 20228.0,
+        "pct1ResTime": 1036.9000000000005,
+        "pct2ResTime": 1640.0499999999984,
+        "pct3ResTime": 7746.200000000012,
+        "throughput": 16.129884418034393,
+        "receivedKBytesPerSec": 4305.340976777745,
+        "sentKBytesPerSec": 7.273459279423054,
+        "responseSizeMB": 1352.8,
+        "memMaxMB": 5956.3,
+        "memAvgMB": 5416.4,
+        "memMinMB": 3380.4,
+        "cpuMax%": 80.9,
+        "cpuAvg%": 73.4,
+        "cpuMin%": 17.9,
+        "dashboard": "results/details/compare-categorized/20201111-014821/qgis310-stock/somap310_avbobe_farbig_categorized/bodenbedeckung_big.txt/dashboard/index.html",
+        "tests duration": 327.7,
+        "warmup duration": 2.5
+      }
+    }
+  },
+  "qgis316-stock": {
+    "somap316_avbobe_farbig_categorized": {
+      "bodenbedeckung_big.txt": {
+        "transaction": "Total",
+        "sampleCount": 5190,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 600.9932562620429,
+        "medianResTime": 322.0,
+        "minResTime": 9.0,
+        "maxResTime": 21348.0,
+        "pct1ResTime": 1037.4000000000033,
+        "pct2ResTime": 1604.7999999999993,
+        "pct3ResTime": 7828.9000000000015,
+        "throughput": 16.514199347705034,
+        "receivedKBytesPerSec": 4407.88887866916,
+        "sentKBytesPerSec": 7.446758660806619,
+        "responseSizeMB": 1352.8,
+        "memMaxMB": 5961.5,
+        "memAvgMB": 5420.6,
+        "memMinMB": 3426.7,
+        "cpuMax%": 85.1,
+        "cpuAvg%": 73.7,
+        "cpuMin%": 17.6,
+        "dashboard": "results/details/compare-categorized/20201111-014821/qgis316-stock/somap316_avbobe_farbig_categorized/bodenbedeckung_big.txt/dashboard/index.html",
+        "tests duration": 320.1,
+        "warmup duration": 2.5
+      }
+    }
+  }
+}

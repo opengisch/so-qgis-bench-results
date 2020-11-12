@@ -1,0 +1,53 @@
+02:04:06 INFO: Starting new run 20201111-020406, using configuration "compare-rulebased"
+02:04:06 INFO: using configuration file "conf/tests/compare-rulebased.yml"
+02:04:06 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+02:04:06 INFO: Starting test-case: compare-rulebased::qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_avbobe_farbig_rulebased': ['bodenbedeckung_big.txt']}})
+02:04:06 INFO: Deploying qgis218-stock
+02:04:25 INFO: Found running services 6/6
+02:04:25 INFO: Probing http://localhost:8080/
+02:04:25 INFO: Starting tests for compare-rulebased qgis218-stock bodenbedeckung_big.txt
+02:04:25 INFO: Warmup cache in 6 replicas
+02:04:25 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:04:26 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:04:26 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:04:27 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:04:27 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:04:28 INFO: Probing http://localhost:8080/ows/somap218_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:06:37 INFO: Done in 00h 02m 08s
+02:06:37 INFO: test-case compare-rulebased::qgis218-stock run completed in 00h 02m 08s
+
+
+02:06:37 INFO: Starting test-case: compare-rulebased::qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10-ubuntu'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_avbobe_farbig_rulebased': ['bodenbedeckung_big.txt']}})
+02:06:37 INFO: Deploying qgis310-stock
+02:06:57 INFO: Found running services 6/6
+02:06:57 INFO: Probing http://localhost:8080/
+02:06:57 INFO: Starting tests for compare-rulebased qgis310-stock bodenbedeckung_big.txt
+02:06:57 INFO: Warmup cache in 6 replicas
+02:06:57 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:06:57 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:06:57 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:06:58 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:06:58 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:06:59 INFO: Probing http://localhost:8080/ogc/somap310_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:10:02 INFO: Done in 00h 03m 02s
+02:10:02 INFO: test-case compare-rulebased::qgis310-stock run completed in 00h 03m 02s
+
+
+02:10:02 INFO: Starting test-case: compare-rulebased::qgis316-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16-ubuntu'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_avbobe_farbig_rulebased': ['bodenbedeckung_big.txt']}})
+02:10:02 INFO: Deploying qgis316-stock
+02:10:21 INFO: Found running services 6/6
+02:10:21 INFO: Probing http://localhost:8080/
+02:10:21 INFO: Starting tests for compare-rulebased qgis316-stock bodenbedeckung_big.txt
+02:10:21 INFO: Warmup cache in 6 replicas
+02:10:21 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:10:21 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:10:21 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:10:22 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:10:22 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:10:23 INFO: Probing http://localhost:8080/ogc/somap316_avbobe_farbig_rulebased?SERVICE=WMS&REQUEST=GetCapabilities
+02:13:08 INFO: Done in 00h 02m 44s
+02:13:08 INFO: test-case compare-rulebased::qgis316-stock run completed in 00h 02m 44s
+
+
+02:13:08 INFO: Generating stats
+02:13:08 INFO: Finished run: compare-rulebased 20201111-020406 in 00h 09m 02s
