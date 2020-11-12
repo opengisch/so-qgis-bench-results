@@ -1,0 +1,44 @@
+07:31:11 INFO: Starting new run 20201103-073111, using configuration "compare-av-ohnelabel"
+07:31:11 INFO: using configuration file "conf/tests/compare-av-ohnelabel.yml"
+07:31:11 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+07:31:11 INFO: Starting test-case: compare-av-ohnelabel::qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_grundplanav_farbig_ohne_labels': ['av_f_big.txt']}})
+07:31:11 INFO: Deploying qgis218-stock
+07:31:31 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:31:32 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:31:34 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:31:35 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:31:36 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:31:38 INFO: Probing http://localhost:8080/ows/somap218_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:31:39 INFO: Starting tests for compare-av-ohnelabel qgis218-stock av_f_big.txt
+07:32:25 INFO: Done in 00h 00m 45s
+07:32:25 INFO: test-case compare-av-ohnelabel::qgis218-stock run completed in 00h 00m 45s
+
+
+07:32:25 INFO: Starting test-case: compare-av-ohnelabel::qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_grundplanav_farbig_ohne_labels': ['av_f_big.txt']}})
+07:32:25 INFO: Deploying qgis310-stock
+07:32:45 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:32:47 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:32:49 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:32:51 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:32:53 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:32:55 INFO: Probing http://localhost:8080/ogc/somap310_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:32:57 INFO: Starting tests for compare-av-ohnelabel qgis310-stock av_f_big.txt
+07:34:04 INFO: Done in 00h 01m 06s
+07:34:04 INFO: test-case compare-av-ohnelabel::qgis310-stock run completed in 00h 01m 06s
+
+
+07:34:04 INFO: Starting test-case: compare-av-ohnelabel::qgis316-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_grundplanav_farbig_ohne_labels': ['av_f_big.txt']}})
+07:34:04 INFO: Deploying qgis316-stock
+07:34:23 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:34:25 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:34:27 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:34:29 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:34:30 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:34:32 INFO: Probing http://localhost:8080/ogc/somap316_grundplanav_farbig_ohne_labels?SERVICE=WMS&REQUEST=GetCapabilities
+07:34:34 INFO: Starting tests for compare-av-ohnelabel qgis316-stock av_f_big.txt
+07:35:26 INFO: Done in 00h 00m 52s
+07:35:26 INFO: test-case compare-av-ohnelabel::qgis316-stock run completed in 00h 00m 52s
+
+
+07:35:26 INFO: Generating stats
+07:35:26 INFO: Finished run: compare-av-ohnelabel 20201103-073111 in 00h 04m 15s

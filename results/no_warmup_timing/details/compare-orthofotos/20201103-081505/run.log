@@ -1,0 +1,44 @@
+08:15:05 INFO: Starting new run 20201103-081505, using configuration "compare-orthofotos"
+08:15:05 INFO: using configuration file "conf/tests/compare-orthofotos.yml"
+08:15:05 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+08:15:05 INFO: Starting test-case: compare-orthofotos::qgis218-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_orthofoto': ['orthofotos_big.txt']}})
+08:15:05 INFO: Deploying qgis218-stock
+08:15:25 INFO: Probing http://localhost:8080/ows/somap218_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:15:25 INFO: Probing http://localhost:8080/ows/somap218_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:15:26 INFO: Probing http://localhost:8080/ows/somap218_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:15:26 INFO: Probing http://localhost:8080/ows/somap218_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:15:27 INFO: Probing http://localhost:8080/ows/somap218_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:15:27 INFO: Probing http://localhost:8080/ows/somap218_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:15:28 INFO: Starting tests for compare-orthofotos qgis218-stock orthofotos_big.txt
+08:19:24 INFO: Done in 00h 03m 56s
+08:19:24 INFO: test-case compare-orthofotos::qgis218-stock run completed in 00h 03m 56s
+
+
+08:19:24 INFO: Starting test-case: compare-orthofotos::qgis310-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_orthofoto': ['orthofotos_big.txt']}})
+08:19:24 INFO: Deploying qgis310-stock
+08:19:45 INFO: Probing http://localhost:8080/ogc/somap310_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:19:45 INFO: Probing http://localhost:8080/ogc/somap310_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:19:45 INFO: Probing http://localhost:8080/ogc/somap310_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:19:45 INFO: Probing http://localhost:8080/ogc/somap310_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:19:45 INFO: Probing http://localhost:8080/ogc/somap310_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:19:46 INFO: Probing http://localhost:8080/ogc/somap310_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:19:46 INFO: Starting tests for compare-orthofotos qgis310-stock orthofotos_big.txt
+08:33:03 INFO: Done in 00h 13m 17s
+08:33:03 INFO: test-case compare-orthofotos::qgis310-stock run completed in 00h 13m 17s
+
+
+08:33:03 INFO: Starting test-case: compare-orthofotos::qgis316-stock ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"false"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310-stock', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_orthofoto': ['orthofotos_big.txt']}})
+08:33:03 INFO: Deploying qgis316-stock
+08:33:24 INFO: Probing http://localhost:8080/ogc/somap316_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:33:25 INFO: Probing http://localhost:8080/ogc/somap316_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:33:25 INFO: Probing http://localhost:8080/ogc/somap316_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:33:25 INFO: Probing http://localhost:8080/ogc/somap316_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:33:25 INFO: Probing http://localhost:8080/ogc/somap316_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:33:25 INFO: Probing http://localhost:8080/ogc/somap316_orthofoto?SERVICE=WMS&REQUEST=GetCapabilities
+08:33:26 INFO: Starting tests for compare-orthofotos qgis316-stock orthofotos_big.txt
+08:36:39 INFO: Done in 00h 03m 13s
+08:36:39 INFO: test-case compare-orthofotos::qgis316-stock run completed in 00h 03m 13s
+
+
+08:36:39 INFO: Generating stats
+08:36:39 INFO: Finished run: compare-orthofotos 20201103-081505 in 00h 21m 34s
