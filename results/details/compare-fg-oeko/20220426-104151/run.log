@@ -1,0 +1,100 @@
+10:41:51 INFO: Starting new run 20220426-104151, using configuration "compare-fg-oeko"
+10:41:51 INFO: using configuration file "conf/tests/compare-fg-oeko.yml"
+10:41:51 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+10:41:51 INFO: Starting test-case: compare-fg-oeko::qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fix': ['fg_oeko.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf
+10:41:51 INFO: Deploying qgis218
+10:41:51 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+10:42:06 INFO: Found running services 6/6
+10:42:06 INFO: Probing http://localhost:8080/
+10:42:06 INFO: Starting tests for compare-fg-oeko qgis218 fg_oeko.txt
+10:42:06 INFO: Warmup cache in 6 replicas
+10:42:06 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:42:35 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:43:06 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:43:35 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:43:37 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:44:05 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:44:16 INFO: Done in 00h 00m 07s
+10:44:16 INFO: Executing: docker service rm bench_qgis-server
+10:44:16 INFO: test-case compare-fg-oeko::qgis218 run completed in 00h 00m 07s
+
+
+10:44:16 INFO: Starting test-case: compare-fg-oeko::qgis310 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.10-ubuntu'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap310_fix': ['fg_oeko.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.10-ubuntu
+10:44:16 INFO: Deploying qgis310
+10:44:16 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+10:44:32 INFO: Found running services 6/6
+10:44:32 INFO: Probing http://localhost:8080/
+10:44:32 INFO: Starting tests for compare-fg-oeko qgis310 fg_oeko.txt
+10:44:32 INFO: Warmup cache in 6 replicas
+10:44:32 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:45:32 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:46:33 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:47:36 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:48:39 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:49:43 INFO: Probing http://localhost:8080/ogc/somap310_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:49:48 INFO: Done in 00h 00m 04s
+10:49:48 INFO: Executing: docker service rm bench_qgis-server
+10:49:48 INFO: test-case compare-fg-oeko::qgis310 run completed in 00h 00m 04s
+
+
+10:49:48 INFO: Starting test-case: compare-fg-oeko::qgis314 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.14-ubuntu'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap314_fix': ['fg_oeko.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.14-ubuntu
+10:49:48 INFO: Deploying qgis314
+10:49:48 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+10:50:03 INFO: Found running services 6/6
+10:50:03 INFO: Probing http://localhost:8080/
+10:50:03 INFO: Starting tests for compare-fg-oeko qgis314 fg_oeko.txt
+10:50:03 INFO: Warmup cache in 6 replicas
+10:50:03 INFO: Probing http://localhost:8080/ogc/somap314_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:51:02 INFO: Probing http://localhost:8080/ogc/somap314_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:52:00 INFO: Probing http://localhost:8080/ogc/somap314_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:52:58 INFO: Probing http://localhost:8080/ogc/somap314_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:53:57 INFO: Probing http://localhost:8080/ogc/somap314_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:54:55 INFO: Probing http://localhost:8080/ogc/somap314_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:55:59 INFO: Done in 00h 00m 05s
+10:55:59 INFO: Executing: docker service rm bench_qgis-server
+10:55:59 INFO: test-case compare-fg-oeko::qgis314 run completed in 00h 00m 05s
+
+
+10:55:59 INFO: Starting test-case: compare-fg-oeko::qgis316 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.16'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap316_fix': ['fg_oeko.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.16
+10:55:59 INFO: Deploying qgis316
+10:55:59 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+10:56:14 INFO: Found running services 6/6
+10:56:14 INFO: Probing http://localhost:8080/
+10:56:14 INFO: Starting tests for compare-fg-oeko qgis316 fg_oeko.txt
+10:56:14 INFO: Warmup cache in 6 replicas
+10:56:14 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:57:00 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:57:46 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:58:32 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:18 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:18 INFO: Probing http://localhost:8080/ogc/somap316_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:23 INFO: Done in 00h 00m 04s
+10:59:23 INFO: Executing: docker service rm bench_qgis-server
+10:59:23 INFO: test-case compare-fg-oeko::qgis316 run completed in 00h 00m 04s
+
+
+10:59:23 INFO: Starting test-case: compare-fg-oeko::qgis322 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.22'}, 'inherit': 'qgis310', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap318_fix': ['fg_oeko.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.22
+10:59:23 INFO: Deploying qgis322
+10:59:23 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+10:59:38 INFO: Found running services 6/6
+10:59:38 INFO: Probing http://localhost:8080/
+10:59:38 INFO: Starting tests for compare-fg-oeko qgis322 fg_oeko.txt
+10:59:38 INFO: Warmup cache in 6 replicas
+10:59:38 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:25 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:01:12 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:02:00 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:02:47 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:03:33 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:04:24 INFO: Done in 00h 00m 04s
+11:04:24 INFO: Executing: docker service rm bench_qgis-server
+11:04:24 INFO: test-case compare-fg-oeko::qgis322 run completed in 00h 00m 04s
+
+
+11:04:24 INFO: Generating stats
+11:04:24 INFO: Finished run: compare-fg-oeko 20220426-104151 in 00h 22m 33s
