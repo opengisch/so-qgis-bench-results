@@ -1,0 +1,130 @@
+11:34:07 INFO: Starting new run 20220502-113407, using configuration "compare-fg-oekorev"
+11:34:07 INFO: using configuration file "conf/tests/compare-fg-oekorev.yml"
+11:34:07 INFO: Starting test-case: compare-fg-oekorev::qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fg_oekorev': ['fg_oekorev.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf
+11:34:07 INFO: Deploying qgis218
+11:34:07 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+11:34:12 DEBUG: b'Updating service bench_perfmon-agent (id: eebx1j7ax8qltzn817zrymwzf)\nCreating service bench_qgis-server\n'
+11:34:22 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+11:34:22 DEBUG: No config file found
+11:34:22 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+11:34:22 DEBUG: No config file found
+11:34:22 DEBUG: http://localhost:None "GET /v1.35/services?filters=%7B%22name%22%3A+%5B%22bench_qgis-server%22%5D%7D HTTP/1.1" 200 None
+11:34:22 DEBUG: http://localhost:None "GET /v1.35/tasks?filters=%7B%22desired-state%22%3A+%5B%22running%22%5D%2C+%22service%22%3A+%5B%22vulco6v8ljzz9wijjlgszo9oa%22%5D%7D HTTP/1.1" 200 None
+11:34:22 INFO: Found running services 6/6
+11:34:22 INFO: Probing http://localhost:8080/
+11:34:22 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:22 DEBUG: http://localhost:8080 "GET / HTTP/1.1" 200 3186
+11:34:22 INFO: Starting tests for compare-fg-oekorev qgis218 fg_oekorev.txt
+11:34:22 INFO: Warmup cache in 6 replicas
+11:34:22 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:22 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:22 DEBUG: http://localhost:8080 "GET /ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 2753
+11:34:22 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:22 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:23 DEBUG: http://localhost:8080 "GET /ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 2753
+11:34:23 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:23 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:23 DEBUG: http://localhost:8080 "GET /ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 2753
+11:34:23 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:23 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:24 DEBUG: http://localhost:8080 "GET /ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 2753
+11:34:24 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:24 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:24 DEBUG: http://localhost:8080 "GET /ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 2753
+11:34:24 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:24 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:25 DEBUG: http://localhost:8080 "GET /ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 2753
+11:34:25 DEBUG: Executing: jmeter -n -t /io/test_plan_qgis2.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ows/somap218_fg_oekorev
+11:34:25 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+11:34:25 DEBUG: No config file found
+11:34:25 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+11:34:25 DEBUG: No config file found
+11:34:25 DEBUG: http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 88
+11:34:25 DEBUG: http://localhost:None "GET /v1.35/containers/77d105acf1ad6e5a64daa899c4ccd57e8ba0106fab053ea855fb282dc9f92054/json HTTP/1.1" 200 None
+11:34:26 DEBUG: http://localhost:None "POST /v1.35/containers/77d105acf1ad6e5a64daa899c4ccd57e8ba0106fab053ea855fb282dc9f92054/start HTTP/1.1" 204 0
+11:34:26 DEBUG: http://localhost:None "GET /v1.35/containers/77d105acf1ad6e5a64daa899c4ccd57e8ba0106fab053ea855fb282dc9f92054/logs?stderr=0&stdout=1&timestamps=0&follow=1&tail=all HTTP/1.1" 200 None
+11:34:26 DEBUG: http://localhost:None "GET /v1.35/containers/77d105acf1ad6e5a64daa899c4ccd57e8ba0106fab053ea855fb282dc9f92054/json HTTP/1.1" 200 None
+11:34:26 DEBUG: http://localhost:None "POST /v1.35/containers/77d105acf1ad6e5a64daa899c4ccd57e8ba0106fab053ea855fb282dc9f92054/wait HTTP/1.1" 200 None
+11:34:31 DEBUG: START Running Jmeter on Mon May  2 09:34:26 UTC 2022
+JVM_ARGS=-Xmn18166m -Xms72664m -Xmx72664m
+jmeter args=-n -t /io/test_plan_qgis2.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ows/somap218_fg_oekorev
+Creating summariser <summary>
+Created the tree successfully using /io/test_plan_qgis2.jmx
+Starting standalone test @ Mon May 02 09:34:27 GMT 2022 (1651484067261)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     18 in 00:00:02 =    8.7/s Avg:   222 Min:   101 Max:  1184 Err:     0 (0.00%)
+Tidying up ...    @ Mon May 02 09:34:29 GMT 2022 (1651484069579)
+... end of run
+END Running Jmeter on Mon May  2 09:34:30 UTC 2022
+
+11:34:31 INFO: Done in 00h 00m 05s
+11:34:31 INFO: Executing: docker service rm bench_qgis-server
+11:34:31 DEBUG: b'bench_qgis-server\n'
+11:34:31 INFO: test-case compare-fg-oekorev::qgis218 run completed in 00h 00m 05s
+
+
+11:34:31 INFO: Starting test-case: compare-fg-oekorev::qgis322 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.22'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap318_fg_oekorev': ['fg_oekorev.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.22
+11:34:31 INFO: Deploying qgis322
+11:34:31 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+11:34:35 DEBUG: b'Updating service bench_perfmon-agent (id: eebx1j7ax8qltzn817zrymwzf)\nCreating service bench_qgis-server\n'
+11:34:45 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+11:34:45 DEBUG: No config file found
+11:34:45 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+11:34:45 DEBUG: No config file found
+11:34:45 DEBUG: http://localhost:None "GET /v1.35/services?filters=%7B%22name%22%3A+%5B%22bench_qgis-server%22%5D%7D HTTP/1.1" 200 None
+11:34:45 DEBUG: http://localhost:None "GET /v1.35/tasks?filters=%7B%22desired-state%22%3A+%5B%22running%22%5D%2C+%22service%22%3A+%5B%22bn7lxy9h9tkd13m2y4vidrw9o%22%5D%7D HTTP/1.1" 200 None
+11:34:45 INFO: Found running services 6/6
+11:34:45 INFO: Probing http://localhost:8080/
+11:34:45 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:45 DEBUG: http://localhost:8080 "GET / HTTP/1.1" 200 612
+11:34:45 INFO: Starting tests for compare-fg-oekorev qgis322 fg_oekorev.txt
+11:34:45 INFO: Warmup cache in 6 replicas
+11:34:45 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:45 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:46 DEBUG: http://localhost:8080 "GET /ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 19660
+11:34:46 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:46 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:46 DEBUG: http://localhost:8080 "GET /ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 19660
+11:34:46 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:46 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:47 DEBUG: http://localhost:8080 "GET /ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 19660
+11:34:47 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:47 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:47 DEBUG: http://localhost:8080 "GET /ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 19660
+11:34:47 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:47 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:48 DEBUG: http://localhost:8080 "GET /ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 19660
+11:34:48 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:34:48 DEBUG: Starting new HTTP connection (1): localhost:8080
+11:34:48 DEBUG: http://localhost:8080 "GET /ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities HTTP/1.1" 200 19660
+11:34:48 DEBUG: Executing: jmeter -n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap318_fg_oekorev
+11:34:48 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+11:34:48 DEBUG: No config file found
+11:34:48 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+11:34:48 DEBUG: No config file found
+11:34:48 DEBUG: http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 88
+11:34:48 DEBUG: http://localhost:None "GET /v1.35/containers/fbf538acc56ee9b835d4560ba9ff264656bd7d8250668c79adb99582869dcce7/json HTTP/1.1" 200 None
+11:34:49 DEBUG: http://localhost:None "POST /v1.35/containers/fbf538acc56ee9b835d4560ba9ff264656bd7d8250668c79adb99582869dcce7/start HTTP/1.1" 204 0
+11:34:49 DEBUG: http://localhost:None "GET /v1.35/containers/fbf538acc56ee9b835d4560ba9ff264656bd7d8250668c79adb99582869dcce7/logs?stderr=0&stdout=1&timestamps=0&follow=1&tail=all HTTP/1.1" 200 None
+11:34:49 DEBUG: http://localhost:None "GET /v1.35/containers/fbf538acc56ee9b835d4560ba9ff264656bd7d8250668c79adb99582869dcce7/json HTTP/1.1" 200 None
+11:34:49 DEBUG: http://localhost:None "POST /v1.35/containers/fbf538acc56ee9b835d4560ba9ff264656bd7d8250668c79adb99582869dcce7/wait HTTP/1.1" 200 None
+11:34:53 DEBUG: START Running Jmeter on Mon May  2 09:34:49 UTC 2022
+JVM_ARGS=-Xmn18116m -Xms72464m -Xmx72464m
+jmeter args=-n -t /io/test_plan_qgis3.jmx -Jbaseurl=qgis-server -Jport=80 -Jthreads=10 -Jfilename=/urls.txt -l /result/result.jtl -e -o /result/dashboard/ -Jperfmonfile=/result/perfmon.jtl -j /result/log.log -LDEBUG -Jprojectpath=ogc/somap318_fg_oekorev
+Creating summariser <summary>
+Created the tree successfully using /io/test_plan_qgis3.jmx
+Starting standalone test @ Mon May 02 09:34:50 GMT 2022 (1651484090542)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     18 in 00:00:01 =   15.2/s Avg:   173 Min:   101 Max:   258 Err:     0 (0.00%)
+Tidying up ...    @ Mon May 02 09:34:51 GMT 2022 (1651484091972)
+... end of run
+END Running Jmeter on Mon May  2 09:34:52 UTC 2022
+
+11:34:53 INFO: Done in 00h 00m 04s
+11:34:53 INFO: test-case compare-fg-oekorev::qgis322 run completed in 00h 00m 04s
+
+
+11:34:53 INFO: Generating stats
+11:34:53 INFO: Finished run: compare-fg-oekorev 20220502-113407 in 00h 00m 46s

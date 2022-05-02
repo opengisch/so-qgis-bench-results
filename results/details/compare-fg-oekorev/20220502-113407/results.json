@@ -1,0 +1,62 @@
+{
+  "qgis218": {
+    "somap218_fg_oekorev": {
+      "fg_oekorev.txt": {
+        "transaction": "Total",
+        "sampleCount": 18,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 222.16666666666669,
+        "medianResTime": 171.0,
+        "minResTime": 101.0,
+        "maxResTime": 1184.0,
+        "pct1ResTime": 337.10000000000133,
+        "pct2ResTime": 1184.0,
+        "pct3ResTime": 1184.0,
+        "throughput": 10.550996483001173,
+        "receivedKBytesPerSec": 1632.5583418815945,
+        "sentKBytesPerSec": 4.0802681711606095,
+        "responseSizeMB": 2.7,
+        "memMaxMB": 6359.3,
+        "memAvgMB": 6240.5,
+        "memMinMB": 6121.7,
+        "cpuMax%": 27.5,
+        "cpuAvg%": 13.8,
+        "cpuMin%": 0.2,
+        "dashboard": "results/details/compare-fg-oekorev/20220502-113407/qgis218/somap218_fg_oekorev/fg_oekorev.txt/dashboard/index.html",
+        "tests duration": 5.7,
+        "warmup duration": 3.3
+      }
+    }
+  },
+  "qgis322": {
+    "somap318_fg_oekorev": {
+      "fg_oekorev.txt": {
+        "transaction": "Total",
+        "sampleCount": 18,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 173.16666666666666,
+        "medianResTime": 157.5,
+        "minResTime": 101.0,
+        "maxResTime": 258.0,
+        "pct1ResTime": 257.1,
+        "pct2ResTime": 258.0,
+        "pct3ResTime": 258.0,
+        "throughput": 23.49869451697128,
+        "receivedKBytesPerSec": 3996.3245043244124,
+        "sentKBytesPerSec": 9.087385770234986,
+        "responseSizeMB": 3.0,
+        "memMaxMB": 5648.0,
+        "memAvgMB": 5648.0,
+        "memMinMB": 5648.0,
+        "cpuMax%": 5.8,
+        "cpuAvg%": 5.8,
+        "cpuMin%": 5.8,
+        "dashboard": "results/details/compare-fg-oekorev/20220502-113407/qgis322/somap318_fg_oekorev/fg_oekorev.txt/dashboard/index.html",
+        "tests duration": 4.7,
+        "warmup duration": 3.0
+      }
+    }
+  }
+}
