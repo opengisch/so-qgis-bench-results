@@ -1,0 +1,41 @@
+10:38:02 INFO: Starting new run 20220822-103802, using configuration "compare-fg-oekorev"
+10:38:02 INFO: using configuration file "conf/tests/compare-fg-oekorev.yml"
+10:38:02 INFO: Starting test-case: compare-fg-oekorev::qgis218 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fix': ['fg_oekorev.txt'], 'somap218_fg_oekorev': ['fg_oekorev.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf
+10:38:02 INFO: Deploying qgis218
+10:38:02 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+10:38:07 DEBUG: b'Updating service bench_perfmon-agent (id: eebx1j7ax8qltzn817zrymwzf)\nUpdating service bench_qgis-server (id: bn7lxy9h9tkd13m2y4vidrw9o)\n'
+10:38:17 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:17 DEBUG: No config file found
+10:38:17 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:17 DEBUG: No config file found
+10:38:17 DEBUG: http://localhost:None "GET /v1.35/services?filters=%7B%22name%22%3A+%5B%22bench_qgis-server%22%5D%7D HTTP/1.1" 200 None
+10:38:17 DEBUG: http://localhost:None "GET /v1.35/tasks?filters=%7B%22desired-state%22%3A+%5B%22running%22%5D%2C+%22service%22%3A+%5B%22bn7lxy9h9tkd13m2y4vidrw9o%22%5D%7D HTTP/1.1" 200 None
+10:38:19 INFO: Waiting for running services 3/6
+10:38:19 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:19 DEBUG: No config file found
+10:38:19 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:19 DEBUG: No config file found
+10:38:19 DEBUG: http://localhost:None "GET /v1.35/services?filters=%7B%22name%22%3A+%5B%22bench_qgis-server%22%5D%7D HTTP/1.1" 200 None
+10:38:19 DEBUG: http://localhost:None "GET /v1.35/tasks?filters=%7B%22desired-state%22%3A+%5B%22running%22%5D%2C+%22service%22%3A+%5B%22bn7lxy9h9tkd13m2y4vidrw9o%22%5D%7D HTTP/1.1" 200 None
+10:38:23 INFO: Waiting for running services 3/6
+10:38:23 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:23 DEBUG: No config file found
+10:38:23 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:23 DEBUG: No config file found
+10:38:23 DEBUG: http://localhost:None "GET /v1.35/services?filters=%7B%22name%22%3A+%5B%22bench_qgis-server%22%5D%7D HTTP/1.1" 200 None
+10:38:23 DEBUG: http://localhost:None "GET /v1.35/tasks?filters=%7B%22desired-state%22%3A+%5B%22running%22%5D%2C+%22service%22%3A+%5B%22bn7lxy9h9tkd13m2y4vidrw9o%22%5D%7D HTTP/1.1" 200 None
+10:38:31 INFO: Waiting for running services 3/6
+10:38:31 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:31 DEBUG: No config file found
+10:38:31 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:31 DEBUG: No config file found
+10:38:31 DEBUG: http://localhost:None "GET /v1.35/services?filters=%7B%22name%22%3A+%5B%22bench_qgis-server%22%5D%7D HTTP/1.1" 200 None
+10:38:31 DEBUG: http://localhost:None "GET /v1.35/tasks?filters=%7B%22desired-state%22%3A+%5B%22running%22%5D%2C+%22service%22%3A+%5B%22bn7lxy9h9tkd13m2y4vidrw9o%22%5D%7D HTTP/1.1" 200 None
+10:38:47 INFO: Waiting for running services 3/6
+10:38:47 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:47 DEBUG: No config file found
+10:38:47 DEBUG: Trying paths: ['/home/isabel/.docker/config.json', '/home/isabel/.dockercfg']
+10:38:47 DEBUG: No config file found
+10:38:47 DEBUG: http://localhost:None "GET /v1.35/services?filters=%7B%22name%22%3A+%5B%22bench_qgis-server%22%5D%7D HTTP/1.1" 200 None
+10:38:47 DEBUG: http://localhost:None "GET /v1.35/tasks?filters=%7B%22desired-state%22%3A+%5B%22running%22%5D%2C+%22service%22%3A+%5B%22bn7lxy9h9tkd13m2y4vidrw9o%22%5D%7D HTTP/1.1" 200 None
