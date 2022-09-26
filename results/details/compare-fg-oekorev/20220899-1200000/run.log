@@ -1,0 +1,81 @@
+11:06:30 INFO: Starting new run 20220822-110630, using configuration "compare-fg-oekorev"
+11:06:30 INFO: using configuration file "conf/tests/compare-fg-oekorev.yml"
+11:06:30 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+11:06:30 INFO: Starting test-case: compare-fg-oekorev::qgis218_small ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fg_oekorev': ['fg_oekorev.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf
+11:06:30 INFO: Deploying qgis218_small
+11:06:30 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+11:06:45 INFO: Found running services 6/6
+11:06:45 INFO: Probing http://localhost:8080/
+11:06:45 INFO: Starting tests for compare-fg-oekorev qgis218_small fg_oekorev.txt
+11:06:45 INFO: Warmup cache in 6 replicas
+11:06:45 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:06:46 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:06:46 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:06:47 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:06:47 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:06:48 INFO: Probing http://localhost:8080/ows/somap218_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:06:53 INFO: Done in 00h 00m 04s
+11:06:53 INFO: Executing: docker service rm bench_qgis-server
+11:06:53 INFO: test-case compare-fg-oekorev::qgis218_small run completed in 00h 00m 04s
+
+
+11:06:53 INFO: Starting test-case: compare-fg-oekorev::qgis218_big ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fix': ['fg_oekorev.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf
+11:06:53 INFO: Deploying qgis218_big
+11:06:53 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+11:07:08 INFO: Found running services 6/6
+11:07:08 INFO: Probing http://localhost:8080/
+11:07:08 INFO: Starting tests for compare-fg-oekorev qgis218_big fg_oekorev.txt
+11:07:08 INFO: Warmup cache in 6 replicas
+11:07:08 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:07:38 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:08:08 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:08:36 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:09:06 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:09:34 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:10:13 INFO: Done in 00h 00m 10s
+11:10:13 INFO: Executing: docker service rm bench_qgis-server
+11:10:13 INFO: test-case compare-fg-oekorev::qgis218_big run completed in 00h 00m 10s
+
+
+11:10:13 INFO: Starting test-case: compare-fg-oekorev::qgis322_small ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.22'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap318_fg_oekorev': ['fg_oekorev.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.22
+11:10:13 INFO: Deploying qgis322_small
+11:10:13 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+11:10:28 INFO: Found running services 6/6
+11:10:28 INFO: Probing http://localhost:8080/
+11:10:28 INFO: Starting tests for compare-fg-oekorev qgis322_small fg_oekorev.txt
+11:10:28 INFO: Warmup cache in 6 replicas
+11:10:28 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:10:28 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:10:28 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:10:29 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:10:29 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:10:30 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:10:35 INFO: Done in 00h 00m 04s
+11:10:35 INFO: Executing: docker service rm bench_qgis-server
+11:10:35 INFO: test-case compare-fg-oekorev::qgis322_small run completed in 00h 00m 05s
+
+
+11:10:35 INFO: Starting test-case: compare-fg-oekorev::qgis322_big ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.22'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap318_fix': ['fg_oekorev.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.22
+11:10:35 INFO: Deploying qgis322_big
+11:10:35 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+11:10:50 INFO: Found running services 6/6
+11:10:50 INFO: Probing http://localhost:8080/
+11:10:50 INFO: Starting tests for compare-fg-oekorev qgis322_big fg_oekorev.txt
+11:10:50 INFO: Warmup cache in 6 replicas
+11:10:50 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:11:34 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:12:19 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:13:02 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:13:47 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:13:47 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:14:15 INFO: Done in 00h 00m 27s
+11:14:15 INFO: Executing: docker service rm bench_qgis-server
+11:14:15 INFO: test-case compare-fg-oekorev::qgis322_big run completed in 00h 00m 27s
+
+
+11:14:15 INFO: Generating stats
+11:14:15 INFO: Finished run: compare-fg-oekorev 20220822-110630 in 00h 07m 44s
