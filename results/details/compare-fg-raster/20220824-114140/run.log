@@ -1,0 +1,43 @@
+11:41:40 INFO: Starting new run 20220824-114140, using configuration "compare-fg-raster"
+11:41:40 INFO: using configuration file "conf/tests/compare-fg-raster.yml"
+11:41:40 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+11:41:40 INFO: Starting test-case: compare-fg-raster::qgis218_big ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf'}, 'inherit': 'base', 'template': 'docker-compose-qgis-2', 'path-prefix': 'ows', 'projects': {'somap218_fix': ['fg_raster.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf
+11:41:40 INFO: Deploying qgis218_big
+11:41:40 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-2.yml bench
+11:41:55 INFO: Found running services 6/6
+11:41:55 INFO: Probing http://localhost:8080/
+11:41:55 INFO: Starting tests for compare-fg-raster qgis218_big fg_raster.txt
+11:41:55 INFO: Warmup cache in 6 replicas
+11:41:55 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:42:23 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:42:56 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:43:25 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:43:56 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:44:25 INFO: Probing http://localhost:8080/ows/somap218_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:45:07 INFO: Done in 00h 00m 10s
+11:45:07 INFO: Executing: docker service rm bench_qgis-server
+11:45:07 INFO: test-case compare-fg-raster::qgis218_big run completed in 00h 00m 10s
+
+
+11:45:07 INFO: Starting test-case: compare-fg-raster::qgis322_big ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.22'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap322_fix': ['fg_raster.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.22
+11:45:07 INFO: Deploying qgis322_big
+11:45:07 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+11:45:21 INFO: Found running services 6/6
+11:45:21 INFO: Probing http://localhost:8080/
+11:45:21 INFO: Starting tests for compare-fg-raster qgis322_big fg_raster.txt
+11:45:21 INFO: Warmup cache in 6 replicas
+11:45:21 INFO: Probing http://localhost:8080/ogc/somap322_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:46:10 INFO: Probing http://localhost:8080/ogc/somap322_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:46:56 INFO: Probing http://localhost:8080/ogc/somap322_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:47:44 INFO: Probing http://localhost:8080/ogc/somap322_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:48:30 INFO: Probing http://localhost:8080/ogc/somap322_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:49:18 INFO: Probing http://localhost:8080/ogc/somap322_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:50:12 INFO: Done in 00h 00m 04s
+11:50:12 INFO: Executing: docker service rm bench_qgis-server
+11:50:12 INFO: test-case compare-fg-raster::qgis322_big run completed in 00h 00m 04s
+
+
+11:50:12 INFO: Generating stats
+11:50:12 INFO: Finished run: compare-fg-raster 20220824-114140 in 00h 08m 31s

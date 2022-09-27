@@ -1,0 +1,50 @@
+10:56:20 INFO: Starting new run 20220822-105620, using configuration "compare-fg-oekorev"
+10:56:20 INFO: using configuration file "conf/tests/compare-fg-oekorev.yml"
+10:56:20 INFO: No or wrong log level given, defaulting to INFO. Valid values are CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+10:56:20 INFO: Starting test-case: compare-fg-oekorev::qgis322 ({'active': True, 'compose-variables': {'QGIS_REPLICAS': '6', 'QGIS_SERVER_PARALLEL_RENDERING': '"true"', 'QGIS_SERVER_MAX_THREADS': '1', 'QGIS_FCGI_PROCESSES': '1', 'PG_SERVICE': 'pg_service.conf', 'QGIS_VERSION': '3.22'}, 'inherit': 'base', 'template': 'docker-compose-qgis-3-nginx', 'path-prefix': 'ogc', 'projects': {'somap318_fix': ['fg_oekorev.txt'], 'somap318_fg_oekorev': ['fg_oekorev.txt']}})
+QGIS_REPLICAS=6 QGIS_SERVER_PARALLEL_RENDERING="true" QGIS_SERVER_MAX_THREADS=1 QGIS_FCGI_PROCESSES=1 PG_SERVICE=pg_service.conf QGIS_VERSION=3.22
+10:56:20 INFO: Deploying qgis322
+10:56:20 INFO: Executing: docker stack deploy -c ./conf/qgis/docker-compose-qgis-base.yml -c ./conf/qgis/docker-compose-qgis-3-nginx.yml bench
+10:56:36 INFO: Waiting for running services 5/6
+10:56:40 INFO: Waiting for running services 5/6
+10:56:48 INFO: Waiting for running services 5/6
+10:57:04 INFO: Waiting for running services 5/6
+10:57:36 INFO: Waiting for running services 5/6
+10:57:36 INFO: Found running services 6/6
+10:57:36 INFO: Probing http://localhost:8080/
+10:57:36 INFO: Starting tests for compare-fg-oekorev qgis322 fg_oekorev.txt
+10:57:36 INFO: Warmup cache in 6 replicas
+10:57:36 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:58:21 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+10:58:22 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:06 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:07 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:51 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:51 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:51 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:51 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:51 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:51 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+10:59:52 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Done in 00h 00m 15s
+11:00:07 INFO: Starting tests for compare-fg-oekorev qgis322 fg_oekorev.txt
+11:00:07 INFO: Warmup cache in 6 replicas
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fix?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:07 INFO: Probing http://localhost:8080/ogc/somap318_fg_oekorev?SERVICE=WMS&REQUEST=GetCapabilities
+11:00:12 INFO: Done in 00h 00m 04s
+11:00:12 INFO: Executing: docker service rm bench_qgis-server
+11:00:12 INFO: test-case compare-fg-oekorev::qgis322 run completed in 00h 00m 20s
+
+
+11:00:12 INFO: Generating stats
+11:00:12 INFO: Finished run: compare-fg-oekorev 20220822-105620 in 00h 03m 51s

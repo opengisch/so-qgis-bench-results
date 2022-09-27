@@ -1,0 +1,122 @@
+{
+  "qgis218_small": {
+    "somap218_fg_oekorev": {
+      "fg_raster_vector.txt": {
+        "transaction": "Total",
+        "sampleCount": 18,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 295.7777777777777,
+        "medianResTime": 223.5,
+        "minResTime": 68.0,
+        "maxResTime": 1132.0,
+        "pct1ResTime": 1124.8,
+        "pct2ResTime": 1132.0,
+        "pct3ResTime": 1132.0,
+        "throughput": 10.303377218088151,
+        "receivedKBytesPerSec": 8771.029912886375,
+        "sentKBytesPerSec": 3.9694163208357183,
+        "responseSizeMB": 15.0,
+        "memMaxMB": 6706.7,
+        "memAvgMB": 6326.8,
+        "memMinMB": 5947.0,
+        "cpuMax%": 21.6,
+        "cpuAvg%": 11.0,
+        "cpuMin%": 0.3,
+        "dashboard": "results/details/compare-fg-raster-vector-mix/20220919-145500/qgis218_small/somap218_fg_oekorev/fg_raster_vector.txt/dashboard/index.html",
+        "tests duration": 5.6,
+        "warmup duration": 3.5
+      }
+    }
+  },
+  "qgis218_big": {
+    "somap218_fix": {
+      "fg_raster_vector.txt": {
+        "transaction": "Total",
+        "sampleCount": 18,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 2933.4444444444443,
+        "medianResTime": 2510.0,
+        "minResTime": 78.0,
+        "maxResTime": 6938.0,
+        "pct1ResTime": 6916.4,
+        "pct2ResTime": 6938.0,
+        "pct3ResTime": 6938.0,
+        "throughput": 2.549213992352358,
+        "receivedKBytesPerSec": 2170.0879777563378,
+        "sentKBytesPerSec": 0.9646683808950574,
+        "responseSizeMB": 15.0,
+        "memMaxMB": 10411.7,
+        "memAvgMB": 9851.2,
+        "memMinMB": 8972.2,
+        "cpuMax%": 59.9,
+        "cpuAvg%": 40.0,
+        "cpuMin%": 3.3,
+        "dashboard": "results/details/compare-fg-raster-vector-mix/20220919-145500/qgis218_big/somap218_fix/fg_raster_vector.txt/dashboard/index.html",
+        "tests duration": 10.9,
+        "warmup duration": 179.0
+      }
+    }
+  },
+  "qgis322_small": {
+    "somap322_fg_oekorev": {
+      "fg_raster_vector.txt": {
+        "transaction": "Total",
+        "sampleCount": 18,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 240.61111111111111,
+        "medianResTime": 246.5,
+        "minResTime": 96.0,
+        "maxResTime": 360.0,
+        "pct1ResTime": 350.1,
+        "pct2ResTime": 360.0,
+        "pct3ResTime": 360.0,
+        "throughput": 19.933554817275745,
+        "receivedKBytesPerSec": 18857.496496054817,
+        "sentKBytesPerSec": 7.679479858803987,
+        "responseSizeMB": 16.6,
+        "memMaxMB": 7078.8,
+        "memAvgMB": 6889.4,
+        "memMinMB": 6700.0,
+        "cpuMax%": 25.5,
+        "cpuAvg%": 15.9,
+        "cpuMin%": 6.2,
+        "dashboard": "results/details/compare-fg-raster-vector-mix/20220919-145500/qgis322_small/somap322_fg_oekorev/fg_raster_vector.txt/dashboard/index.html",
+        "tests duration": 4.7,
+        "warmup duration": 3.2
+      }
+    }
+  },
+  "qgis322_big": {
+    "somap322_fix": {
+      "fg_raster_vector.txt": {
+        "transaction": "Total",
+        "sampleCount": 18,
+        "errorCount": 0,
+        "errorPct": 0.0,
+        "meanResTime": 262.1111111111111,
+        "medianResTime": 261.0,
+        "minResTime": 116.0,
+        "maxResTime": 358.0,
+        "pct1ResTime": 344.5,
+        "pct2ResTime": 358.0,
+        "pct3ResTime": 358.0,
+        "throughput": 17.647058823529413,
+        "receivedKBytesPerSec": 16671.964996936273,
+        "sentKBytesPerSec": 6.6779641544117645,
+        "responseSizeMB": 16.6,
+        "memMaxMB": 11936.1,
+        "memAvgMB": 11936.1,
+        "memMinMB": 11936.1,
+        "cpuMax%": 2.8,
+        "cpuAvg%": 2.8,
+        "cpuMin%": 2.8,
+        "dashboard": "results/details/compare-fg-raster-vector-mix/20220919-145500/qgis322_big/somap322_fix/fg_raster_vector.txt/dashboard/index.html",
+        "tests duration": 5.0,
+        "warmup duration": 289.5
+      }
+    }
+  }
+}
